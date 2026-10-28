@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0d0d0c">
+    <meta name="color-scheme" content="dark light">
+
+    <title>Códice — Archivo de conocimiento</title>
+
+    <meta
+        name="description"
+        content="Códice es un archivo digital de obras, autores, temas, colecciones y materiales para el estudio y la exploración intelectual."
+    >
+
+<script>
+    (function () {
+        try {
+            var tema = localStorage.getItem("codice-theme");
+
+            if (tema === "light") {
+                document.documentElement.setAttribute("data-theme", "light");
+
+                var meta = document.querySelector('meta[name="theme-color"]');
+
+                if (meta) {
+                    meta.setAttribute("content", "#f7f4ed");
+                }
+            }
+        } catch (error) {
+            /* almacenamiento bloqueado: se usa el tema por defecto */
+        }
+    })();
+</script>
+
+<link rel="stylesheet" href="css/estilo.css">
+
+
+</head>
+
+
+<body>
+
+<a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+
+<!-- =====================================================
+     HEADER
+====================================================== -->
+
+<header class="site-header" id="site-header">
+
+    <a href="index.html" class="logo" aria-label="Códice — Inicio">
+
+        <span class="logo-symbol" aria-hidden="true">
+
+            <svg viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+
+                <path d="M20 5V32" />
+                <path d="M13 9H27" />
+                <path d="M20 5L17.5 9H22.5L20 5Z" />
+                <path d="M13 9L7 22H19L13 9Z" />
+                <path d="M27 9L21 22H33L27 9Z" />
+                <path d="M5 22C6 24 10 25 13 25C16 25 20 24 21 22" />
+                <path d="M19 22C20 24 24 25 27 25C30 25 34 24 35 22" />
+                <path d="M15 32H25" />
+
+            </svg>
+
+        </span>
+
+        <span class="logo-text">
+
+            <span class="logo-main">
+                CÓDICE
+            </span>
+
+            <span class="logo-sub">
+                ARCHIVO DE CONOCIMIENTO
+            </span>
+
+        </span>
+
+    </a>
+
+
+    <!-- Acciones de la cabecera en móvil (en escritorio quedan ocultas) -->
+    <div class="header-actions">
+
+        <button
+            class="header-icon-btn"
+            type="button"
+            id="search-shortcut"
+            aria-label="Buscar"
+            aria-expanded="false"
+            aria-controls="mobile-search"
+        >
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+                <circle cx="10.5" cy="10.5" r="6.5" />
+                <path d="M15.5 15.5L21 21" />
+            </svg>
+        </button>
+
+        <button
+            class="header-icon-btn menu-toggle"
+            type="button"
+            id="menu-toggle"
+            aria-label="Menú"
+            aria-expanded="false"
+            aria-controls="site-nav"
+        >
+            <span class="menu-icon" aria-hidden="true"></span>
+        </button>
+
+    </div>
+
+
+    <nav class="navigation" id="site-nav" aria-label="Navegación principal">
+
+        <a href="index.html" class="active" aria-current="page">
+            Inicio
+        </a>
+
+        <a href="explorar.html">
+            Explorar
+        </a>
+
+        <a href="colecciones.html">
+            Colecciones
+        </a>
+
+        <a href="autores.html">
+            Autores
+        </a>
+
+        <a href="temas.html">
+            Temas
+        </a>
+
+        <a href="silabos.html">
+            Sílabos
+        </a>
+
+
+        <form
+            class="header-search"
+            action="buscar.html"
+            method="GET"
+            role="search"
+        >
+
+            <label
+                for="header-search-input"
+                class="visually-hidden"
+            >
+                Buscar en Códice
+            </label>
+
+            <input
+                id="header-search-input"
+                type="search"
+                name="q"
+                placeholder="Buscar..."
+                autocomplete="off"
+            >
+
+            <button
+                type="submit"
+                aria-label="Buscar"
+            >
+                →
+            </button>
+
+        </form>
+
+
+        <button
+            class="theme-toggle"
+            type="button"
+            aria-label="Modo claro"
+            aria-pressed="false"
+        >
+
+            <span class="theme-toggle-text" aria-hidden="true">Apariencia</span>
+
+            <span class="theme-toggle-state" aria-hidden="true">Oscuro</span>
+
+            <span
+                class="theme-toggle-icon"
+                aria-hidden="true"
+            >
+                ◐
+            </span>
+
+        </button>
+
+    </nav>
+
+
+    <!-- Barra de búsqueda desplegable (solo móvil) -->
+    <form
+        class="mobile-search"
+        id="mobile-search"
+        action="buscar.html"
+        method="GET"
+        role="search"
+        hidden
+    >
+
+        <label for="mobile-search-input" class="visually-hidden">
+            Buscar en Códice
+        </label>
+
+        <input
+            id="mobile-search-input"
+            type="search"
+            name="q"
+            placeholder="Autor, obra o tema…"
+            autocomplete="off"
+            enterkeyhint="search"
+        >
+
+        <button type="submit" aria-label="Buscar">→</button>
+
+    </form>
+
+</header>
+
+
+<!-- =====================================================
+     CONTENIDO
+====================================================== -->
+
+<main id="contenido" tabindex="-1">
+
+
+    <!-- =================================================
+         HERO
+    ================================================== -->
+
+    <section class="home-hero">
+
+        <div
+            class="home-hero-grid"
+            aria-hidden="true"
+        ></div>
+
+
+        <div class="home-hero-layout">
+
+
+            <!-- =========================================
+                 PRESENTACIÓN
+            ========================================== -->
+
+            <div class="home-welcome">
+
+                <p class="eyebrow">
+                    BIBLIOTECA DIGITAL
+                </p>
+
+
+                <h1>
+                    Un lugar para
+                    <em>volver a las ideas.</em>
+                </h1>
+
+
+                <p class="home-description">
+                    Obras, autores y materiales reunidos
+                    en un archivo pensado para explorar
+                    sin prisa y encontrar nuevas conexiones.
+                </p>
+
+
+                <form
+                    class="home-search"
+                    action="buscar.html"
+                    method="GET"
+                    role="search"
+                >
+
+                    <label for="home-search-input">
+                        BUSCAR EN EL ARCHIVO
+                    </label>
+
+
+                    <div class="home-search-field">
+
+                        <input
+                            id="home-search-input"
+                            type="search"
+                            name="q"
+                            placeholder="Autor, obra o tema..."
+                            autocomplete="off"
+                        >
+
+                        <button
+                            type="submit"
+                            aria-label="Buscar"
+                        >
+                            →
+                        </button>
+
+                    </div>
+
+                </form>
+
+
+                <div class="home-bottom">
+
+                    <span>
+                        Derecho · Política · Humanidades
+                    </span>
+
+                    <a href="explorar.html">
+                        EXPLORAR EL ARCHIVO
+                        <b>→</b>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- =========================================
+                 DESCUBRIR
+            ========================================== -->
+
+            <aside class="home-discover">
+
+                <div class="discover-heading">
+
+                    <div>
+
+                        <p class="eyebrow">
+                            PARA COMENZAR
+                        </p>
+
+                        <h2>
+                            Una primera lectura
+                        </h2>
+
+                    </div>
+
+                    <span
+                        class="discover-number"
+                        aria-hidden="true"
+                    >
+                        01
+                    </span>
+
+                </div>
+
+
+                <!-- OBRA PRINCIPAL -->
+
+                <a
+                    href="recurso.html?id=el-principe"
+                    class="discover-main"
+                >
+
+                    <div class="discover-cover">
+
+                        <img
+                            src="images/covers/el-principe.jfif"
+                            alt="Portada de El príncipe, de Nicolás Maquiavelo"
+                        >
+
+                    </div>
+
+
+                    <div class="discover-main-info">
+
+                        <p class="eyebrow">
+                            LIBRO · 1513
+                        </p>
+
+                        <h3>
+                            El príncipe
+                        </h3>
+
+                        <p>
+                            Nicolás Maquiavelo
+                        </p>
+
+                        <span>
+                            Ver obra →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- OBRAS SECUNDARIAS -->
+
+                <div class="discover-list">
+
+                    <a
+                        href="recurso.html?id=la-republica"
+                        class="discover-item"
+                    >
+
+                        <div>
+
+                            <p class="eyebrow">
+                                LIBRO
+                            </p>
+
+                            <h3>
+                                La República
+                            </h3>
+
+                            <p>
+                                Platón
+                            </p>
+
+                        </div>
+
+                        <span aria-hidden="true">
+                            →
+                        </span>
+
+                    </a>
+
+
+                    <a
+                        href="recurso.html?id=la-politica-como-vocacion"
+                        class="discover-item"
+                    >
+
+                        <div>
+
+                            <p class="eyebrow">
+                                ENSAYO · 1919
+                            </p>
+
+                            <h3>
+                                La política como vocación
+                            </h3>
+
+                            <p>
+                                Max Weber
+                            </p>
+
+                        </div>
+
+                        <span aria-hidden="true">
+                            →
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </aside>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         DESCUBRIR
+    ========================== -->
+
+    <section class="section explore-section">
+
+        <div class="section-header">
+
+            <div>
+                <p class="eyebrow">
+                    02 / DESCUBRIR
+                </p>
+
+                <h2>
+                    Explora el archivo
+                </h2>
+            </div>
+
+            <a href="explorar.html">
+                Ver todas las obras →
+            </a>
+
+        </div>
+
+
+        <div class="explore-map">
+
+
+            <!-- OBRAS -->
+
+            <a
+                href="explorar.html"
+                class="explore-map-item"
+            >
+
+                <div class="explore-map-number">
+                    01
+                </div>
+
+                <div class="explore-map-content">
+
+                    <p class="eyebrow">
+                        ARCHIVO
+                    </p>
+
+                    <h3>
+                        Obras
+                    </h3>
+
+                    <p>
+                        Libros, ensayos, artículos y otros
+                        materiales reunidos en Códice.
+                    </p>
+
+                </div>
+
+                <span class="explore-map-arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <!-- AUTORES -->
+
+            <a
+                href="autores.html"
+                class="explore-map-item"
+            >
+
+                <div class="explore-map-number">
+                    02
+                </div>
+
+                <div class="explore-map-content">
+
+                    <p class="eyebrow">
+                        PERSONAS
+                    </p>
+
+                    <h3>
+                        Autores
+                    </h3>
+
+                    <p>
+                        Pensadores, escritores y juristas
+                        presentes en el archivo.
+                    </p>
+
+                </div>
+
+                <span class="explore-map-arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <!-- TEMAS -->
+
+            <a
+                href="temas.html"
+                class="explore-map-item"
+            >
+
+                <div class="explore-map-number">
+                    03
+                </div>
+
+                <div class="explore-map-content">
+
+                    <p class="eyebrow">
+                        IDEAS
+                    </p>
+
+                    <h3>
+                        Temas
+                    </h3>
+
+                    <p>
+                        Conceptos, problemas y áreas de
+                        pensamiento que atraviesan las obras.
+                    </p>
+
+                </div>
+
+                <span class="explore-map-arrow">
+                    →
+                </span>
+
+            </a>
+
+
+            <!-- SÍLABOS -->
+
+            <a
+                href="silabos.html"
+                class="explore-map-item"
+            >
+
+                <div class="explore-map-number">
+                    04
+                </div>
+
+                <div class="explore-map-content">
+
+                    <p class="eyebrow">
+                        ESTUDIO
+                    </p>
+
+                    <h3>
+                        Sílabos
+                    </h3>
+
+                    <p>
+                        Cursos, contenidos y bibliografía
+                        para recorrer el archivo desde el estudio.
+                    </p>
+
+                </div>
+
+                <span class="explore-map-arrow">
+                    →
+                </span>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         COLECCIONES
+    ====================================================== -->
+
+    <section class="section collections-section">
+
+        <div class="section-header">
+
+            <div>
+
+                <p class="eyebrow">
+                    03 / RECORRIDOS
+                </p>
+
+                <h2>
+                    Colecciones
+                </h2>
+
+            </div>
+
+            <a href="colecciones.html">
+                Ver todas →
+            </a>
+
+        </div>
+
+
+        <div class="collection-list" id="lista-colecciones-inicio">
+
+
+            <a
+                href="explorar.html?coleccion=Cl%C3%A1sicos"
+                class="collection-row"
+            >
+
+                <span class="collection-number">
+                    01
+                </span>
+
+                <span class="collection-name">
+                    Clásicos
+                </span>
+
+                <span class="collection-description">
+                    4 obras
+                </span>
+
+                <span class="collection-arrow" aria-hidden="true">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="explorar.html?coleccion=Pensamiento%20pol%C3%ADtico"
+                class="collection-row"
+            >
+
+                <span class="collection-number">
+                    02
+                </span>
+
+                <span class="collection-name">
+                    Pensamiento político
+                </span>
+
+                <span class="collection-description">
+                    3 obras
+                </span>
+
+                <span class="collection-arrow" aria-hidden="true">
+                    →
+                </span>
+
+            </a>
+
+
+            <a
+                href="explorar.html?coleccion=Estado%20y%20poder"
+                class="collection-row"
+            >
+
+                <span class="collection-number">
+                    03
+                </span>
+
+                <span class="collection-name">
+                    Estado y poder
+                </span>
+
+                <span class="collection-description">
+                    2 obras
+                </span>
+
+                <span class="collection-arrow" aria-hidden="true">
+                    →
+                </span>
+
+            </a>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         SOBRE CÓDICE
+    ====================================================== -->
+
+    <section class="section manifesto-section">
+
+        <div class="manifesto-number">
+            04
+        </div>
+
+        <div class="manifesto-content">
+
+            <p class="eyebrow">
+                SOBRE CÓDICE
+            </p>
+
+            <h2>
+                Una biblioteca también
+                puede ser una conversación.
+            </h2>
+
+            <p>
+                CÓDICE reúne obras, autores y materiales
+                para estudiar, consultar y descubrir
+                relaciones entre ideas, disciplinas y épocas.
+            </p>
+
+            <a
+                href="explorar.html"
+                class="manifesto-link"
+            >
+                Entrar al archivo →
+            </a>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <div class="footer-brand">
+
+        <span>
+            CÓDICE
+        </span>
+
+        <small>
+            Archivo de conocimiento
+        </small>
+
+    </div>
+
+    <div class="footer-domain">
+        Derecho · Política · Humanidades
+    </div>
+
+</footer>
+
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

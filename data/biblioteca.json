@@ -1,0 +1,194 @@
+[
+    {
+        "id": "el-principe",
+        "titulo": "El príncipe",
+        "autor": "Nicolás Maquiavelo",
+        "tipo": "Libro",
+        "anio": "1513",
+        "editorial": "",
+        "idioma": "Español",
+        "formato": "Documento digital",
+        "paginas": "",
+        "isbn": "",
+        "estado": "Disponible",
+        "temas": [
+            "Política",
+            "Historia"
+        ],
+        "colecciones": [
+            "Pensamiento político",
+            "Clásicos",
+            "Estado y poder"
+        ],
+        "descripcion": "Un texto clásico sobre poder, Estado, estrategia y gobierno.",
+        "resumen": "Obra dedicada al análisis del poder político, las formas de adquisición y conservación del poder y las decisiones que debe adoptar quien gobierna. Maquiavelo examina la relación entre virtud, fortuna, fuerza, estrategia y estabilidad política.",
+        "biografiaAutor": "Nicolás Maquiavelo (1469–1527) fue un diplomático, funcionario y pensador político florentino. Sus escritos analizaron el poder, el Estado y la acción política desde una perspectiva histórica y pragmática.",
+        "citaAPA": "Maquiavelo, N. (1513). El príncipe.",
+        "portada": "images/covers/el-principe.jfif",
+        "archivo": "https://www.imprentanacional.go.cr/editorialdigital/libros/literatura%20universal/el_principe_edincr.pdf"
+    },
+    {
+        "id": "Teoría-pura-del-derecho",
+        "titulo": "Teoría pura del derecho",
+        "autor": "Hans Kelsen",
+        "tipo": "Libro",
+        "anio": "1982",
+        "editorial": "",
+        "idioma": "Español",
+        "formato": "Documento digital",
+        "paginas": "378",
+        "isbn": "968-58-0032-4",
+        "estado": "Disponible",
+        "temas": [
+            "Política",
+            "Historia"
+        ],
+        "colecciones": [
+            "Pensamiento político",
+            "Clásicos",
+            "Estado y poder"
+        ],
+        "descripcion": "Un texto clásico sobre poder, Estado, estrategia y gobierno.",
+        "resumen": "Obra dedicada al análisis del poder político, las formas de adquisición y conservación del poder y las decisiones que debe adoptar quien gobierna. Maquiavelo examina la relación entre virtud, fortuna, fuerza, estrategia y estabilidad política.",
+        "biografiaAutor": "Nicolás Maquiavelo (1469–1527) fue un diplomático, funcionario y pensador político florentino. Sus escritos analizaron el poder, el Estado y la acción política desde una perspectiva histórica y pragmática.",
+        "citaAPA": "Maquiavelo, N. (1513). El príncipe.",
+        "portada": "images/covers/teoría-pura-del-derecho.jfif",
+        "archivo": "https://drive.google.com/file/d/1uBPA-iE3Dp0Ijj0TUzU-iG1zBFLVygLr/view?usp=sharing"
+    },
+    {
+        "id": "Introducción-al-estudio-del-derecho",
+        "titulo": "I. al estudio del derecho",
+        "autor": "Eduardo García Maýnez",
+        "tipo": "Libro",
+        "anio": "2002",
+        "editorial": "Editorial Porrua",
+        "idioma": "Español",
+        "formato": "Documento digital",
+        "paginas": "466",
+        "isbn": "970-07-1495-0",
+        "estado": "Disponible",
+        "temas": [
+            "Política",
+            "Historia"
+        ],
+        "colecciones": [
+            "Pensamiento político",
+            "Clásicos",
+            "Estado y poder"
+        ],
+        "descripcion": "Un texto clásico sobre poder, Estado, estrategia y gobierno.",
+        "resumen": "Obra dedicada al análisis del poder político, las formas de adquisición y conservación del poder y las decisiones que debe adoptar quien gobierna. Maquiavelo examina la relación entre virtud, fortuna, fuerza, estrategia y estabilidad política.",
+        "biografiaAutor": "Nicolás Maquiavelo (1469–1527) fue un diplomático, funcionario y pensador político florentino. Sus escritos analizaron el poder, el Estado y la acción política desde una perspectiva histórica y pragmática.",
+        "citaAPA": "Maquiavelo, N. (1513). El príncipe.",
+        "portada": "images/covers/introduccion-al-estudio-del-derecho.jpg",
+        "archivo": "https://drive.google.com/file/d/1_w6hg_9Aj6d4tx3D5Gab-pH4OMvxvZdf/view?usp=sharing"
+    },
+    {
+        "id": "la-republica",
+        "titulo": "La República",
+        "autor": "Platón",
+        "tipo": "Libro",
+        "anio": "",
+        "editorial": "",
+        "idioma": "Español",
+        "formato": "Documento digital",
+        "paginas": "",
+        "isbn": "",
+        "estado": "Próximamente",
+        "temas": [
+            "Filosofía",
+            "Política"
+        ],
+        "colecciones": [
+            "Pensamiento político",
+            "Filosofía",
+            "Clásicos"
+        ],
+        "descripcion": "Una investigación filosófica sobre justicia, ciudad y formas de gobierno.",
+        "resumen": "",
+        "biografiaAutor": "Platón fue un filósofo griego de la Antigüedad y discípulo de Sócrates. Su obra abordó cuestiones fundamentales sobre la justicia, el conocimiento, la política, la educación y la organización de la ciudad.",
+        "citaAPA": "Platón. (s. f.). La República.",
+        "portada": "images/covers/Platon-la-republica.jpg",
+        "archivo": "https://circulosemiotico.wordpress.com/wp-content/uploads/2019/03/platc3b3n-la-republica.pdf"
+    },
+    {
+        "id": "la-politica-como-vocacion",
+        "titulo": "La política como vocación",
+        "autor": "Max Weber",
+        "tipo": "Ensayo",
+        "anio": "1919",
+        "editorial": "",
+        "idioma": "Español",
+        "formato": "Documento digital",
+        "paginas": "226",
+        "isbn": "",
+        "estado": "Próximamente",
+        "temas": [
+            "Política",
+            "Sociología"
+        ],
+        "colecciones": [
+            "Pensamiento político",
+            "Estado y poder"
+        ],
+        "descripcion": "Una reflexión sobre poder, Estado, dominación y vocación política.",
+        "resumen": "",
+        "biografiaAutor": "Max Weber (1864–1920) fue un sociólogo, economista y jurista alemán. Sus investigaciones sobre acción social, burocracia, legitimidad, dominación y Estado tuvieron una influencia decisiva en las ciencias sociales modernas.",
+        "citaAPA": "Weber, M. (1919). La política como vocación.",
+        "portada": "images/covers/la-politica-como-vocacion.jpg",
+        "archivo": "https://www.memoriapoliticademexico.org/Textos/6Revolucion/IM/Weber-Politica-Vocacion.pdf"
+    },
+    {
+    "id": "introduccion-derecho-anibal-torres",
+    "titulo": "Introducción al D.",
+    "autor": "Aníbal Torres Vásquez",
+    "tipo": "Libro",
+    "anio": "2019",
+    "editorial": "Instituto Pacífico S.A.C.",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "1217",
+    "isbn": "978-612-322-186-7",
+    "estado": "Disponible",
+    "temas": [
+        "Introducción al Derecho"
+    ],
+    "colecciones": [
+        "Clásicos"
+    ],
+    "descripcion": "Obra de introducción al estudio del derecho que desarrolla los fundamentos de la teoría general del derecho, sus conceptos esenciales, fuentes, normas jurídicas y principales instituciones jurídicas.",
+    "resumen": "Aníbal Torres Vásquez presenta una exposición sistemática de los conceptos fundamentales del derecho, abordando su naturaleza, finalidad, estructura y relación con la sociedad. La obra sirve como base para comprender categorías jurídicas esenciales y para iniciar el estudio técnico de las distintas ramas del derecho.",
+    "biografiaAutor": "Aníbal Torres Vásquez es un jurista y académico peruano especializado en teoría y filosofía del derecho. Es autor de diversas obras jurídicas, entre ellas Introducción al derecho, Acto jurídico y Derecho civil, que han sido utilizadas como textos de referencia en la formación jurídica universitaria en el Perú.",
+    "citaAPA": "Torres Vásquez, A. (2019). Introducción al derecho: Teoría general del derecho (6.ª ed.). Instituto Pacífico S.A.C.",
+    "portada": "images/covers/Introduccion-Derecho-Anibal-torres.jfif",
+    "archivo": "https://drive.google.com/file/d/1t2njJx5C9h_QxCQGdMDQFvTXH_ecmOy0/view?usp=drive_link"
+},
+{
+    "id": "teoria-general-del-derecho-norberto-bobbio",
+    "titulo": "Teoría general del derecho",
+    "autor": "Norberto Bobbio",
+    "tipo": "Libro",
+    "anio": "2002",
+    "editorial": "Editorial Temis S.A.",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "",
+    "isbn": "958-35-0372-0",
+    "estado": "Disponible",
+    "temas": [
+        "Teoría del Derecho",
+        "Norma jurídica",
+        "Ordenamiento jurídico"
+    ],
+    "colecciones": [
+        "Teoría del Derecho",
+        "Clásicos"
+    ],
+    "descripcion": "Obra fundamental de teoría general del derecho que estudia la estructura de la norma jurídica y del ordenamiento jurídico desde una perspectiva sistemática y analítica.",
+    "resumen": "Norberto Bobbio desarrolla una teoría general del derecho a partir del estudio de la norma jurídica y del ordenamiento jurídico. La obra analiza conceptos como validez, eficacia, sanción, estructura normativa, fuentes del derecho, unidad, coherencia y plenitud del ordenamiento, proporcionando herramientas conceptuales para comprender el fenómeno jurídico de manera sistemática.",
+    "biografiaAutor": "Norberto Bobbio (1909–2004) fue un jurista, filósofo y politólogo italiano. Es una de las figuras más influyentes de la filosofía y teoría política y jurídica del siglo XX. Sus trabajos abordaron la teoría del derecho, la democracia, los derechos humanos, el Estado y las relaciones entre derecho y política.",
+    "citaAPA": "Bobbio, N. (2002). Teoría general del derecho (J. Guerrero R., Trad.; 4.ª reimpresión de la 2.ª ed.). Editorial Temis S.A.",
+    "portada": "images/covers/Teoría-general-Bobbio.png",
+    "archivo": "https://drive.google.com/file/d/1Obigi3-oLw80AyS4KblX7peeTfqZR8mt/view?usp=sharing"
+}
+]
