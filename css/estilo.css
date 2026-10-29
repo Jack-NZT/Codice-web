@@ -1472,6 +1472,47 @@ body:has(#biblioteca) > main > .hero .hero-content {
     letter-spacing: -0.015em;
 }
 
+/* Los cursos con documento disponible se distinguen como enlaces. */
+.syllabus-course-link {
+    position: relative;
+
+    display: inline-block;
+    max-width: 100%;
+    min-height: 44px;
+    padding: 9px 38px 9px 12px;
+    vertical-align: middle;
+
+    border: var(--border-strong);
+    background: var(--surface);
+    color: var(--ivory);
+
+    transition:
+        background-color var(--transition-fast),
+        border-color var(--transition-fast),
+        color var(--transition-fast);
+}
+
+.syllabus-course-link::after {
+    content: "↗";
+
+    position: absolute;
+    top: 50%;
+    right: 12px;
+
+    color: var(--accent);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1;
+
+    transform: translateY(-50%);
+}
+
+.syllabus-course-link:hover {
+    border-color: var(--accent);
+    background: var(--surface-light);
+    color: var(--ivory);
+}
+
 .syllabus-course-description {
     max-width: 560px;
 
@@ -5806,6 +5847,7 @@ main:focus {
     }
 
 }
+
 
    .logo-symbol { width: 40px; height: 40px; }
    @media (max-width: 959px) { .logo-symbol { width: 32px; height: 32px; } }
