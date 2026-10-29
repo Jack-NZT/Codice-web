@@ -5806,3 +5806,6 @@ main:focus {
     }
 
 }
+
+   .logo-symbol { width: 40px; height: 40px; }
+   @media (max-width: 959px) { .logo-symbol { width: 32px; height: 32px; } }
