@@ -101,6 +101,16 @@ setTimeout(function () {
         </button>
 
         <button
+            class="header-icon-btn theme-toggle-mobile"
+            type="button"
+            id="theme-toggle-mobile"
+            aria-label="Modo claro"
+            aria-pressed="false"
+        >
+            <span class="theme-toggle-mobile-icon" aria-hidden="true">◐</span>
+        </button>
+
+        <button
             class="header-icon-btn menu-toggle"
             type="button"
             id="menu-toggle"
@@ -138,6 +148,10 @@ setTimeout(function () {
 
         <a href="silabos.html">
             Sílabos
+        </a>
+
+        <a href="examenes.html">
+            Exámenes
         </a>
 
 
@@ -225,6 +239,8 @@ setTimeout(function () {
 
 </header>
 
+<button class="menu-scrim" id="menu-scrim" type="button" aria-label="Cerrar menú" hidden></button>
+
    <script src="js/emblema.js"></script>
 <!-- =====================================================
      CONTENIDO
@@ -267,7 +283,8 @@ setTimeout(function () {
 
                 <p class="home-description">
                     Obras, autores y materiales reunidos
-                    en un archivo para explorar.
+                    en un archivo pensado para explorar
+                    sin prisa y encontrar nuevas conexiones.
                 </p>
 
 
@@ -325,7 +342,7 @@ setTimeout(function () {
                  DESCUBRIR
             ========================================== -->
 
-            <aside class="home-discover">
+    <aside class="home-discover" aria-label="Lecturas recomendadas" aria-roledescription="carrusel">
 
                 <div class="discover-heading">
 
@@ -341,12 +358,11 @@ setTimeout(function () {
 
                     </div>
 
-                    <span
-                        class="discover-number"
-                        aria-hidden="true"
-                    >
-                        01
-                    </span>
+                    <div class="discover-controls" role="group" aria-label="Control de lecturas" hidden>
+                        <button type="button" class="discover-control" data-discover-prev aria-label="Lectura anterior">←</button>
+                        <span class="discover-number" data-discover-number>01 / 03</span>
+                        <button type="button" class="discover-control" data-discover-next aria-label="Lectura siguiente">→</button>
+                    </div>
 
                 </div>
 
@@ -462,6 +478,8 @@ setTimeout(function () {
     <!-- =========================
          DESCUBRIR
     ========================== -->
+
+    <div class="home-library-grid">
 
     <section class="section explore-section">
 
@@ -737,6 +755,8 @@ setTimeout(function () {
 
     </section>
 
+    </div>
+
 
     <!-- =====================================================
          SOBRE CÓDICE
@@ -755,8 +775,8 @@ setTimeout(function () {
             </p>
 
             <h2>
-                Una biblioteca para
-                universitarios.
+                Una biblioteca también
+                puede ser una conversación.
             </h2>
 
             <p>
@@ -794,7 +814,7 @@ setTimeout(function () {
     </div>
 
     <div class="footer-domain">
-        Un regalo para ustedes :]
+        Derecho · Política · Humanidades
     </div>
 
 </footer>
