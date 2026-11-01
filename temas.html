@@ -79,6 +79,16 @@
         </button>
 
         <button
+            class="header-icon-btn theme-toggle-mobile"
+            type="button"
+            id="theme-toggle-mobile"
+            aria-label="Modo claro"
+            aria-pressed="false"
+        >
+            <span class="theme-toggle-mobile-icon" aria-hidden="true">◐</span>
+        </button>
+
+        <button
             class="header-icon-btn menu-toggle"
             type="button"
             id="menu-toggle"
@@ -116,6 +126,10 @@
 
         <a href="silabos.html">
             Sílabos
+        </a>
+
+        <a href="examenes.html">
+            Exámenes
         </a>
 
 
@@ -203,52 +217,19 @@
 
 </header>
 
+<button class="menu-scrim" id="menu-scrim" type="button" aria-label="Cerrar menú" hidden></button>
+
 
     <main id="contenido" tabindex="-1">
 
-        <section class="section">
+        <section class="section taxonomy-page taxonomy-page--temas">
 
-            <div class="section-header section-header--compact">
+            <h1 class="visually-hidden">Temas</h1>
 
-                <div>
-                    <p class="eyebrow">
-                        ÁREAS DE CONOCIMIENTO
-                    </p>
-
-                    <h1 class="page-title">Temas</h1>
-
-
-                </div>
-
-            </div>
-
-
-<div
-    class="collection-grid"
-    id="lista-temas"
-></div>
+            <div class="collection-grid" id="lista-temas" role="region" aria-label="Temas del archivo"></div>
 
         </section>
 
-
-        <section class="manifesto">
-
-            <p class="eyebrow">
-                SOBRE LOS TEMAS
-            </p>
-
-            <h2>
-                Una obra puede abrir
-                más de un camino.
-            </h2>
-
-            <p>
-                Los temas permiten relacionar obras distintas
-                a partir de las preguntas y conceptos que
-                comparten.
-            </p>
-
-        </section>
 
     </main>
 
