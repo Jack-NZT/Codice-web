@@ -3,7 +3,7 @@
     "id": "ciencia-politica",
     "nombre": "Ciencia política",
     "descripcion": "Ideas, instituciones y procesos que organizan el poder, el Estado y la vida política.",
-    "imagen": "images/temas/ciencia-politica.port.jpg",
+    "imagen": "images/temas/Ciencia-politica.port.jpg",
     "imagenes": [],
     "subtemas": [
       { "id": "pensamiento-politico", "nombre": "Pensamiento político", "filtros": ["Política"] },
