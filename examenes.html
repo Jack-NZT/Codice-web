@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="theme-color" content="#0d0d0c">
+    <meta name="color-scheme" content="dark light">
+    <title>Práctica y exámenes — Códice</title>
+    <meta name="description" content="Practica por curso y tema, responde preguntas de opción múltiple y revisa tus resultados en Códice.">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/examenes.css">
+    <script>
+        (function () {
+            try {
+                if (localStorage.getItem("codice-theme") === "light") {
+                    document.documentElement.setAttribute("data-theme", "light");
+                    document.querySelector('meta[name="theme-color"]')?.setAttribute("content", "#f7f4ed");
+                }
+            } catch (error) { /* tema por defecto */ }
+        })();
+    </script>
+</head>
+<body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+    <header class="site-header" id="site-header">
+        <a href="index.html" class="logo" aria-label="Códice — Inicio">
+            <span class="logo-symbol" aria-hidden="true"><svg viewBox="0 1 40 40" aria-hidden="true" focusable="false"><path d="M20 34H13M20 34H27M20 36.4H15.5M20 36.4H24.5M18.4 34V11.4M21.6 34V11.4M18.4 29H21.6M18.4 17H21.6M18.4 11.4H21.6M20 7.4V4.8"/><circle cx="20" cy="9" r="1.6" fill="currentColor"/><path d="M18.4 9H11.7M21.6 9H28.3"/><circle cx="11.7" cy="9" r=".85" fill="currentColor"/><circle cx="28.3" cy="9" r=".85" fill="currentColor"/><path d="M11.7 9L5 22M11.7 9L18.4 22M5 22C6.2 24.5 8.8 25.4 11.7 25.4C14.6 25.4 17.2 24.5 18.4 22M28.3 9L35 22M28.3 9L21.6 22M35 22C33.8 24.5 31.2 25.4 28.3 25.4C25.4 25.4 22.8 24.5 21.6 22"/></svg></span>
+            <span class="logo-text"><span class="logo-main">CÓDICE</span><span class="logo-sub">ARCHIVO DE CONOCIMIENTO</span></span>
+        </a>
+        <div class="header-actions">
+            <button class="header-icon-btn" type="button" id="search-shortcut" aria-label="Buscar" aria-expanded="false" aria-controls="mobile-search"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L21 21"/></svg></button>
+            <button class="header-icon-btn theme-toggle-mobile" type="button" id="theme-toggle-mobile" aria-label="Modo claro" aria-pressed="false"><span class="theme-toggle-mobile-icon" aria-hidden="true">◐</span></button>
+            <button class="header-icon-btn menu-toggle" type="button" id="menu-toggle" aria-label="Menú" aria-expanded="false" aria-controls="site-nav"><span class="menu-icon" aria-hidden="true"></span></button>
+        </div>
+        <nav class="navigation" id="site-nav" aria-label="Navegación principal">
+            <a href="index.html">Inicio</a><a href="explorar.html">Explorar</a><a href="colecciones.html">Colecciones</a><a href="autores.html">Autores</a><a href="temas.html">Temas</a><a href="silabos.html">Sílabos</a><a href="examenes.html" class="active" aria-current="page">Exámenes</a>
+            <form class="header-search" action="buscar.html" method="GET" role="search"><label for="header-search-input" class="visually-hidden">Buscar en Códice</label><input id="header-search-input" type="search" name="q" placeholder="Buscar..." autocomplete="off"><button type="submit" aria-label="Buscar">→</button></form>
+            <button class="theme-toggle" type="button" aria-label="Modo claro" aria-pressed="false"><span class="theme-toggle-text" aria-hidden="true">Apariencia</span><span class="theme-toggle-state" aria-hidden="true">Oscuro</span><span class="theme-toggle-icon" aria-hidden="true">◐</span></button>
+        </nav>
+        <form class="mobile-search" id="mobile-search" action="buscar.html" method="GET" role="search" hidden><label for="mobile-search-input" class="visually-hidden">Buscar en Códice</label><input id="mobile-search-input" type="search" name="q" placeholder="Autor, obra o tema…" autocomplete="off" enterkeyhint="search"><button type="submit" aria-label="Buscar">→</button></form>
+    </header>
+    <button class="menu-scrim" id="menu-scrim" type="button" aria-label="Cerrar menú" hidden></button>
+
+    <main id="contenido" tabindex="-1" class="exam-page">
+        <section class="exam-workspace" id="exam-workspace" aria-label="Configuración y sesión de práctica">
+            <aside class="exam-route" aria-labelledby="exam-title">
+                <div class="exam-config-intro">
+                    <p class="eyebrow">EXÁMENES · ESPACIO DE PRÁCTICA</p>
+                    <h1 id="exam-title">Prepara tu examen.</h1>
+                    <p>Elige un curso, selecciona los temas y comprueba lo que has aprendido.</p>
+                </div>
+                <details class="exam-config-details" id="exam-config-details" open>
+                    <summary>Configuración de la práctica</summary>
+                    <div class="exam-config-body">
+                        <h2 id="route-title">Prepara tu práctica</h2>
+                        <p class="exam-route-note">Elige una ruta del plan de estudios y filtra el banco disponible.</p>
+                        <label for="exam-career">Carrera</label>
+                        <select id="exam-career"><option>Cargando carreras…</option></select>
+                        <label for="exam-cycle">Ciclo</label>
+                        <select id="exam-cycle" disabled><option>Selecciona una carrera</option></select>
+                        <label for="exam-course">Curso</label>
+                        <select id="exam-course" disabled><option>Selecciona un ciclo</option></select>
+                        <div class="exam-route-current">
+                            <span id="exam-route-label">RUTA ACTUAL</span>
+                            <strong id="exam-route-name">Cargando ruta…</strong>
+                            <a href="silabos.html">Ver estructura de sílabos <b aria-hidden="true">↗</b></a>
+                        </div>
+                        <label for="exam-topic">Tema</label>
+                        <select id="exam-topic"><option value="">Todos los temas</option></select>
+                        <div class="exam-length" role="group" aria-label="Cantidad de preguntas">
+                            <span>Preguntas</span>
+                            <div>
+                                <button type="button" data-count="5" aria-pressed="false" disabled>5</button>
+                                <button type="button" data-count="10" aria-pressed="true" disabled>10</button>
+                                <button type="button" data-count="15" aria-pressed="false" disabled>15</button>
+                                <button type="button" data-count="20" aria-pressed="false" disabled>20</button>
+                            </div>
+                            <small id="exam-count-note">La cantidad se ajusta a las preguntas disponibles.</small>
+                        </div>
+                        <details class="exam-advanced" id="exam-advanced">
+                            <summary>Opciones avanzadas <span aria-hidden="true">⌄</span></summary>
+                            <div class="exam-advanced-body">
+                                <label for="exam-difficulty">Dificultad</label>
+                                <select id="exam-difficulty">
+                                    <option value="basico">Inicial</option>
+                                    <option value="intermedio" selected>Intermedio</option>
+                                    <option value="avanzado">Avanzado</option>
+                                </select>
+                                <span class="exam-setting-label">Modalidad</span>
+                                <div class="exam-mode" role="group" aria-label="Modalidad del examen">
+                                    <button type="button" data-mode="practice" aria-pressed="true"><b>Práctica</b><small>Corrección después de cada respuesta</small></button>
+                                    <button type="button" data-mode="exam" aria-pressed="false"><b>Simulacro</b><small>Revisión al finalizar</small></button>
+                                </div>
+                                <label for="exam-time">Tiempo</label>
+                                <select id="exam-time">
+                                    <option value="0" selected>Sin límite</option>
+                                    <option value="5">5 minutos</option>
+                                    <option value="10">10 minutos</option>
+                                    <option value="20">20 minutos</option>
+                                </select>
+                            </div>
+                        </details>
+                        <div class="exam-route-tags"><span class="exam-tag" id="exam-bank-type">Cargando banco</span><span id="exam-bank-size">Cargando preguntas…</span></div>
+                        <p class="exam-bank-empty" id="exam-bank-empty" hidden>Este curso aún no tiene un banco de preguntas. Estamos preparando la estructura para añadirlo sin alterar el sílabo.</p>
+                        <button type="button" class="exam-start" id="exam-start" disabled>Iniciar práctica <span aria-hidden="true">→</span></button>
+                        <p class="exam-disclaimer">Banco de demostración. Estas preguntas no son oficiales ni provienen de exámenes reales.</p>
+                        <div class="exam-history" id="exam-history" aria-live="polite"><span>Tu progreso</span><strong>Cargando…</strong><small>El historial se guarda en este navegador.</small></div>
+                    </div>
+                </details>
+            </aside>
+
+            <section class="exam-session" id="exam-session" aria-live="polite" aria-atomic="false">
+                <div class="exam-empty" id="exam-empty">
+                    <p class="eyebrow">TU ESPACIO DE PRÁCTICA</p>
+                    <h2>Aquí aparecerán las preguntas de tu examen.</h2>
+                    <p id="exam-empty-copy">Configura tu recorrido y comienza cuando estés preparado.</p>
+                    <aside class="exam-mentor" aria-label="Consejo de estudio">
+                        <div><p class="eyebrow">NOTA DE ESTUDIO</p><p id="exam-mentor-tip">Antes de consultar una explicación, intenta justificar tu respuesta.</p></div>
+                    </aside>
+                </div>
+                <div id="exam-active" hidden></div>
+            </section>
+        </section>
+        <p class="exam-local-note"><span aria-hidden="true">◌</span> El historial se guarda en este navegador; no requiere cuenta ni se sincroniza con otros dispositivos.</p>
+    </main>
+
+    <footer><div class="footer-brand"><span>CÓDICE</span><small>Archivo de conocimiento</small></div><div class="footer-domain">Derecho · Política · Humanidades</div></footer>
+    <script src="js/app.js"></script>
+    <script src="js/examenes.js"></script>
+</body>
+</html>
