@@ -1,0 +1,636 @@
+{
+  "id": "fundamentos-prueba-aleatoria",
+  "tema": "Fundamentos jurídicos · prueba aleatoria (15 preguntas)",
+  "preguntas": [
+    {
+      "id": "intro-aleatoria-000",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué posición reconoce la Constitución peruana dentro del sistema de normas?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "La Constitución prevalece sobre toda norma legal."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "La Constitución tiene supremacía frente a las leyes del ordenamiento."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "La Constitución tiene el mismo rango que cualquier reglamento."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Una ley ordinaria puede dejar sin efecto la Constitución por ser posterior."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "Los reglamentos prevalecen sobre las leyes y la Constitución."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "La Constitución solo orienta políticamente y carece de fuerza normativa."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "La Constitución sitúa a la propia Constitución por encima de las normas legales, y a la ley por encima de normas de inferior jerarquía.",
+      "fuente": {
+        "referencia": "Art. 51, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-001",
+      "dificultad": "intermedio",
+      "enunciado": "Según el artículo 51 de la Constitución peruana, ¿qué relación existe entre la ley y las normas de inferior jerarquía?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "La ley prevalece sobre las normas de inferior jerarquía."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Las normas de rango inferior están subordinadas a la ley."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Un reglamento puede modificar una ley por ser más específico."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "La ley y un reglamento siempre tienen idéntico rango."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "Una ordenanza municipal prevalece automáticamente sobre toda ley."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "La jerarquía depende solo de cuál norma se publicó más recientemente."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El artículo 51 establece un orden jerárquico: Constitución, ley y, debajo, las normas de inferior jerarquía.",
+      "fuente": {
+        "referencia": "Art. 51, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-002",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué requisito señala el artículo 51 para la vigencia de las normas del Estado peruano?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "La publicidad de la norma es esencial para su vigencia."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Para que una norma estatal esté vigente, su publicación es esencial."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Basta con que la autoridad la comunique verbalmente a un grupo de ciudadanos."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Toda norma debe ser aprobada por referéndum para entrar en vigor."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "La norma entra en vigor únicamente cuando un juez la aplica por primera vez."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "La publicación es opcional si la norma fue aprobada por mayoría."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El artículo 51 declara esencial la publicidad para la vigencia de toda norma del Estado.",
+      "fuente": {
+        "referencia": "Art. 51, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-003",
+      "dificultad": "intermedio",
+      "enunciado": "Si en un proceso peruano una norma legal es incompatible con la Constitución, ¿qué dispone el artículo 138?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "Los jueces prefieren la norma constitucional."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "El juez debe aplicar la Constitución antes que la norma legal incompatible."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "El juez debe aplicar siempre la norma más reciente, aunque contradiga la Constitución."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "El conflicto solo puede resolverlo el Congreso después del proceso."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "El juez debe suspender indefinidamente el proceso hasta que las partes acuerden."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "La norma legal prevalece porque es más concreta que la Constitución."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El segundo párrafo del artículo 138 establece la preferencia de la norma constitucional ante incompatibilidad con una norma legal.",
+      "fuente": {
+        "referencia": "Art. 138, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-004",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué debe hacer la función jurisdiccional peruana ante un vacío o una deficiencia de la ley?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "No debe dejar de administrar justicia; debe recurrir a principios generales del derecho y al derecho consuetudinario."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Debe resolver el caso y, si la ley es insuficiente, aplicar principios generales y derecho consuetudinario."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Debe rechazar automáticamente la demanda porque no existe una regla expresa."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Debe crear un delito y una pena para cubrir cualquier vacío."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "Debe pedir al Congreso que resuelva primero cada litigio particular."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Debe aplicar exclusivamente una norma extranjera sin revisar el ordenamiento nacional."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El artículo 139.8 prohíbe dejar de administrar justicia por vacío o deficiencia de la ley e indica los criterios de integración.",
+      "fuente": {
+        "referencia": "Art. 139, inciso 8, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-005",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué garantiza el artículo 2.2 de la Constitución peruana?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "La igualdad ante la ley y la prohibición de discriminación por los motivos enumerados en el artículo."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Que todas las personas sean iguales ante la ley y no sufran discriminación por las causas indicadas."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Que cada persona pueda elegir qué leyes se le aplican."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Que solo los ciudadanos con empleo público reciban igual protección."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "Que la igualdad se aplique únicamente en contratos privados."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Que una autoridad pueda discriminar si la decisión no se publica."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El artículo 2.2 reconoce igualdad ante la ley y enumera motivos por los que nadie debe ser discriminado.",
+      "fuente": {
+        "referencia": "Art. 2, inciso 2, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-006",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué exige el principio de legalidad penal del artículo 2.24.d de la Constitución peruana?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "Que la infracción y la pena estén previstas previamente por ley expresa e inequívoca."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Que nadie sea sancionado penalmente por una conducta que no estuviera definida de antemano en una ley expresa y clara."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Que las penas puedan fijarse después del hecho según la opinión pública."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Que una costumbre local pueda crear delitos y sanciones penales."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "Que baste una orden verbal para calificar una conducta como delito."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Que las sanciones penales se apliquen aunque no estén previstas en norma alguna."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "La disposición constitucional exige calificación previa, expresa e inequívoca de la infracción y una pena prevista por ley.",
+      "fuente": {
+        "referencia": "Art. 2, inciso 24, literal d, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-007",
+      "dificultad": "intermedio",
+      "enunciado": "¿Contra qué tipo de normas procede el proceso de inconstitucionalidad previsto en el artículo 200.4?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "Contra normas con rango de ley que contravengan la Constitución."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "El proceso se dirige contra normas de rango legal incompatibles con la Constitución."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Contra cualquier contrato privado entre dos personas."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Contra toda resolución administrativa individual, sin importar su rango."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "Solo contra costumbres sociales que no hayan sido escritas."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Únicamente contra sentencias judiciales firmes."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "La Constitución enumera normas con rango de ley impugnables mediante este proceso, y el Tribunal Constitucional precisa su objeto.",
+      "fuente": {
+        "referencia": "Art. 200, inciso 4, Constitución Política del Perú; Tribunal Constitucional, Exp. 00016-2003-AI.",
+        "url": "https://www.tc.gob.pe/jurisprudencia/2004/00016-2003-AI.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-008",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué proceso constitucional busca proteger derechos constitucionales frente a una amenaza o vulneración, según el artículo 200.2?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "El proceso de amparo."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "La garantía constitucional prevista para tutelar esos derechos es el amparo."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "El proceso de inconstitucionalidad, que revisa exclusivamente contratos privados."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "La acción popular, que protege únicamente derechos de propiedad intelectual."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "El proceso de cumplimiento, que sustituye cualquier proceso penal."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "El referéndum, que resuelve controversias individuales."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El artículo 200.2 regula la acción de amparo como garantía constitucional.",
+      "fuente": {
+        "referencia": "Art. 200, inciso 2, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-009",
+      "dificultad": "intermedio",
+      "enunciado": "En el positivismo jurídico, ¿qué distingue la pregunta “qué es derecho vigente” de “si ese derecho es justo”?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "La existencia del derecho se identifica por hechos y fuentes sociales; su justicia es una evaluación distinta."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Determinar qué normas pertenecen al sistema es una cuestión diferente de valorar moralmente su justicia."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Una norma solo es derecho si todas las personas la consideran moralmente perfecta."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "La justicia de una norma se determina únicamente por la fecha de su publicación."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "El positivismo sostiene que nunca se puede criticar moralmente una ley."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Una norma deja automáticamente de existir cuando alguien la considera injusta."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "La entrada explica que, para el positivismo jurídico, la existencia y contenido del derecho dependen de hechos sociales y no de sus méritos morales.",
+      "fuente": {
+        "referencia": "Stanford Encyclopedia of Philosophy, “Legal Positivism”.",
+        "url": "https://plato.stanford.edu/entries/legal-positivism/"
+      }
+    },
+    {
+      "id": "intro-aleatoria-010",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué describe mejor la idea de un sistema u ordenamiento jurídico?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "Un conjunto de normas y prácticas institucionales relacionadas mediante criterios de reconocimiento y aplicación."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Normas que forman un sistema porque instituciones y criterios jurídicos conectan su reconocimiento y aplicación."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Una lista de consejos morales sin relación con instituciones."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Un conjunto de opiniones personales que no tiene reglas de reconocimiento."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "Una sola ley aislada que elimina la necesidad de otras normas."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Un repertorio de normas cuyo contenido nunca puede cambiar."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "La fuente examina los sistemas jurídicos como prácticas sociales e institucionales con criterios que identifican las fuentes del derecho.",
+      "fuente": {
+        "referencia": "Stanford Encyclopedia of Philosophy, “Legal Positivism”, sección sobre existencia y fuentes del derecho.",
+        "url": "https://plato.stanford.edu/entries/legal-positivism/"
+      }
+    },
+    {
+      "id": "intro-aleatoria-011",
+      "dificultad": "intermedio",
+      "enunciado": "¿Cuál es una característica de las fuentes sociales del derecho en la explicación positivista?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "Su reconocimiento depende de prácticas e instituciones del sistema jurídico."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Las fuentes se identifican mediante criterios sociales e institucionales aceptados en el sistema."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Su validez depende exclusivamente de que cada persona las apruebe moralmente."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Solo pueden consistir en libros académicos."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "No pueden incluir legislación ni decisiones de autoridades."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Son idénticas en todos los países y épocas."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "La entrada presenta las fuentes jurídicas como dependientes de hechos sociales y de criterios reconocidos por los funcionarios del sistema.",
+      "fuente": {
+        "referencia": "Stanford Encyclopedia of Philosophy, “Legal Positivism”, sección sobre existencia y fuentes del derecho.",
+        "url": "https://plato.stanford.edu/entries/legal-positivism/"
+      }
+    },
+    {
+      "id": "intro-aleatoria-012",
+      "dificultad": "intermedio",
+      "enunciado": "Según el artículo 200.4 de la Constitución peruana, ¿qué puede cuestionarse en el proceso de inconstitucionalidad?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "La compatibilidad de una norma con rango de ley con la Constitución, por la forma o por el fondo."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "Se puede impugnar una norma de rango legal por defectos formales o por contradicción sustantiva con la Constitución."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "La conveniencia de cualquier decisión cotidiana de una autoridad, aunque no sea norma."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "La interpretación de un contrato entre particulares como si fuera una ley."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "La constitucionalidad de una norma solo si ya fue derogada."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Únicamente la redacción gramatical de la Constitución."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El Tribunal Constitucional recoge que el proceso examina normas con rango de ley que contravengan la Constitución en la forma o en el fondo.",
+      "fuente": {
+        "referencia": "Tribunal Constitucional, Exp. 00016-2003-AI, fundamento sobre el art. 200.4.",
+        "url": "https://www.tc.gob.pe/jurisprudencia/2004/00016-2003-AI.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-013",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué principio de organización política establece el artículo 43 de la Constitución peruana?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "La República se organiza como un Estado uno e indivisible, con gobierno unitario, representativo y descentralizado, y separación de poderes."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "El Perú adopta una república unitaria y representativa, descentralizada y organizada con separación de poderes."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "El país se organiza como una monarquía hereditaria sin separación funcional."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Cada región constituye un Estado soberano independiente."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "El poder público se concentra permanentemente en una sola autoridad."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "La Constitución establece un gobierno federal de estados soberanos."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El artículo 43 describe la forma de Estado y gobierno y establece la separación de poderes.",
+      "fuente": {
+        "referencia": "Art. 43, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    },
+    {
+      "id": "intro-aleatoria-014",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué función cumple la publicidad de las normas dentro de un ordenamiento jurídico?",
+      "respuestasCorrectas": [
+        {
+          "id": "correcta-a",
+          "texto": "Permite conocer las normas estatales y es condición esencial para su vigencia según la Constitución peruana."
+        },
+        {
+          "id": "correcta-b",
+          "texto": "La publicación hace accesible la norma y el artículo 51 la considera esencial para que esté vigente."
+        }
+      ],
+      "distractores": [
+        {
+          "id": "distractor-1",
+          "texto": "Sustituye la aprobación por la autoridad competente."
+        },
+        {
+          "id": "distractor-2",
+          "texto": "Convierte automáticamente cualquier propuesta en ley."
+        },
+        {
+          "id": "distractor-3",
+          "texto": "Solo sirve como archivo histórico después de que una norma deja de regir."
+        },
+        {
+          "id": "distractor-4",
+          "texto": "Permite mantener las normas secretas para ciertos ciudadanos."
+        }
+      ],
+      "opcionNinguna": {
+        "id": "ninguna",
+        "texto": "Ninguna de las anteriores"
+      },
+      "explicacion": "El artículo 51 vincula la publicidad de las normas con su vigencia.",
+      "fuente": {
+        "referencia": "Art. 51, Constitución Política del Perú.",
+        "url": "https://www.congreso.gob.pe/Docs/files/constitucion/constitucion-politica-06-02-19.pdf"
+      }
+    }
+  ]
+}

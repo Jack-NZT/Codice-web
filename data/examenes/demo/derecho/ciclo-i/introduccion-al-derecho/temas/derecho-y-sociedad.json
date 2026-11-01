@@ -1,0 +1,151 @@
+{
+  "id": "derecho-y-sociedad",
+  "tema": "Derecho y sociedad",
+  "preguntas": [
+    {
+      "id": "demo-006",
+      "dificultad": "avanzado",
+      "enunciado": "Una regla escrita admite dos lecturas plausibles. ¿Qué respuesta refleja mejor un análisis jurídico cuidadoso?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Examinar texto, contexto, sistema y razones relevantes antes de justificar una lectura"
+        },
+        {
+          "id": "b",
+          "texto": "Escoger al azar una lectura para evitar demoras"
+        },
+        {
+          "id": "c",
+          "texto": "Aplicar siempre el significado que favorezca a quien interpreta"
+        },
+        {
+          "id": "d",
+          "texto": "Descartar cualquier otra norma relacionada con el asunto"
+        },
+        {
+          "id": "e",
+          "texto": "Afirmar que la ambigüedad vuelve inexistente toda regla jurídica"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Cuando hay más de una lectura plausible, una decisión fundada debe explicitar los criterios interpretativos que considera y su relación con el sistema y el caso."
+    },
+    {
+      "id": "demo-013",
+      "dificultad": "basico",
+      "enunciado": "¿Por qué el contexto social puede ser relevante al estudiar una institución jurídica?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Ayuda a comprender qué relaciones, necesidades y conflictos aborda o transforma"
+        },
+        {
+          "id": "b",
+          "texto": "Porque hace innecesario leer las normas que la regulan"
+        },
+        {
+          "id": "c",
+          "texto": "Porque toda práctica social se convierte por sí sola en ley"
+        },
+        {
+          "id": "d",
+          "texto": "Porque elimina las diferencias entre instituciones"
+        },
+        {
+          "id": "e",
+          "texto": "Porque permite prescindir de argumentos y evidencia"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "El contexto aporta elementos para comprender el papel de una institución, aunque no reemplaza el análisis de las normas y fuentes pertinentes."
+    },
+    {
+      "id": "demo-020",
+      "dificultad": "avanzado",
+      "enunciado": "Al estudiar si una institución jurídica responde a un problema social, ¿qué enfoque resulta más completo?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Relacionar su regulación y funcionamiento con el problema, las personas afectadas y la evidencia disponible"
+        },
+        {
+          "id": "b",
+          "texto": "Suponer que toda institución logra siempre el resultado que declara"
+        },
+        {
+          "id": "c",
+          "texto": "Usar una sola experiencia personal como prueba concluyente"
+        },
+        {
+          "id": "d",
+          "texto": "Ignorar las normas y estudiar únicamente opiniones"
+        },
+        {
+          "id": "e",
+          "texto": "Medir su valor solo por la antigüedad de su nombre"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Un análisis amplio conecta normas, instituciones, prácticas y efectos observables, y distingue objetivos declarados de resultados comprobados."
+    },
+    {
+      "id": "demo-021",
+      "dificultad": "intermedio",
+      "enunciado": "Una reforma busca cambiar una práctica social. ¿Qué evidencia ayuda más a estudiar su efecto?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "El número de artículos que contiene la reforma"
+        },
+        {
+          "id": "b",
+          "texto": "Cambios en cumplimiento, acceso, actuación institucional y experiencias de las personas afectadas"
+        },
+        {
+          "id": "c",
+          "texto": "La opinión de una sola persona que leyó el texto"
+        },
+        {
+          "id": "d",
+          "texto": "La presunción de que publicar una norma transforma toda práctica"
+        },
+        {
+          "id": "e",
+          "texto": "La semejanza del título con el de otras reformas"
+        }
+      ],
+      "respuestaCorrecta": "b",
+      "explicacion": "Para estudiar efectos sociales se comparan objetivos y mecanismos con evidencia de implementación y resultados, considerando el contexto y a las personas afectadas."
+    },
+    {
+      "id": "demo-022",
+      "dificultad": "avanzado",
+      "enunciado": "¿Qué conjunto de elementos permite evaluar con mayor rigor los efectos sociales de una institución jurídica?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Su propósito declarado y la antigüedad de su denominación"
+        },
+        {
+          "id": "b",
+          "texto": "La fecha de creación y el tamaño del edificio donde opera"
+        },
+        {
+          "id": "c",
+          "texto": "La cantidad de términos técnicos y la extensión de su nombre"
+        },
+        {
+          "id": "d",
+          "texto": "Sus objetivos normativos, sus mecanismos de aplicación y los efectos comprobados"
+        },
+        {
+          "id": "e",
+          "texto": "La popularidad de su denominación y la opinión de una sola autoridad"
+        }
+      ],
+      "respuestaCorrecta": "d",
+      "explicacion": "Para evaluar efectos no basta con identificar el propósito declarado: conviene estudiar mecanismos de aplicación y contrastar los resultados con evidencia pertinente."
+    }
+  ]
+}

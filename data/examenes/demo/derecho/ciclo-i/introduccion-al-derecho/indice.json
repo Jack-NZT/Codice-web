@@ -1,0 +1,48 @@
+{
+  "id": "demo-introduccion-al-derecho",
+  "carrera": "derecho",
+  "ciclo": 1,
+  "cursoId": "introduccion-al-derecho",
+  "curso": "Introducción al Derecho",
+  "fuentePredeterminada": {
+    "tipo": "elaboracion propia",
+    "referencia": "Pregunta sintética para demostración; no corresponde a un examen oficial."
+  },
+  "temas": [
+    {
+      "id": "derecho-y-sociedad",
+      "nombre": "Derecho y sociedad",
+      "archivo": "temas/derecho-y-sociedad.json"
+    },
+    {
+      "id": "fuentes-del-derecho",
+      "nombre": "Fuentes del Derecho",
+      "archivo": "temas/fuentes-del-derecho.json"
+    },
+    {
+      "id": "interpretacion-juridica",
+      "nombre": "Interpretación jurídica",
+      "archivo": "temas/interpretacion-juridica.json"
+    },
+    {
+      "id": "la-norma-juridica",
+      "nombre": "La norma jurídica",
+      "archivo": "temas/la-norma-juridica.json"
+    },
+    {
+      "id": "ordenamiento-juridico",
+      "nombre": "Ordenamiento jurídico",
+      "archivo": "temas/ordenamiento-juridico.json"
+    },
+    {
+      "id": "relacion-juridica",
+      "nombre": "Relación jurídica",
+      "archivo": "temas/relacion-juridica.json"
+    },
+    {
+      "id": "fundamentos-prueba-aleatoria",
+      "nombre": "Fundamentos jurídicos · prueba aleatoria (15 preguntas)",
+      "archivo": "temas/fundamentos-prueba-aleatoria.json"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "la-norma-juridica",
+  "tema": "La norma jurídica",
+  "preguntas": [
+    {
+      "id": "demo-001",
+      "dificultad": "basico",
+      "enunciado": "¿Cuál de estas opciones describe mejor la función general de una norma jurídica?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Orientar conductas mediante reglas reconocidas por un ordenamiento"
+        },
+        {
+          "id": "b",
+          "texto": "Expresar únicamente las preferencias personales de quien la lee"
+        },
+        {
+          "id": "c",
+          "texto": "Sustituir todas las formas de relación social"
+        },
+        {
+          "id": "d",
+          "texto": "Describir hechos naturales sin establecer consecuencias"
+        },
+        {
+          "id": "e",
+          "texto": "Evitar que las instituciones interpreten las reglas"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "En términos generales, las normas jurídicas establecen pautas de conducta dentro de un ordenamiento y pueden vincularse con consecuencias institucionales."
+    },
+    {
+      "id": "demo-009",
+      "dificultad": "basico",
+      "enunciado": "¿Qué expresa la generalidad de una regla jurídica en su formulación típica?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Que se dirige a una clase de situaciones o sujetos descrita de forma general"
+        },
+        {
+          "id": "b",
+          "texto": "Que enumera por nombre a todas las personas que podrían leerla"
+        },
+        {
+          "id": "c",
+          "texto": "Que no puede aplicarse a casos concretos"
+        },
+        {
+          "id": "d",
+          "texto": "Que tiene el mismo contenido que toda otra regla"
+        },
+        {
+          "id": "e",
+          "texto": "Que carece de condiciones para determinar su ámbito"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "La formulación general describe categorías de sujetos o supuestos; la aplicación exige determinar si los hechos concretos encajan en esa descripción."
+    },
+    {
+      "id": "demo-010",
+      "dificultad": "intermedio",
+      "enunciado": "Al analizar una norma, ¿qué pregunta ayuda a identificar su ámbito de aplicación?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "A qué sujetos, situaciones, territorio y periodo se refiere según su contenido y contexto"
+        },
+        {
+          "id": "b",
+          "texto": "Qué opinión privada tiene cada lector sobre la norma"
+        },
+        {
+          "id": "c",
+          "texto": "Cuántas personas conocen su número de publicación"
+        },
+        {
+          "id": "d",
+          "texto": "Qué color tenía el documento en que se imprimió"
+        },
+        {
+          "id": "e",
+          "texto": "Si su texto puede separarse de cualquier contexto"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "El ámbito de aplicación se estudia atendiendo a las condiciones personales, materiales, territoriales y temporales que correspondan a la disposición."
+    },
+    {
+      "id": "demo-018",
+      "dificultad": "avanzado",
+      "enunciado": "Al evaluar una norma que establece una consecuencia, ¿qué conviene distinguir?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "El supuesto previsto, la consecuencia asociada y las condiciones para aplicarla"
+        },
+        {
+          "id": "b",
+          "texto": "El título del documento y la opinión de quien lo lee"
+        },
+        {
+          "id": "c",
+          "texto": "La consecuencia aislada de cualquier hecho"
+        },
+        {
+          "id": "d",
+          "texto": "La intención personal de cada destinatario"
+        },
+        {
+          "id": "e",
+          "texto": "El número de veces que se menciona la norma en internet"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Separar supuesto, consecuencia y condiciones de aplicación permite analizar con precisión qué hechos activarían el efecto previsto por una regla."
+    },
+    {
+      "id": "demo-026",
+      "dificultad": "avanzado",
+      "enunciado": "¿Qué distinción general puede hacerse entre la validez y la eficacia de una norma?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Ambas expresiones significan siempre exactamente lo mismo"
+        },
+        {
+          "id": "b",
+          "texto": "La eficacia depende solo de que una norma esté escrita"
+        },
+        {
+          "id": "c",
+          "texto": "Una norma es eficaz solo cuando nadie la discute"
+        },
+        {
+          "id": "d",
+          "texto": "La validez se relaciona con su pertenencia al sistema según ciertos criterios; la eficacia, con su cumplimiento o aplicación"
+        },
+        {
+          "id": "e",
+          "texto": "La desobediencia ocasional anula automáticamente una norma"
+        }
+      ],
+      "respuestaCorrecta": "d",
+      "explicacion": "Validez y eficacia son conceptos distintos en teoría jurídica: uno atiende a criterios de pertenencia o producción; el otro, a cumplimiento, aplicación o efectos, según el enfoque estudiado."
+    }
+  ]
+}

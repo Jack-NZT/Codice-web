@@ -1,0 +1,78 @@
+[
+  {
+    "id": "ciencia-politica",
+    "nombre": "Ciencia política",
+    "descripcion": "Ideas, instituciones y procesos que organizan el poder, el Estado y la vida política.",
+    "imagen": "images/temas/ciencia-politica.port.jpg",
+    "imagenes": [],
+    "subtemas": [
+      { "id": "pensamiento-politico", "nombre": "Pensamiento político", "filtros": ["Política"] },
+      { "id": "estado-y-poder", "nombre": "Estado y poder", "filtros": ["Política"] },
+      { "id": "instituciones-politicas", "nombre": "Instituciones políticas", "filtros": ["Instituciones políticas"] },
+      { "id": "democracia", "nombre": "Democracia", "filtros": ["Democracia"] }
+    ]
+  },
+  {
+    "id": "derecho",
+    "nombre": "Derecho",
+    "descripcion": "Conceptos, normas e instituciones que permiten comprender el fenómeno jurídico y sus distintas ramas.",
+    "imagen": "images/temas/derecho.Port.jpg",
+    "imagenes": [],
+    "subtemas": [
+      { "id": "introduccion-al-derecho", "nombre": "Introducción al Derecho", "filtros": ["Introducción al Derecho"] },
+      { "id": "teoria-del-derecho", "nombre": "Teoría del Derecho", "filtros": ["Teoría del Derecho"] },
+      { "id": "norma-juridica", "nombre": "Norma jurídica", "filtros": ["Norma jurídica"] },
+      { "id": "ordenamiento-juridico", "nombre": "Ordenamiento jurídico", "filtros": ["Ordenamiento jurídico"] },
+      { "id": "derecho-civil", "nombre": "Derecho civil", "filtros": ["Derecho civil"] }
+    ]
+  },
+  {
+    "id": "filosofia",
+    "nombre": "Filosofía",
+    "descripcion": "Preguntas y argumentos sobre el conocimiento, la realidad, la ética, la justicia y la vida en común.",
+    "imagen": "images/temas/filosofia.png",
+    "imagenes": [],
+    "subtemas": [
+      { "id": "filosofia-general", "nombre": "Filosofía", "filtros": ["Filosofía"] },
+      { "id": "filosofia-politica", "nombre": "Filosofía política", "filtros": ["Filosofía política"] },
+      { "id": "etica", "nombre": "Ética", "filtros": ["Ética"] },
+      { "id": "filosofia-del-derecho", "nombre": "Filosofía del Derecho", "filtros": ["Filosofía del Derecho"] }
+    ]
+  },
+  {
+    "id": "historia",
+    "nombre": "Historia",
+    "descripcion": "Procesos, sociedades y acontecimientos del pasado, junto con las formas de interpretarlos.",
+    "imagen": "images/temas/historia.jpg",
+    "imagenes": [],
+    "subtemas": [
+      { "id": "historia-general", "nombre": "Historia", "filtros": ["Historia"] },
+      { "id": "historia-politica", "nombre": "Historia política", "filtros": ["Historia política"] },
+      { "id": "historia-del-derecho", "nombre": "Historia del Derecho", "filtros": ["Historia del Derecho"] }
+    ]
+  },
+  {
+    "id": "sociologia",
+    "nombre": "Sociología",
+    "descripcion": "La vida social, sus instituciones, relaciones y transformaciones.",
+    "imagen": "images/temas/sociologia.jpg",
+    "imagenes": [],
+    "subtemas": [
+      { "id": "sociologia-general", "nombre": "Sociología", "filtros": ["Sociología"] },
+      { "id": "sociedad-y-estado", "nombre": "Sociedad y Estado", "filtros": ["Sociedad y Estado"] },
+      { "id": "sociologia-juridica", "nombre": "Sociología jurídica", "filtros": ["Sociología jurídica"] }
+    ]
+  },
+  {
+    "id": "economia",
+    "nombre": "Economía",
+    "descripcion": "La producción y distribución de recursos, las decisiones económicas y sus efectos en la sociedad.",
+    "imagen": "images/temas/economia.png",
+    "imagenes": [],
+    "subtemas": [
+      { "id": "economia-general", "nombre": "Economía", "filtros": ["Economía"] },
+      { "id": "pensamiento-economico", "nombre": "Pensamiento económico", "filtros": ["Pensamiento económico"] },
+      { "id": "economia-politica", "nombre": "Economía política", "filtros": ["Economía política"] }
+    ]
+  }
+]

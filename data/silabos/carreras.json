@@ -1,0 +1,13 @@
+[
+  {
+    "id": "derecho",
+    "nombre": "Derecho",
+    "archivo": "data/silabos/derecho.json"
+  },
+  {
+    "id": "economia",
+    "nombre": "Economía",
+    "archivo": "data/silabos/economia.json",
+    "demo": true
+  }
+]

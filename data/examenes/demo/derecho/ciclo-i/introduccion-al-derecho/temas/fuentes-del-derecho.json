@@ -1,0 +1,151 @@
+{
+  "id": "fuentes-del-derecho",
+  "tema": "Fuentes del Derecho",
+  "preguntas": [
+    {
+      "id": "demo-002",
+      "dificultad": "basico",
+      "enunciado": "En el estudio introductorio del Derecho, ¿qué se busca identificar al hablar de una fuente jurídica?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "El origen o forma de producción y reconocimiento de normas jurídicas"
+        },
+        {
+          "id": "b",
+          "texto": "El lugar físico donde se archivan todos los expedientes"
+        },
+        {
+          "id": "c",
+          "texto": "La opinión individual de cualquier lector"
+        },
+        {
+          "id": "d",
+          "texto": "El resultado de una encuesta sin relevancia normativa"
+        },
+        {
+          "id": "e",
+          "texto": "La traducción literal de un término jurídico"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "El concepto de fuentes del Derecho permite estudiar de dónde surgen las normas y qué formas reconoce un sistema para producirlas o identificarlas."
+    },
+    {
+      "id": "demo-007",
+      "dificultad": "basico",
+      "enunciado": "¿Qué diferencia general puede existir entre una norma jurídica y una regla de cortesía?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "La norma jurídica puede formar parte de un sistema institucional con consecuencias reconocidas"
+        },
+        {
+          "id": "b",
+          "texto": "La regla de cortesía siempre tiene mayor jerarquía"
+        },
+        {
+          "id": "c",
+          "texto": "La norma jurídica solo se aplica entre familiares"
+        },
+        {
+          "id": "d",
+          "texto": "La regla de cortesía necesariamente aparece en una ley"
+        },
+        {
+          "id": "e",
+          "texto": "No hay diferencia posible entre reglas sociales y jurídicas"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Las reglas de cortesía son pautas sociales; una norma jurídica se reconoce dentro de un ordenamiento y puede generar consecuencias institucionales. La distinción exacta depende del sistema estudiado."
+    },
+    {
+      "id": "demo-014",
+      "dificultad": "avanzado",
+      "enunciado": "Una práctica social es constante en una comunidad. ¿Qué dato adicional sería relevante para analizar si tiene valor jurídico como costumbre?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Cómo reconoce el sistema esa práctica y qué relevancia atribuye a la convicción de obligatoriedad"
+        },
+        {
+          "id": "b",
+          "texto": "Si la práctica aparece en redes sociales"
+        },
+        {
+          "id": "c",
+          "texto": "Si todas las personas la realizan por la misma razón"
+        },
+        {
+          "id": "d",
+          "texto": "Si la práctica es más reciente que cualquier norma escrita"
+        },
+        {
+          "id": "e",
+          "texto": "Si resulta popular en una encuesta aislada"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "La costumbre como fuente jurídica no se reduce a la repetición: deben examinarse los requisitos y el reconocimiento que establece el sistema jurídico concreto."
+    },
+    {
+      "id": "demo-019",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué diferencia metodológica hay entre identificar una fuente y evaluar el contenido de una regla?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "La primera pregunta de dónde proviene o cómo se reconoce; la segunda analiza lo que dispone y sus efectos"
+        },
+        {
+          "id": "b",
+          "texto": "No hay diferencia: ambas preguntas buscan únicamente la fecha de publicación"
+        },
+        {
+          "id": "c",
+          "texto": "La primera determina si una regla es popular; la segunda cuenta lectores"
+        },
+        {
+          "id": "d",
+          "texto": "La segunda siempre hace innecesario identificar la fuente"
+        },
+        {
+          "id": "e",
+          "texto": "La fuente solo importa cuando no existe ninguna norma"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Identificar la fuente y analizar el contenido son tareas relacionadas pero distintas: una estudia procedencia o reconocimiento; la otra examina el sentido y alcance de la regla."
+    },
+    {
+      "id": "demo-023",
+      "dificultad": "intermedio",
+      "enunciado": "Antes de usar una fuente jurídica para analizar un caso, ¿qué conviene verificar?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Si coincide con la preferencia de quien la consulta"
+        },
+        {
+          "id": "b",
+          "texto": "Cuántas veces ha sido citada en conversaciones informales"
+        },
+        {
+          "id": "c",
+          "texto": "Su autoridad, el sistema y ámbito a los que pertenece, y su vigencia o relevancia temporal"
+        },
+        {
+          "id": "d",
+          "texto": "El número de páginas de la edición impresa"
+        },
+        {
+          "id": "e",
+          "texto": "Si es la fuente más conocida en redes sociales"
+        }
+      ],
+      "respuestaCorrecta": "c",
+      "explicacion": "La relevancia de una fuente depende del sistema jurídico, su autoridad, el ámbito del problema y el momento pertinente; una referencia aislada puede ser insuficiente."
+    }
+  ]
+}

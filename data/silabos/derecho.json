@@ -1,0 +1,876 @@
+[
+    {
+        "id": "lenguaje",
+        "carrera": "Derecho",
+        "ciclo": "I ciclo",
+        "cicloNumero": 1,
+        "curso": "Lenguaje",
+        "descripcion": "Desarrollo de las competencias de comprensión lectora, expresión oral y redacción. Incluye el uso adecuado del idioma, la organización de ideas y la elaboración de textos claros y coherentes.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "matematica",
+        "carrera": "Derecho",
+        "ciclo": "I ciclo",
+        "cicloNumero": 1,
+        "curso": "Matemática",
+        "descripcion": "Estudio de conceptos y procedimientos matemáticos básicos para interpretar información cuantitativa, resolver problemas y desarrollar el razonamiento lógico aplicado a situaciones académicas y profesionales.",
+        "url": "https://drive.google.com/file/d/1WIJukLmzxTtvH158Y4Kx8q4iXzuJIE-T/view?usp=drive_link",
+        "bibliografia": []
+    },
+    {
+        "id": "filosofia",
+        "carrera": "Derecho",
+        "ciclo": "I ciclo",
+        "cicloNumero": 1,
+        "curso": "Filosofía",
+        "descripcion": "Introducción a los principales problemas y corrientes filosóficas sobre el conocimiento, la realidad, el ser humano y la moral. Promueve el pensamiento crítico y la argumentación racional.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "estrategias-del-aprendizaje",
+        "carrera": "Derecho",
+        "ciclo": "I ciclo",
+        "cicloNumero": 1,
+        "curso": "Estrategias del Aprendizaje",
+        "descripcion": "Estudio de técnicas para organizar el tiempo, comprender textos, tomar apuntes, memorizar y aprender de manera autónoma. Busca fortalecer los hábitos de estudio y el rendimiento académico.",
+        "url": "https://drive.google.com/file/d/1OTu5deY3BF3-WXl3g_H4-VIP3g01zR5p/view?usp=drive_link",
+        "bibliografia": []
+    },
+    {
+        "id": "defensa-nacional",
+        "carrera": "Derecho",
+        "ciclo": "I ciclo",
+        "cicloNumero": 1,
+        "curso": "Defensa Nacional",
+        "descripcion": "Análisis de los conceptos de seguridad, defensa nacional, soberanía e integridad territorial. Aborda la participación del Estado y la ciudadanía en la protección de los intereses nacionales.",
+        "url": "https://drive.google.com/file/d/1pqg_rwQDiMPldBc-3sOK1VncLf3UPrHM/view?usp=drive_link",
+        "bibliografia": []
+    },
+    {
+        "id": "introduccion-al-derecho",
+        "carrera": "Derecho",
+        "ciclo": "I ciclo",
+        "cicloNumero": 1,
+        "curso": "Introducción Al Derecho",
+        "descripcion": "Estudio de los conceptos fundamentales del Derecho, sus fuentes, normas, ramas y funciones sociales. Introduce la relación jurídica, el ordenamiento jurídico y los principios básicos de la disciplina.",
+        "url": "https://drive.google.com/file/d/1hAqJBgMJy_T6T_C8VFKQU42FB1fVBAao/view?usp=drive_link",
+        "bibliografia": []
+    },
+    {
+        "id": "sociologia",
+        "carrera": "Derecho",
+        "ciclo": "II ciclo",
+        "cicloNumero": 2,
+        "curso": "Sociología",
+        "descripcion": "Análisis de la sociedad, sus estructuras, relaciones sociales y principales corrientes del pensamiento sociológico.",
+        "url": "https://drive.google.com/file/d/1BFukvhY1S8m1-_46mZRIKx2xR7jKNfnN/view?usp=sharing",
+        "bibliografia": [
+            "la-politica-como-vocacion"
+        ]
+    },
+    {
+        "id": "ecologia-y-ambiente",
+        "carrera": "Derecho",
+        "ciclo": "II ciclo",
+        "cicloNumero": 2,
+        "curso": "Ecología y Ambiente",
+        "descripcion": "Estudio de los ecosistemas, la biodiversidad y las relaciones entre los seres vivos y su entorno. Examina los problemas ambientales, la sostenibilidad y las responsabilidades sociales y jurídicas de protección ambiental.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "realidad-nacional-regional-y-universitaria",
+        "carrera": "Derecho",
+        "ciclo": "II ciclo",
+        "cicloNumero": 2,
+        "curso": "Realidad Nacional, Regional y Universitaria",
+        "descripcion": "Análisis de la realidad social, política, económica y cultural del Perú, con atención a la región y al entorno universitario. Examina sus principales problemas, instituciones y desafíos de desarrollo.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "etica-y-deontologia",
+        "carrera": "Derecho",
+        "ciclo": "II ciclo",
+        "cicloNumero": 2,
+        "curso": "Ética y Deontología",
+        "descripcion": "Estudio de los fundamentos de la ética y de los deberes que orientan el ejercicio profesional. En el ámbito jurídico, aborda la responsabilidad, la integridad, el secreto profesional y las reglas deontológicas de la abogacía.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-romano",
+        "carrera": "Derecho",
+        "ciclo": "II ciclo",
+        "cicloNumero": 2,
+        "curso": "Derecho Romano",
+        "descripcion": "Estudio de las instituciones jurídicas romanas y de su influencia en la formación del Derecho contemporáneo.",
+        "url": "",
+        "bibliografia": [
+            "la-republica"
+        ]
+    },
+    {
+        "id": "teoria-del-estado",
+        "carrera": "Derecho",
+        "ciclo": "II ciclo",
+        "cicloNumero": 2,
+        "curso": "Teoría del Estado",
+        "descripcion": "Estudio del origen, naturaleza, elementos y fines del Estado, así como del poder político, la soberanía y las formas de organización estatal. Introduce las relaciones entre Estado, sociedad y Derecho.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "gestion-del-riesgo-de-desastres",
+        "carrera": "Derecho",
+        "ciclo": "II ciclo",
+        "cicloNumero": 2,
+        "curso": "Gestión del Riesgo de Desastres",
+        "descripcion": "Estudio de los conceptos de peligro, vulnerabilidad, riesgo y desastre, así como de la prevención, reducción y respuesta ante emergencias. Examina el papel de las instituciones públicas y el marco normativo peruano.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-constitucional-general",
+        "carrera": "Derecho",
+        "ciclo": "III ciclo",
+        "cicloNumero": 3,
+        "curso": "Derecho Constitucional General",
+        "descripcion": "Estudio de los fundamentos del constitucionalismo, la Constitución, el poder constituyente y la organización del Estado. Analiza la supremacía constitucional, la separación de poderes y los derechos fundamentales.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-personas-naturales",
+        "carrera": "Derecho",
+        "ciclo": "III ciclo",
+        "cicloNumero": 3,
+        "curso": "Derecho Civil: Personas Naturales",
+        "descripcion": "Estudio de la persona natural como sujeto de Derecho, su capacidad jurídica, atributos y derechos inherentes. Examina el inicio y fin de la persona y las principales instituciones reguladas por el Derecho civil.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-acto-juridico",
+        "carrera": "Derecho",
+        "ciclo": "III ciclo",
+        "cicloNumero": 3,
+        "curso": "Derecho Civil: Acto Jurídico",
+        "descripcion": "Análisis de los requisitos, manifestación de voluntad, modalidades y efectos del acto jurídico. Estudia su interpretación, representación, invalidez y las consecuencias de la nulidad y anulabilidad.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "teoria-general-del-proceso",
+        "carrera": "Derecho",
+        "ciclo": "III ciclo",
+        "cicloNumero": 3,
+        "curso": "Teoría General del Proceso",
+        "descripcion": "Estudio de los conceptos e instituciones comunes a los procesos jurisdiccionales, incluidos la jurisdicción, la competencia, la acción y la relación procesal. Introduce los sujetos, principios y actos del proceso.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "criminologia",
+        "carrera": "Derecho",
+        "ciclo": "III ciclo",
+        "cicloNumero": 3,
+        "curso": "Criminología",
+        "descripcion": "Estudio científico del delito, la conducta delictiva, la persona infractora, la víctima y el control social. Revisa las principales escuelas criminológicas y las explicaciones sociales, psicológicas y biológicas del fenómeno criminal.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-penal-parte-general-preliminar",
+        "carrera": "Derecho",
+        "ciclo": "III ciclo",
+        "cicloNumero": 3,
+        "curso": "Derecho Penal: Parte General - Preliminar",
+        "descripcion": "Introducción a los principios, límites y fundamentos del poder punitivo del Estado. Examina la ley penal, su aplicación temporal y espacial, y las garantías que limitan la intervención penal.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-de-empresa-formalizacion-y-constitucion",
+        "carrera": "Derecho",
+        "ciclo": "III ciclo",
+        "cicloNumero": 3,
+        "curso": "Derecho de Empresa: Formalización y Constitución",
+        "descripcion": "Estudio de las formas jurídicas para desarrollar actividades empresariales y de los procedimientos básicos para constituir y formalizar un negocio. Aborda aspectos registrales, tributarios y administrativos de la actividad empresarial.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-constitucional-peruano",
+        "carrera": "Derecho",
+        "ciclo": "IV ciclo",
+        "cicloNumero": 4,
+        "curso": "Derecho Constitucional Peruano",
+        "descripcion": "Análisis de la evolución constitucional del Perú y de la Constitución vigente. Estudia la estructura del Estado, los derechos fundamentales, los órganos constitucionales y los mecanismos de control y protección constitucional.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-personas-juridicas",
+        "carrera": "Derecho",
+        "ciclo": "IV ciclo",
+        "cicloNumero": 4,
+        "curso": "Derecho Civil: Personas Jurídicas",
+        "descripcion": "Estudio de las personas jurídicas, su constitución, capacidad, organización, representación y extinción. Examina sus principales formas, sus órganos y las reglas aplicables a su actuación jurídica.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-patologia-del-acto-juridico",
+        "carrera": "Derecho",
+        "ciclo": "IV ciclo",
+        "cicloNumero": 4,
+        "curso": "Derecho Civil: Patología del Acto Jurídico",
+        "descripcion": "Análisis de los defectos que afectan la validez y eficacia del acto jurídico. Estudia los vicios de la voluntad, la nulidad, la anulabilidad, la confirmación y las consecuencias jurídicas de la invalidez.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "teoria-de-conflictos-marcs",
+        "carrera": "Derecho",
+        "ciclo": "IV ciclo",
+        "cicloNumero": 4,
+        "curso": "Teoría de Conflictos - MARCS",
+        "descripcion": "Estudio del conflicto, sus causas, etapas y formas de gestión. Examina los medios alternativos de resolución de conflictos, especialmente la negociación, la conciliación, la mediación y el arbitraje.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-ambiental",
+        "carrera": "Derecho",
+        "ciclo": "IV ciclo",
+        "cicloNumero": 4,
+        "curso": "Derecho Ambiental",
+        "descripcion": "Estudio de los principios e instrumentos jurídicos de protección del ambiente y los recursos naturales. Analiza la regulación ambiental, la responsabilidad por daños y las competencias de las autoridades públicas.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-penal-parte-general",
+        "carrera": "Derecho",
+        "ciclo": "IV ciclo",
+        "cicloNumero": 4,
+        "curso": "Derecho Penal: Parte General",
+        "descripcion": "Estudio de la teoría del delito, sus elementos y formas de imputación. Aborda la tipicidad, antijuridicidad, culpabilidad, autoría y participación, tentativa, penas y demás consecuencias jurídicas del delito.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-de-empresas-formalidades",
+        "carrera": "Derecho",
+        "ciclo": "IV ciclo",
+        "cicloNumero": 4,
+        "curso": "Derecho de Empresas: Formalidades",
+        "descripcion": "Análisis de las formalidades legales que rigen la actividad empresarial, incluidos registros, representación, documentación y obligaciones de funcionamiento. Examina los deberes jurídicos vinculados a la organización y operación de la empresa.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-de-los-ninos-y-adolescentes-aspectos-fundamentales",
+        "carrera": "Derecho",
+        "ciclo": "V ciclo",
+        "cicloNumero": 5,
+        "curso": "Derecho de los Niños y Adolescentes: Aspectos Fundamentales",
+        "descripcion": "Estudio del marco jurídico de protección integral de niñas, niños y adolescentes. Aborda sus derechos, el interés superior del niño, la autonomía progresiva y los deberes de la familia, la sociedad y el Estado.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-familia",
+        "carrera": "Derecho",
+        "ciclo": "V ciclo",
+        "cicloNumero": 5,
+        "curso": "Derecho Civil: Familia",
+        "descripcion": "Estudio de las instituciones jurídicas familiares, como el matrimonio, las uniones de hecho, el parentesco, la filiación y los deberes familiares. Examina también las consecuencias personales y patrimoniales de las relaciones familiares.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-reales-bienes-y-posesion",
+        "carrera": "Derecho",
+        "ciclo": "V ciclo",
+        "cicloNumero": 5,
+        "curso": "Derecho Civil: Reales - Bienes y Posesión",
+        "descripcion": "Estudio de los bienes y los derechos reales, con especial atención a la posesión, sus clases, adquisición, efectos y protección jurídica. Introduce las diferencias entre posesión, propiedad y otros derechos sobre bienes.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-civil-principios-procesales-y-derecho-de-accion",
+        "carrera": "Derecho",
+        "ciclo": "V ciclo",
+        "cicloNumero": 5,
+        "curso": "Derecho Procesal Civil: Principios Procesales y Derecho de Acción",
+        "descripcion": "Estudio de los principios que orientan el proceso civil y del derecho de acción como vía para solicitar tutela jurisdiccional. Examina la jurisdicción, competencia, presupuestos procesales y actos iniciales del proceso.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-administrativo",
+        "carrera": "Derecho",
+        "ciclo": "V ciclo",
+        "cicloNumero": 5,
+        "curso": "Derecho Administrativo",
+        "descripcion": "Estudio de la organización y actuación de la Administración pública, sus potestades y límites. Analiza los principios administrativos, los actos de la Administración y las relaciones jurídicas entre el Estado y los administrados.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-penal-especial-delitos-contra-la-vida-el-cuerpo-y-la-salud",
+        "carrera": "Derecho",
+        "ciclo": "V ciclo",
+        "cicloNumero": 5,
+        "curso": "Derecho Penal: Especial - Delitos contra la Vida, el Cuerpo y la Salud",
+        "descripcion": "Análisis de los delitos que afectan la vida humana, la integridad corporal y la salud. Estudia sus elementos típicos, modalidades, circunstancias agravantes y criterios básicos para distinguir las figuras penales.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-individual-de-trabajo",
+        "carrera": "Derecho",
+        "ciclo": "V ciclo",
+        "cicloNumero": 5,
+        "curso": "Derecho Individual de Trabajo",
+        "descripcion": "Estudio de la relación individual entre trabajador y empleador, desde su formación hasta su extinción. Aborda contratación, derechos y obligaciones laborales, remuneración, jornada, descansos y terminación del vínculo.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-de-los-ninos-y-adolescentes-instituciones-tutelares",
+        "carrera": "Derecho",
+        "ciclo": "VI ciclo",
+        "cicloNumero": 6,
+        "curso": "Derecho de los Niños y Adolescentes: Instituciones Tutelares",
+        "descripcion": "Estudio de las instituciones jurídicas destinadas a proteger a niñas, niños y adolescentes cuando requieren cuidado o representación. Examina, según el marco normativo aplicable, la patria potestad, tutela, acogimiento y otras medidas de protección.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-sucesiones",
+        "carrera": "Derecho",
+        "ciclo": "VI ciclo",
+        "cicloNumero": 6,
+        "curso": "Derecho Civil: Sucesiones",
+        "descripcion": "Estudio de la transmisión del patrimonio de una persona fallecida a sus sucesores. Analiza la sucesión testamentaria e intestada, los herederos, legatarios, legítima, aceptación, renuncia y partición hereditaria.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-reales-propiedad-y-garantia",
+        "carrera": "Derecho",
+        "ciclo": "VI ciclo",
+        "cicloNumero": 6,
+        "curso": "Derecho Civil: Reales - Propiedad y Garantía",
+        "descripcion": "Estudio de la propiedad, sus facultades, límites y mecanismos de protección, así como de los derechos reales de garantía. Examina instituciones como la hipoteca y la garantía mobiliaria conforme al marco jurídico aplicable.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-civil-abreviado-y-sumarisimo",
+        "carrera": "Derecho",
+        "ciclo": "VI ciclo",
+        "cicloNumero": 6,
+        "curso": "Derecho Procesal Civil: Abreviado y Sumarísimo",
+        "descripcion": "Estudio de los procesos civiles abreviado y sumarísimo, sus ámbitos de aplicación y principales etapas. Analiza la postulación, actividad probatoria, audiencias, plazos y decisiones judiciales propias de estas vías procedimentales.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-administrativo-procedimiento",
+        "carrera": "Derecho",
+        "ciclo": "VI ciclo",
+        "cicloNumero": 6,
+        "curso": "Derecho Administrativo: Procedimiento",
+        "descripcion": "Análisis del procedimiento administrativo, sus principios, etapas, plazos y formas de conclusión. Estudia los derechos de los administrados, los recursos administrativos y las reglas generales de actuación de las entidades públicas.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-penal-especial-delitos-contra-la-familia-la-libertad-y-el-patrimonio",
+        "carrera": "Derecho",
+        "ciclo": "VI ciclo",
+        "cicloNumero": 6,
+        "curso": "Derecho Penal: Especial - Delitos contra la Familia, la Libertad y el Patrimonio",
+        "descripcion": "Estudio de las figuras penales que protegen las relaciones familiares, la libertad individual y el patrimonio. Examina los elementos de los tipos delictivos, sus modalidades y los criterios para diferenciarlos.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-colectivo-de-trabajo-y-regimenes-especiales",
+        "carrera": "Derecho",
+        "ciclo": "VI ciclo",
+        "cicloNumero": 6,
+        "curso": "Derecho Colectivo de Trabajo y Regímenes Especiales",
+        "descripcion": "Estudio de las relaciones colectivas de trabajo, la libertad sindical, la negociación colectiva y la huelga. Revisa también los principales regímenes laborales especiales y sus particularidades normativas.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-constitucional-procesos-organicos",
+        "carrera": "Derecho",
+        "ciclo": "VII ciclo",
+        "cicloNumero": 7,
+        "curso": "Derecho Procesal Constitucional: Procesos Orgánicos",
+        "descripcion": "Estudio de los procesos constitucionales destinados a controlar el ejercicio del poder y preservar la supremacía de la Constitución. Aborda el control de constitucionalidad y legalidad, las competencias de los órganos constitucionales y los procesos orgánicos pertinentes.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-internacional-privado",
+        "carrera": "Derecho",
+        "ciclo": "VII ciclo",
+        "cicloNumero": 7,
+        "curso": "Derecho Internacional Privado",
+        "descripcion": "Estudio de las relaciones privadas vinculadas con más de un ordenamiento jurídico. Analiza los conflictos de leyes, la jurisdicción internacional, la determinación de la ley aplicable y el reconocimiento de decisiones extranjeras.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-obligaciones",
+        "carrera": "Derecho",
+        "ciclo": "VII ciclo",
+        "cicloNumero": 7,
+        "curso": "Derecho Civil: Obligaciones",
+        "descripcion": "Estudio de la relación obligatoria entre acreedor y deudor, sus fuentes, elementos y modalidades. Examina el cumplimiento, incumplimiento, transmisión y extinción de las obligaciones, así como sus efectos jurídicos.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-civil-proceso-de-conocimiento",
+        "carrera": "Derecho",
+        "ciclo": "VII ciclo",
+        "cicloNumero": 7,
+        "curso": "Derecho Procesal Civil: Proceso de Conocimiento",
+        "descripcion": "Estudio del proceso de conocimiento como vía para resolver controversias que requieren una actividad cognitiva amplia del órgano jurisdiccional. Aborda sus etapas, demanda, contestación, prueba, audiencia y sentencia.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "metodologia-de-la-investigacion",
+        "carrera": "Derecho",
+        "ciclo": "VII ciclo",
+        "cicloNumero": 7,
+        "curso": "Metodología de la Investigación",
+        "descripcion": "Estudio de los fundamentos y métodos de la investigación académica. Aborda la formulación del problema, objetivos, hipótesis, revisión bibliográfica, diseño metodológico, técnicas de recolección y análisis de información.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-penal-especial-delitos-contra-la-administracion-publica",
+        "carrera": "Derecho",
+        "ciclo": "VII ciclo",
+        "cicloNumero": 7,
+        "curso": "Derecho Penal: Especial - Delitos contra la Administración Pública",
+        "descripcion": "Análisis de los delitos que afectan el correcto funcionamiento de la Administración pública y los deberes de quienes ejercen función pública. Estudia sus elementos típicos, sujetos, modalidades y criterios de diferenciación.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-laboral-proceso-ordinario",
+        "carrera": "Derecho",
+        "ciclo": "VII ciclo",
+        "cicloNumero": 7,
+        "curso": "Derecho Procesal Laboral: Proceso Ordinario",
+        "descripcion": "Estudio del proceso ordinario laboral, sus principios, etapas y reglas probatorias. Analiza la demanda, contestación, audiencias, actuación de pruebas y sentencia dentro del marco procesal laboral peruano.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-constitucional-procesos-constitucionales-de-la-libertad",
+        "carrera": "Derecho",
+        "ciclo": "VIII ciclo",
+        "cicloNumero": 8,
+        "curso": "Derecho Procesal Constitucional: Procesos Constitucionales de la Libertad",
+        "descripcion": "Estudio de los procesos destinados a proteger los derechos constitucionales, especialmente el hábeas corpus, amparo, hábeas data y cumplimiento. Examina sus presupuestos, legitimación, procedencia y efectos de las decisiones.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-internacional-publico",
+        "carrera": "Derecho",
+        "ciclo": "VIII ciclo",
+        "cicloNumero": 8,
+        "curso": "Derecho Internacional Público",
+        "descripcion": "Estudio de las normas y principios que regulan las relaciones entre los sujetos del Derecho internacional, especialmente los Estados y las organizaciones internacionales. Aborda tratados, costumbre, responsabilidad internacional y solución pacífica de controversias.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-de-seguridad-social",
+        "carrera": "Derecho",
+        "ciclo": "VIII ciclo",
+        "cicloNumero": 8,
+        "curso": "Derecho de Seguridad Social",
+        "descripcion": "Estudio de los mecanismos jurídicos de protección frente a contingencias como enfermedad, maternidad, invalidez, vejez y sobrevivencia. Examina los sistemas de salud y pensiones, sus prestaciones y el marco normativo aplicable.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-civil-procesos-especiales",
+        "carrera": "Derecho",
+        "ciclo": "VIII ciclo",
+        "cicloNumero": 8,
+        "curso": "Derecho Procesal Civil: Procesos Especiales",
+        "descripcion": "Análisis de los procesos civiles especiales y de las reglas que los diferencian del proceso común. Examina sus presupuestos, trámites, medidas procesales y formas de tutela según la naturaleza de cada pretensión.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "metodologia-de-la-investigacion-proyecto-de-tesis",
+        "carrera": "Derecho",
+        "ciclo": "VIII ciclo",
+        "cicloNumero": 8,
+        "curso": "Metodología de la Investigación: Proyecto de Tesis",
+        "descripcion": "Aplicación de métodos de investigación para diseñar un proyecto de tesis jurídica. Comprende la delimitación del problema, objetivos, justificación, antecedentes, marco teórico, metodología y planificación del estudio.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-penal-especial-delitos-economicos",
+        "carrera": "Derecho",
+        "ciclo": "VIII ciclo",
+        "cicloNumero": 8,
+        "curso": "Derecho Penal: Especial - Delitos Económicos",
+        "descripcion": "Estudio de los delitos que afectan el orden económico, la actividad empresarial y determinados intereses patrimoniales colectivos. Analiza las conductas típicas, la responsabilidad penal y los criterios de imputación en el ámbito económico.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-laboral-abreviado-y-especial",
+        "carrera": "Derecho",
+        "ciclo": "VIII ciclo",
+        "cicloNumero": 8,
+        "curso": "Derecho Procesal Laboral: Abreviado y Especial",
+        "descripcion": "Estudio de las vías abreviadas y especiales de tutela de derechos laborales, sus supuestos de procedencia y tramitación. Examina las particularidades procesales, plazos, audiencias y decisiones aplicables a cada vía.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-tributario-generalidades",
+        "carrera": "Derecho",
+        "ciclo": "IX ciclo",
+        "cicloNumero": 9,
+        "curso": "Derecho Tributario: Generalidades",
+        "descripcion": "Estudio de los principios e instituciones básicas del sistema tributario. Aborda la relación jurídico-tributaria, los tributos, los sujetos, la obligación tributaria y las facultades generales de la Administración tributaria.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "criminalistica",
+        "carrera": "Derecho",
+        "ciclo": "IX ciclo",
+        "cicloNumero": 9,
+        "curso": "Criminalística",
+        "descripcion": "Estudio de los métodos técnicos y científicos empleados para examinar indicios y evidencias relacionados con un hecho presuntamente delictivo. Aborda la escena del crimen, la cadena de custodia y el aporte de la prueba pericial a la investigación.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-contratos-generales",
+        "carrera": "Derecho",
+        "ciclo": "IX ciclo",
+        "cicloNumero": 9,
+        "curso": "Derecho Civil: Contratos Generales",
+        "descripcion": "Estudio de los contratos como fuente de obligaciones, sus requisitos, formación, interpretación y efectos. Examina la autonomía privada, la buena fe, el incumplimiento y los remedios jurídicos generales.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "practica-forense-civil-conocimiento-y-abreviado",
+        "carrera": "Derecho",
+        "ciclo": "IX ciclo",
+        "cicloNumero": 9,
+        "curso": "Práctica Forense Civil: Conocimiento y Abreviado",
+        "descripcion": "Aplicación práctica de las reglas procesales a casos civiles tramitados en las vías de conocimiento y abreviada. Desarrolla habilidades para redactar escritos, organizar pruebas, analizar expedientes y formular estrategias procesales.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-penal-disposiciones-generales-y-actividad-procesal",
+        "carrera": "Derecho",
+        "ciclo": "IX ciclo",
+        "cicloNumero": 9,
+        "curso": "Derecho Procesal Penal: Disposiciones Generales y Actividad Procesal",
+        "descripcion": "Estudio de los principios y reglas generales del proceso penal, sus sujetos y garantías. Analiza los actos procesales, plazos, notificaciones, medios de prueba y derechos de las partes conforme al ordenamiento procesal penal.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-societario",
+        "carrera": "Derecho",
+        "ciclo": "IX ciclo",
+        "cicloNumero": 9,
+        "curso": "Derecho Societario",
+        "descripcion": "Estudio de las sociedades, sus formas de constitución, organización, órganos, capital y funcionamiento. Examina los derechos y deberes de socios y administradores, las modificaciones societarias y las formas de reorganización y extinción.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "practicas-pre-profesionales-estado-de-derecho",
+        "carrera": "Derecho",
+        "ciclo": "IX ciclo",
+        "cicloNumero": 9,
+        "curso": "Prácticas Pre-Profesionales: Estado de Derecho",
+        "descripcion": "Aplicación de conocimientos jurídicos en contextos prácticos vinculados con el Estado de Derecho, la legalidad y la tutela de derechos. Promueve el análisis de casos, la ética profesional y el desarrollo de competencias para el trabajo jurídico.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-tributario-procedimiento-tributario",
+        "carrera": "Derecho",
+        "ciclo": "X ciclo",
+        "cicloNumero": 10,
+        "curso": "Derecho Tributario: Procedimiento Tributario",
+        "descripcion": "Estudio de los procedimientos de fiscalización, determinación, recaudación e impugnación en materia tributaria. Analiza las facultades de la Administración tributaria, los derechos del contribuyente y las vías de reclamación y apelación.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "procedimientos-administrativos-ante-indecopi-y-organismos-reguladores",
+        "carrera": "Derecho",
+        "ciclo": "X ciclo",
+        "cicloNumero": 10,
+        "curso": "Procedimientos Administrativos ante INDECOPI y Organismos Reguladores",
+        "descripcion": "Estudio de los procedimientos ante INDECOPI y los organismos reguladores, incluidos los mecanismos de protección al consumidor y de supervisión de mercados. Examina competencias, etapas procedimentales, recursos y decisiones administrativas.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-civil-contratos-nominados",
+        "carrera": "Derecho",
+        "ciclo": "X ciclo",
+        "cicloNumero": 10,
+        "curso": "Derecho Civil: Contratos Nominados",
+        "descripcion": "Estudio de los contratos regulados expresamente por la legislación civil, sus elementos, obligaciones y efectos. Analiza las características y diferencias entre las principales figuras contractuales y sus reglas de aplicación.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "practica-forense-civil-sumarisimo-y-no-contencioso",
+        "carrera": "Derecho",
+        "ciclo": "X ciclo",
+        "cicloNumero": 10,
+        "curso": "Práctica Forense Civil: Sumarísimo y No Contencioso",
+        "descripcion": "Desarrollo de habilidades para tramitar asuntos civiles en procesos sumarísimos y procedimientos no contenciosos. Incluye análisis de casos, redacción de solicitudes y escritos, revisión de requisitos y seguimiento de actuaciones procesales.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-penal-procesos-comunes-investigacion-preparatoria",
+        "carrera": "Derecho",
+        "ciclo": "X ciclo",
+        "cicloNumero": 10,
+        "curso": "Derecho Procesal Penal: Procesos Comunes - Investigación Preparatoria",
+        "descripcion": "Estudio de las etapas del proceso penal común, con especial atención a la investigación preparatoria. Analiza las funciones del Ministerio Público y la Policía, los derechos del imputado, las diligencias de investigación y el control judicial.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-cambiario",
+        "carrera": "Derecho",
+        "ciclo": "X ciclo",
+        "cicloNumero": 10,
+        "curso": "Derecho Cambiario",
+        "descripcion": "Estudio de los títulos valores y de las reglas que rigen su emisión, circulación, legitimación y cobro. Aborda instrumentos cambiarios, obligaciones de los intervinientes, acciones cambiarias y consecuencias del incumplimiento.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "practicas-pre-profesionales-derecho-privado",
+        "carrera": "Derecho",
+        "ciclo": "X ciclo",
+        "cicloNumero": 10,
+        "curso": "Prácticas Pre-Profesionales: Derecho Privado",
+        "descripcion": "Aplicación práctica de instituciones del Derecho privado en el análisis de casos y documentos jurídicos. Fortalece la investigación normativa, la redacción legal, la interpretación de contratos y la atención de controversias entre particulares.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-notarial",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Derecho Notarial",
+        "descripcion": "Estudio de la función notarial, sus principios, competencias y deberes. Examina los instrumentos públicos, la fe notarial, la actuación del notario y las formalidades que contribuyen a la seguridad jurídica.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "seminario-de-investigacion",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Seminario de Investigación",
+        "descripcion": "Desarrollo y discusión de investigaciones jurídicas mediante la revisión crítica de fuentes, métodos y resultados. Promueve la delimitación de problemas, la argumentación académica y la comunicación de hallazgos de investigación.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-penal-litigacion-oral",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Derecho Procesal Penal: Litigación Oral",
+        "descripcion": "Estudio de las técnicas de litigación oral en el proceso penal, incluidas la teoría del caso, la exposición inicial, el interrogatorio y contrainterrogatorio, las objeciones y los alegatos finales. Desarrolla destrezas de argumentación y actuación en audiencia.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "medicina-legal-traumatologia-forense-sexologia-forense-gineco-obstetra-forense",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Medicina Legal: Traumatología Forense, Sexología Forense, Gineco-Obstetra Forense",
+        "descripcion": "Estudio de los conocimientos médico-legales aplicados a lesiones, violencia sexual y hechos vinculados con la salud sexual y reproductiva. Examina la evaluación pericial, la documentación médico-legal y su relevancia para la investigación judicial.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "analisis-jurisprudencial",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Análisis Jurisprudencial",
+        "descripcion": "Estudio crítico de decisiones judiciales y constitucionales para identificar hechos relevantes, problemas jurídicos, fundamentos, criterios interpretativos y reglas decisorias. Desarrolla habilidades para comparar precedentes y evaluar su aplicación a casos concretos.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "practicas-pre-profesionales-medios-probatorios-excepciones-y-medidas-cautelares",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Prácticas Pre-Profesionales: Medios Probatorios, Excepciones y Medidas Cautelares",
+        "descripcion": "Aplicación práctica de las reglas sobre prueba, excepciones procesales y medidas cautelares. Incluye análisis de expedientes, elaboración de escritos y evaluación de estrategias para sustentar pretensiones y proteger derechos durante el proceso.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-municipal-y-regional",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Derecho Municipal y Regional",
+        "descripcion": "Estudio de la organización, competencias y funcionamiento de los gobiernos locales y regionales. Examina la autonomía, las normas de alcance territorial, la gestión pública descentralizada y los mecanismos de control.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "contrataciones-y-adquisiciones-del-estado",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Contrataciones y Adquisiciones del Estado",
+        "descripcion": "Estudio del régimen jurídico de las contrataciones públicas, desde la planificación y selección hasta la ejecución contractual. Examina los principios, procedimientos, responsabilidades y mecanismos de control aplicables según la normativa vigente.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "inspeccion-laboral-y-seguridad-y-salud-en-el-trabajo",
+        "carrera": "Derecho",
+        "ciclo": "XI ciclo",
+        "cicloNumero": 11,
+        "curso": "Inspección Laboral y Seguridad y Salud en el Trabajo",
+        "descripcion": "Estudio de las funciones de inspección laboral, las obligaciones de empleadores y trabajadores y las medidas de prevención de riesgos laborales. Analiza las actuaciones inspectivas, infracciones, sanciones y reglas de seguridad y salud en el trabajo.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-registral",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Derecho Registral",
+        "descripcion": "Estudio de los principios y procedimientos que rigen la inscripción de actos y derechos en los registros públicos. Analiza la calificación registral, la publicidad, la prioridad, la legitimación y los efectos jurídicos de la inscripción.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "desarrollo-de-tesis",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Desarrollo de Tesis",
+        "descripcion": "Ejecución de una investigación académica conforme al proyecto aprobado. Comprende la recopilación y análisis de información, el desarrollo argumentativo, la presentación de resultados, las conclusiones y la preparación del documento final.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-procesal-penal-procesos-especiales",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Derecho Procesal Penal: Procesos Especiales",
+        "descripcion": "Estudio de los procedimientos penales especiales y de sus presupuestos, etapas y particularidades. Analiza las vías procesales previstas para determinados supuestos y sus garantías, conforme a la legislación procesal penal aplicable.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "medicina-legal-tanatologia-y-psiquiatria-forense",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Medicina Legal: Tanatología y Psiquiatría Forense",
+        "descripcion": "Estudio de la aplicación de la medicina a la investigación jurídica, con énfasis en la muerte y sus circunstancias, así como en la evaluación psiquiátrico-forense. Examina informes periciales y su valoración en el ámbito judicial.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "contratos-modernos",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Contratos Modernos",
+        "descripcion": "Estudio de figuras contractuales contemporáneas surgidas de nuevas prácticas comerciales y necesidades económicas. Analiza su estructura, obligaciones, distribución de riesgos y relación con los principios generales del Derecho contractual.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "practicas-pre-profesionales-recurso-de-casacion",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Prácticas Pre-Profesionales: Recurso de Casación",
+        "descripcion": "Estudio práctico de la función, los requisitos y la fundamentación del recurso de casación. Desarrolla habilidades para identificar errores jurídicos relevantes, analizar resoluciones y estructurar argumentos conforme a las reglas procesales aplicables.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-agrario-minero-y-energetico",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Derecho Agrario Minero y Energético",
+        "descripcion": "Estudio de los marcos jurídicos que regulan la actividad agraria, minera y energética, así como el aprovechamiento de recursos naturales. Examina títulos habilitantes, derechos y obligaciones de los operadores, intervención estatal y cuestiones ambientales vinculadas.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "derecho-penal-internacional",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Derecho Penal Internacional",
+        "descripcion": "Estudio de los crímenes de relevancia internacional, las formas de responsabilidad penal individual y los mecanismos de persecución. Aborda los principios de jurisdicción, complementariedad y actuación de tribunales internacionales.",
+        "url": "",
+        "bibliografia": []
+    },
+    {
+        "id": "filosofia-del-derecho",
+        "carrera": "Derecho",
+        "ciclo": "XII ciclo",
+        "cicloNumero": 12,
+        "curso": "Filosofía del Derecho",
+        "descripcion": "Análisis de los fundamentos, conceptos y fines del Derecho, así como de la relación entre legalidad, justicia, moral y poder. Examina las principales corrientes de pensamiento jurídico y los problemas de interpretación y legitimidad normativa.",
+        "url": "",
+        "bibliografia": []
+    }
+]

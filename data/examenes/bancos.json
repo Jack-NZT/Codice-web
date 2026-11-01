@@ -1,0 +1,9 @@
+[
+  {
+    "carrera": "derecho",
+    "ciclo": 1,
+    "cursoId": "introduccion-al-derecho",
+    "archivo": "data/examenes/demo/derecho/ciclo-i/introduccion-al-derecho/indice.json",
+    "demostracion": true
+  }
+]

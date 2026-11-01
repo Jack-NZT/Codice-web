@@ -1,0 +1,151 @@
+{
+  "id": "interpretacion-juridica",
+  "tema": "Interpretación jurídica",
+  "preguntas": [
+    {
+      "id": "demo-004",
+      "dificultad": "intermedio",
+      "enunciado": "¿Por qué la interpretación es relevante al aplicar una disposición jurídica a un caso?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Porque ayuda a determinar el sentido y alcance de la disposición en su contexto"
+        },
+        {
+          "id": "b",
+          "texto": "Porque permite ignorar todos los hechos del caso"
+        },
+        {
+          "id": "c",
+          "texto": "Porque convierte automáticamente cualquier opinión en norma"
+        },
+        {
+          "id": "d",
+          "texto": "Porque elimina la necesidad de justificar una decisión"
+        },
+        {
+          "id": "e",
+          "texto": "Porque garantiza que toda disposición tenga un único significado literal"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Interpretar supone determinar el significado jurídicamente pertinente de una disposición atendiendo a su texto y al contexto de aplicación."
+    },
+    {
+      "id": "demo-011",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué caracteriza a una interpretación sistemática?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Considera la disposición en relación con otras reglas e instituciones del mismo sistema"
+        },
+        {
+          "id": "b",
+          "texto": "Lee cada palabra sin tener en cuenta el resto del texto"
+        },
+        {
+          "id": "c",
+          "texto": "Sustituye el análisis por una encuesta de popularidad"
+        },
+        {
+          "id": "d",
+          "texto": "Aplica una regla sin identificar el problema que resuelve"
+        },
+        {
+          "id": "e",
+          "texto": "Elimina toda referencia al contexto normativo"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "La interpretación sistemática busca comprender una disposición a la luz de sus conexiones con otras normas y con la estructura del ordenamiento."
+    },
+    {
+      "id": "demo-016",
+      "dificultad": "avanzado",
+      "enunciado": "Una lectura literal parece producir un resultado incompatible con el resto del sistema. ¿Qué paso es más cuidadoso?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Contrastar esa lectura con el contexto, la estructura normativa y los criterios de interpretación aplicables"
+        },
+        {
+          "id": "b",
+          "texto": "Mantenerla sin examinar el conflicto porque el texto siempre se interpreta aislado"
+        },
+        {
+          "id": "c",
+          "texto": "Descartar toda la disposición sin justificarlo"
+        },
+        {
+          "id": "d",
+          "texto": "Elegir la lectura más conveniente para quien decide"
+        },
+        {
+          "id": "e",
+          "texto": "Asumir que el sistema no puede contener tensiones"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "El análisis responsable considera el texto junto a su contexto y explica cómo se resuelve la tensión aparente con las demás normas y criterios pertinentes."
+    },
+    {
+      "id": "demo-024",
+      "dificultad": "basico",
+      "enunciado": "¿Qué atiende principalmente un análisis gramatical de una disposición?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Las consecuencias sociales de todas las decisiones posibles"
+        },
+        {
+          "id": "b",
+          "texto": "El significado de palabras y construcciones del texto dentro de su contexto lingüístico"
+        },
+        {
+          "id": "c",
+          "texto": "La opinión mayoritaria de quienes no conocen el texto"
+        },
+        {
+          "id": "d",
+          "texto": "La intención subjetiva de cada lector"
+        },
+        {
+          "id": "e",
+          "texto": "La eliminación de toda relación entre términos y oración"
+        }
+      ],
+      "respuestaCorrecta": "b",
+      "explicacion": "El análisis gramatical examina las palabras y su relación en el texto; suele integrarse con otros elementos de interpretación según el caso y el sistema."
+    },
+    {
+      "id": "demo-025",
+      "dificultad": "avanzado",
+      "enunciado": "¿Cómo puede utilizarse la finalidad de una disposición en un razonamiento interpretativo cuidadoso?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Como permiso para sustituir el texto por cualquier resultado conveniente"
+        },
+        {
+          "id": "b",
+          "texto": "Como único criterio, sin atender al sistema ni a los límites del texto"
+        },
+        {
+          "id": "c",
+          "texto": "Como una preferencia personal que no necesita justificarse"
+        },
+        {
+          "id": "d",
+          "texto": "Como razón para ignorar los hechos del caso"
+        },
+        {
+          "id": "e",
+          "texto": "Como un elemento que se articula con el texto, el contexto y los demás criterios aplicables"
+        }
+      ],
+      "respuestaCorrecta": "e",
+      "explicacion": "La finalidad puede orientar la interpretación, pero debe justificarse junto con el texto, el contexto normativo y los límites reconocidos por el sistema."
+    }
+  ]
+}

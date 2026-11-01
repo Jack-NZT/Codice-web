@@ -1,0 +1,151 @@
+{
+  "id": "relacion-juridica",
+  "tema": "Relación jurídica",
+  "preguntas": [
+    {
+      "id": "demo-005",
+      "dificultad": "basico",
+      "enunciado": "En una relación jurídica, ¿qué elemento resulta central para distinguirla de una interacción meramente social?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Que posiciones, facultades o deberes sean reconocidos por el Derecho"
+        },
+        {
+          "id": "b",
+          "texto": "Que las personas se conozcan desde hace muchos años"
+        },
+        {
+          "id": "c",
+          "texto": "Que ocurra siempre dentro de un edificio público"
+        },
+        {
+          "id": "d",
+          "texto": "Que no existan deberes para ninguna de las partes"
+        },
+        {
+          "id": "e",
+          "texto": "Que las personas tengan la misma profesión"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Una relación jurídica es relevante para el Derecho porque este reconoce posiciones, facultades, deberes o consecuencias asociadas a quienes participan en ella."
+    },
+    {
+      "id": "demo-012",
+      "dificultad": "basico",
+      "enunciado": "¿Qué describe mejor una facultad o derecho subjetivo dentro de una relación jurídica?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Una posición reconocida por el ordenamiento que permite exigir, realizar o proteger algo bajo ciertas condiciones"
+        },
+        {
+          "id": "b",
+          "texto": "Una preferencia que siempre obliga a todas las demás personas"
+        },
+        {
+          "id": "c",
+          "texto": "Una regla que no puede relacionarse con deberes"
+        },
+        {
+          "id": "d",
+          "texto": "Una opinión que reemplaza automáticamente cualquier procedimiento"
+        },
+        {
+          "id": "e",
+          "texto": "Una sanción aplicada sin analizar hechos ni normas"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Una facultad jurídica es una posición reconocida por el Derecho. Su contenido, límites y mecanismos de protección dependen de las normas aplicables."
+    },
+    {
+      "id": "demo-017",
+      "dificultad": "intermedio",
+      "enunciado": "En una relación jurídica, ¿cómo suelen vincularse una facultad y un deber correlativo?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "La facultad de una parte puede corresponder a una obligación o deber de otra, según la norma aplicable"
+        },
+        {
+          "id": "b",
+          "texto": "Toda facultad elimina automáticamente los deberes de las demás partes"
+        },
+        {
+          "id": "c",
+          "texto": "Los deberes existen solo si todas las personas los aceptan oralmente"
+        },
+        {
+          "id": "d",
+          "texto": "Una relación jurídica nunca tiene más de un sujeto"
+        },
+        {
+          "id": "e",
+          "texto": "Las facultades y los deberes son siempre idénticos"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "Las relaciones jurídicas pueden articular facultades y deberes entre sujetos; su contenido concreto depende de la institución y de las normas relevantes."
+    },
+    {
+      "id": "demo-029",
+      "dificultad": "basico",
+      "enunciado": "¿Qué permite reconocer que existe una relación jurídicamente relevante entre varias personas?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Que todas las personas tengan la misma ocupación"
+        },
+        {
+          "id": "b",
+          "texto": "Que el ordenamiento conecte sus posiciones, derechos, facultades u obligaciones"
+        },
+        {
+          "id": "c",
+          "texto": "Que se conozcan desde hace tiempo"
+        },
+        {
+          "id": "d",
+          "texto": "Que el vínculo ocurra en un edificio estatal"
+        },
+        {
+          "id": "e",
+          "texto": "Que todas estén de acuerdo en cada asunto"
+        }
+      ],
+      "respuestaCorrecta": "b",
+      "explicacion": "La relevancia jurídica del vínculo surge de las posiciones y consecuencias que el Derecho reconoce para quienes participan, no solo de la existencia de una interacción social."
+    },
+    {
+      "id": "demo-030",
+      "dificultad": "intermedio",
+      "enunciado": "Al estudiar quién puede ocupar una posición dentro de una relación jurídica, ¿qué debe considerarse?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Solo si la persona aparece en una lista informal"
+        },
+        {
+          "id": "b",
+          "texto": "Si la persona comparte la misma profesión que las demás"
+        },
+        {
+          "id": "c",
+          "texto": "Qué sujetos reconoce el sistema como titulares de derechos, facultades u obligaciones en ese contexto"
+        },
+        {
+          "id": "d",
+          "texto": "Si el sujeto es siempre una institución pública"
+        },
+        {
+          "id": "e",
+          "texto": "El número de personas que conoce personalmente al sujeto"
+        }
+      ],
+      "respuestaCorrecta": "c",
+      "explicacion": "Los sujetos y sus capacidades se determinan conforme al marco jurídico aplicable y a la institución analizada; no conviene generalizar sin atender al contexto."
+    }
+  ]
+}

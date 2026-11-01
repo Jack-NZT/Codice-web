@@ -1,0 +1,56 @@
+[
+  {
+    "id": "economia-curso-prueba-01",
+    "ciclo": "I ciclo",
+    "cicloNumero": 1,
+    "curso": "Curso de prueba 01",
+    "descripcion": "Descripción temporal para probar la apertura de la información del curso.",
+    "url": "",
+    "bibliografia": []
+  },
+  {
+    "id": "economia-curso-prueba-02",
+    "ciclo": "I ciclo",
+    "cicloNumero": 1,
+    "curso": "Curso de prueba 02",
+    "descripcion": "Descripción temporal para probar la apertura de la información del curso.",
+    "url": "",
+    "bibliografia": []
+  },
+  {
+    "id": "economia-curso-prueba-03",
+    "ciclo": "II ciclo",
+    "cicloNumero": 2,
+    "curso": "Curso de prueba 03",
+    "descripcion": "Descripción temporal para probar la apertura de la información del curso.",
+    "url": "",
+    "bibliografia": []
+  },
+  {
+    "id": "economia-curso-prueba-04",
+    "ciclo": "II ciclo",
+    "cicloNumero": 2,
+    "curso": "Curso de prueba 04",
+    "descripcion": "Descripción temporal para probar la apertura de la información del curso.",
+    "url": "",
+    "bibliografia": []
+  },
+  {
+    "id": "economia-curso-prueba-05",
+    "ciclo": "III ciclo",
+    "cicloNumero": 3,
+    "curso": "Curso de prueba 05",
+    "descripcion": "Descripción temporal para probar la apertura de la información del curso.",
+    "url": "",
+    "bibliografia": []
+  },
+  {
+    "id": "economia-curso-prueba-06",
+    "ciclo": "III ciclo",
+    "cicloNumero": 3,
+    "curso": "Curso de prueba 06",
+    "descripcion": "Descripción temporal para probar la apertura de la información del curso.",
+    "url": "",
+    "bibliografia": []
+  }
+]

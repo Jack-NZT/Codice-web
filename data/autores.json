@@ -1,0 +1,743 @@
+{
+  "Hans Kelsen": {
+    "id": "hans-kelsen",
+    "profesiones": [
+      "Jurista",
+      "Filósofo del derecho"
+    ],
+    "foto": "images/autores/hans-kelsen.jfif",
+    "nacimiento": "1881",
+    "fallecimiento": "1973",
+    "origen": "Austria · Estados Unidos",
+    "resumen": "Jurista y filósofo del derecho, fundador del positivismo jurídico normativista. Concibió el derecho como un orden de normas jerarquizado y participó en la redacción de la Constitución austriaca de 1920, que incorporó el modelo de tribunal constitucional.",
+    "aportes": [
+      {
+        "rama": "Teoría del derecho",
+        "texto": "Teoría pura del derecho: separa el análisis de la norma jurídica de la moral, la política y la sociología. Propone la estructura escalonada del ordenamiento y la norma fundamental como su base."
+      },
+      {
+        "rama": "Derecho constitucional",
+        "texto": "Impulsó la jurisdicción constitucional concentrada: un tribunal especializado que controla la conformidad de las leyes con la Constitución."
+      },
+      {
+        "rama": "Teoría política",
+        "texto": "Defensa del parlamentarismo y de la democracia como procedimiento; debatió con Carl Schmitt quién debía ser el defensor de la Constitución."
+      },
+      {
+        "rama": "Derecho internacional",
+        "texto": "Sostuvo la unidad del orden jurídico con primacía del derecho internacional y defendió la solución judicial de los conflictos entre Estados."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Esencia y valor de la democracia",
+        "anio": "1920"
+      },
+      {
+        "titulo": "Teoría general del Estado",
+        "anio": "1925"
+      },
+      {
+        "titulo": "¿Quién debe ser el defensor de la Constitución?",
+        "anio": "1931"
+      },
+      {
+        "titulo": "Teoría pura del derecho",
+        "anio": "1934",
+        "nota": "Primera edición; la segunda, muy ampliada, es de 1960."
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Hans Kelsen — Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Hans-Kelsen",
+        "descripcion": "Reseña biográfica y contexto histórico."
+      }
+    ],
+    "nacionalidad": "Austriaca y estadounidense"
+  },
+  "Carl Schmitt": {
+    "id": "carl-schmitt",
+    "profesiones": [
+      "Jurista",
+      "Teórico político"
+    ],
+    "foto": "images/autores/carl-schmitt.jpg",
+    "nacimiento": "1888",
+    "fallecimiento": "1985",
+    "origen": "Alemania",
+    "resumen": "Jurista y teórico político alemán, figura central y muy controvertida del pensamiento político del siglo XX. Su adhesión al nacionalsocialismo desde 1933 condiciona de forma decisiva la recepción crítica de su obra.",
+    "aportes": [
+      {
+        "rama": "Teoría de la soberanía",
+        "texto": "Vincula la soberanía con la decisión sobre el estado de excepción y cuestiona que el orden jurídico pueda agotarse en las normas."
+      },
+      {
+        "rama": "Teoría política",
+        "texto": "Propone el criterio de amigo y enemigo como rasgo específico de lo político y critica el liberalismo parlamentario."
+      },
+      {
+        "rama": "Teoría de la Constitución",
+        "texto": "Distingue Constitución y ley constitucional, y entiende la Constitución como decisión política fundamental del titular del poder constituyente."
+      },
+      {
+        "rama": "Derecho internacional",
+        "texto": "Analiza el orden espacial de la tierra y la transformación del derecho de gentes europeo."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "La dictadura",
+        "anio": "1921"
+      },
+      {
+        "titulo": "Teología política",
+        "anio": "1922"
+      },
+      {
+        "titulo": "Teoría de la Constitución",
+        "anio": "1928"
+      },
+      {
+        "titulo": "Legalidad y legitimidad",
+        "anio": "1932"
+      },
+      {
+        "titulo": "El nomos de la tierra",
+        "anio": "1950"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Carl Schmitt — Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Carl-Schmitt",
+        "descripcion": "Reseña biográfica y contexto histórico."
+      }
+    ],
+    "nacionalidad": "Alemana"
+  },
+  "Nicolás Maquiavelo": {
+    "id": "nicolas-maquiavelo",
+    "profesiones": [
+      "Diplomático",
+      "Pensador político",
+      "Historiador"
+    ],
+    "nacimiento": "1469",
+    "fallecimiento": "1527",
+    "origen": "Florencia, Italia",
+    "nacionalidad": "Florentina",
+    "resumen": "Diplomático e historiador florentino del Renacimiento. Analizó el poder, la organización republicana y las decisiones de gobierno desde la experiencia política de su tiempo.",
+    "aportes": [
+      {
+        "rama": "Ciencia política",
+        "texto": "Analizó la adquisición y conservación del poder y la estabilidad de los gobiernos."
+      },
+      {
+        "rama": "Historia",
+        "texto": "Usó ejemplos históricos para examinar instituciones y conflictos políticos."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "El príncipe",
+        "anio": "1532"
+      },
+      {
+        "titulo": "Discursos sobre la primera década de Tito Livio",
+        "anio": "1531"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Niccolò Machiavelli — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/machiavelli/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/nicolas-maquiavelo.jpg"
+  },
+  "Eduardo García Máynez": {
+    "id": "eduardo-garcia-maynez",
+    "profesiones": [
+      "Jurista",
+      "Filósofo del derecho"
+    ],
+    "nacimiento": "1908",
+    "fallecimiento": "1993",
+    "origen": "Ciudad de México, México",
+    "nacionalidad": "Mexicana",
+    "resumen": "Jurista y filósofo mexicano especializado en filosofía del derecho, lógica jurídica y teoría de los valores. Fue profesor e investigador de la UNAM y miembro de El Colegio Nacional.",
+    "aportes": [
+      {
+        "rama": "Derecho",
+        "texto": "Desarrolló trabajos de teoría general del derecho, lógica jurídica y relación entre derecho y moral."
+      },
+      {
+        "rama": "Filosofía",
+        "texto": "Estudió la axiología jurídica y la objetividad de los valores."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Introducción al estudio del derecho",
+        "anio": "1940"
+      },
+      {
+        "titulo": "Lógica del juicio jurídico",
+        "anio": "1955"
+      },
+      {
+        "titulo": "Filosofía del derecho",
+        "anio": "1974"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Eduardo García Máynez — El Colegio Nacional",
+        "url": "https://colnal.mx/integrantes/eduardo-garcia-maynez/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/eduardo-garcia-maynez.jpg"
+  },
+  "Aníbal Torres Vásquez": {
+    "id": "anibal-torres-vasquez",
+    "profesiones": [
+      "Abogado",
+      "Jurista",
+      "Profesor universitario"
+    ],
+    "nacimiento": "1942",
+    "fallecimiento": "",
+    "origen": "Chota, Cajamarca, Perú",
+    "nacionalidad": "Peruana",
+    "resumen": "Abogado y jurista peruano, profesor de Derecho Civil y exdecano de la Facultad de Derecho y Ciencia Política de la Universidad Nacional Mayor de San Marcos. Ha publicado sobre teoría general del derecho y derecho civil.",
+    "aportes": [
+      {
+        "rama": "Derecho",
+        "texto": "Sus textos introductorios abordan la teoría general del derecho y las instituciones del derecho civil."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Introducción al derecho",
+        "anio": "2015"
+      },
+      {
+        "titulo": "Acto jurídico",
+        "anio": "2018"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Perfil profesional — Congreso de la República del Perú",
+        "url": "https://www2.congreso.gob.pe/sicr/cendocbib/con5_uibd.nsf/0A1C52AA13079DC9052587F1007D2AEE/$FILE/GABINETETORRESPerfiles20220208.pdf",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/anibal-torres-vasquez.jpg"
+  },
+  "Platón": {
+    "id": "platon",
+    "profesiones": [
+      "Filósofo"
+    ],
+    "nacimiento": "c. 429",
+    "fallecimiento": "347 a. C.",
+    "origen": "Atenas, Grecia",
+    "nacionalidad": "Ateniense",
+    "resumen": "Filósofo ateniense y fundador de la Academia. Sus diálogos examinan cuestiones de justicia, conocimiento, ética y organización política.",
+    "aportes": [
+      {
+        "rama": "Filosofía",
+        "texto": "Sus diálogos dieron forma a debates sobre conocimiento, justicia, virtud y realidad."
+      },
+      {
+        "rama": "Ciencia política",
+        "texto": "La República y Las leyes exploran modelos de ciudad, gobierno y educación."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "La República",
+        "anio": "c. 375 a. C."
+      },
+      {
+        "titulo": "El banquete",
+        "anio": "c. 385–370 a. C."
+      },
+      {
+        "titulo": "Las leyes",
+        "anio": "póstuma"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Plato — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/plato/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/platon.jfif"
+  },
+  "Max Weber": {
+    "id": "max-weber",
+    "profesiones": [
+      "Sociólogo",
+      "Economista",
+      "Historiador"
+    ],
+    "nacimiento": "1864",
+    "fallecimiento": "1920",
+    "origen": "Erfurt, Alemania",
+    "nacionalidad": "Alemana",
+    "resumen": "Sociólogo y economista alemán, referente de la sociología comprensiva. Estudió la acción social, la autoridad, la burocracia y la relación entre religión y vida económica.",
+    "aportes": [
+      {
+        "rama": "Sociología",
+        "texto": "Desarrolló herramientas para interpretar la acción social y analizar la racionalización y la burocracia."
+      },
+      {
+        "rama": "Ciencia política",
+        "texto": "Su análisis de la dominación distingue tipos de autoridad y estudia el Estado moderno."
+      },
+      {
+        "rama": "Economía",
+        "texto": "Relacionó instituciones, ideas religiosas y desarrollo del capitalismo moderno."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "La ética protestante y el espíritu del capitalismo",
+        "anio": "1904–1905"
+      },
+      {
+        "titulo": "Economía y sociedad",
+        "anio": "1922"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Max Weber — Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Max-Weber-German-sociologist",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/max-weber.jpg"
+  },
+  "Norberto Bobbio": {
+    "id": "norberto-bobbio",
+    "profesiones": [
+      "Filósofo del derecho",
+      "Filósofo político"
+    ],
+    "nacimiento": "1909",
+    "fallecimiento": "2004",
+    "origen": "Turín, Italia",
+    "nacionalidad": "Italiana",
+    "resumen": "Filósofo italiano dedicado a la teoría del derecho, la democracia y el pensamiento político. Su obra conecta el análisis de las normas jurídicas con las instituciones y la vida democrática.",
+    "aportes": [
+      {
+        "rama": "Derecho",
+        "texto": "Estudió la estructura del ordenamiento jurídico y el positivismo jurídico."
+      },
+      {
+        "rama": "Ciencia política",
+        "texto": "Analizó la democracia, los derechos y las reglas que organizan el poder político."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Teoría de la norma jurídica",
+        "anio": "1958"
+      },
+      {
+        "titulo": "Teoría del ordenamiento jurídico",
+        "anio": "1960"
+      },
+      {
+        "titulo": "El futuro de la democracia",
+        "anio": "1984"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Norberto Bobbio — Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/biography/Norberto-Bobbio",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/norberto-bobio.jfif"
+  },
+  "Émile Durkheim": {
+    "id": "emile-durkheim",
+    "profesiones": [
+      "Sociólogo"
+    ],
+    "nacimiento": "1858",
+    "fallecimiento": "1917",
+    "origen": "Épinal, Francia",
+    "nacionalidad": "Francesa",
+    "resumen": "Sociólogo francés que contribuyó a establecer la sociología como disciplina académica. Estudió los hechos sociales, la solidaridad, la división del trabajo y las instituciones.",
+    "aportes": [
+      {
+        "rama": "Sociología",
+        "texto": "Propuso estudiar los hechos sociales como realidades colectivas y analizó distintas formas de solidaridad."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "La división del trabajo social",
+        "anio": "1893"
+      },
+      {
+        "titulo": "Las reglas del método sociológico",
+        "anio": "1895"
+      },
+      {
+        "titulo": "El suicidio",
+        "anio": "1897"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Émile Durkheim — Internet Encyclopedia of Philosophy",
+        "url": "https://iep.utm.edu/emile-durkheim/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/emile-durkheim.jpg"
+  },
+  "Karl Marx": {
+    "id": "karl-marx",
+    "profesiones": [
+      "Filósofo",
+      "Economista",
+      "Teórico social"
+    ],
+    "nacimiento": "1818",
+    "fallecimiento": "1883",
+    "origen": "Tréveris, Prusia (actual Alemania)",
+    "nacionalidad": "Alemana",
+    "resumen": "Filósofo y economista alemán cuya crítica de la sociedad capitalista influyó en la teoría social, la historia y los movimientos políticos. Trabajó con Friedrich Engels en varios textos fundamentales.",
+    "aportes": [
+      {
+        "rama": "Sociología",
+        "texto": "Su análisis de las clases, el trabajo y el conflicto social influyó profundamente en la teoría sociológica."
+      },
+      {
+        "rama": "Economía",
+        "texto": "Criticó la economía política y estudió la producción, el capital y las relaciones de clase."
+      },
+      {
+        "rama": "Ciencia política",
+        "texto": "Examinó el Estado y el poder en relación con las estructuras sociales y económicas."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Manifiesto del Partido Comunista",
+        "anio": "1848"
+      },
+      {
+        "titulo": "El capital, tomo I",
+        "anio": "1867"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Karl Marx — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/marx/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/karl-marx.jfif"
+  },
+  "Adam Smith": {
+    "id": "adam-smith",
+    "profesiones": [
+      "Filósofo moral",
+      "Economista"
+    ],
+    "nacimiento": "1723",
+    "fallecimiento": "1790",
+    "origen": "Kirkcaldy, Escocia",
+    "nacionalidad": "Escocesa",
+    "resumen": "Filósofo moral y economista escocés de la Ilustración. Sus obras estudian la conducta moral, el intercambio y las condiciones institucionales de la prosperidad.",
+    "aportes": [
+      {
+        "rama": "Economía",
+        "texto": "Examinó la división del trabajo, los mercados y las fuentes de la riqueza de las naciones."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Teoría de los sentimientos morales",
+        "anio": "1759"
+      },
+      {
+        "titulo": "Investigación sobre la naturaleza y causas de la riqueza de las naciones",
+        "anio": "1776"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Adam Smith — Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/money/Adam-Smith",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/adam-smith.jpg"
+  },
+  "John Maynard Keynes": {
+    "id": "john-maynard-keynes",
+    "profesiones": [
+      "Economista"
+    ],
+    "nacimiento": "1883",
+    "fallecimiento": "1946",
+    "origen": "Cambridge, Inglaterra",
+    "nacionalidad": "Británica",
+    "resumen": "Economista británico que transformó el debate sobre el empleo, la producción y la política económica. Sus propuestas dieron origen a una influyente corriente de macroeconomía.",
+    "aportes": [
+      {
+        "rama": "Economía",
+        "texto": "Defendió el análisis de la demanda agregada y el uso de políticas públicas para responder a las recesiones."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Las consecuencias económicas de la paz",
+        "anio": "1919"
+      },
+      {
+        "titulo": "Teoría general del empleo, el interés y el dinero",
+        "anio": "1936"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "John Maynard Keynes — Encyclopaedia Britannica",
+        "url": "https://www.britannica.com/money/John-Maynard-Keynes",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/john-maynard-keynes.jpg"
+  },
+  "Aristóteles": {
+    "id": "aristoteles",
+    "profesiones": [
+      "Filósofo"
+    ],
+    "nacimiento": "384",
+    "fallecimiento": "322 a. C.",
+    "origen": "Estagira, Macedonia antigua",
+    "nacionalidad": "Griega",
+    "resumen": "Filósofo griego, alumno de Platón y tutor de Alejandro Magno. Escribió sobre lógica, ética, política, naturaleza y conocimiento, con influencia duradera en múltiples disciplinas.",
+    "aportes": [
+      {
+        "rama": "Filosofía",
+        "texto": "Sus investigaciones abarcan lógica, metafísica, ética y filosofía natural."
+      },
+      {
+        "rama": "Ciencia política",
+        "texto": "En Política compara constituciones y estudia la ciudad y sus formas de gobierno."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Ética a Nicómaco",
+        "anio": "c. 340 a. C."
+      },
+      {
+        "titulo": "Política",
+        "anio": "siglo IV a. C."
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Aristotle — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/aristotle/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/aristoteles.jpg"
+  },
+  "Heródoto": {
+    "id": "herodoto",
+    "profesiones": [
+      "Historiador"
+    ],
+    "nacimiento": "c. 484",
+    "fallecimiento": "c. 425 a. C.",
+    "origen": "Halicarnaso, Asia Menor",
+    "nacionalidad": "Griega",
+    "resumen": "Historiador griego cuya obra conservada narra las guerras entre griegos y persas y recoge relatos sobre los pueblos y territorios del mundo antiguo.",
+    "aportes": [
+      {
+        "rama": "Historia",
+        "texto": "Las Historias combinan investigación, relatos y descripción de las sociedades implicadas en los conflictos greco-persas."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Historias",
+        "anio": "siglo V a. C."
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Herodotus — Oxford Bibliographies",
+        "url": "https://academic.oup.com/reference/62365/reference-article-abstract/554634217",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/herodoto.jfif"
+  },
+  "Hannah Arendt": {
+    "id": "hannah-arendt",
+    "profesiones": [
+      "Filósofa política",
+      "Historiadora"
+    ],
+    "nacimiento": "1906",
+    "fallecimiento": "1975",
+    "origen": "Linden, Alemania",
+    "nacionalidad": "Alemana y estadounidense",
+    "resumen": "Filósofa política de origen alemán, posteriormente ciudadana estadounidense. Analizó el totalitarismo, la revolución, la libertad y las formas de participación en la vida pública.",
+    "aportes": [
+      {
+        "rama": "Ciencia política",
+        "texto": "Su obra estudia el totalitarismo, la autoridad, la acción y el espacio público."
+      },
+      {
+        "rama": "Historia",
+        "texto": "Examinó las revoluciones modernas y las rupturas políticas del siglo XX."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Los orígenes del totalitarismo",
+        "anio": "1951"
+      },
+      {
+        "titulo": "La condición humana",
+        "anio": "1958"
+      },
+      {
+        "titulo": "Sobre la revolución",
+        "anio": "1963"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Hannah Arendt — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/arendt/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/hannah-arendt.jpg"
+  },
+  "John Locke": {
+    "id": "john-locke",
+    "profesiones": [
+      "Filósofo",
+      "Médico"
+    ],
+    "nacimiento": "1632",
+    "fallecimiento": "1704",
+    "origen": "Wrington, Inglaterra",
+    "nacionalidad": "Inglesa",
+    "resumen": "Filósofo inglés cuyos escritos sobre conocimiento, tolerancia y gobierno influyeron en el liberalismo político moderno. Defendió límites al poder y el consentimiento de los gobernados.",
+    "aportes": [
+      {
+        "rama": "Filosofía",
+        "texto": "Su empirismo sostiene que el conocimiento se origina en la experiencia."
+      },
+      {
+        "rama": "Ciencia política",
+        "texto": "Defendió el gobierno limitado, los derechos y el consentimiento político."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "Ensayo sobre el entendimiento humano",
+        "anio": "1689"
+      },
+      {
+        "titulo": "Segundo tratado sobre el gobierno civil",
+        "anio": "1689"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "John Locke — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/locke/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/jhon-locke.jfif"
+  },
+  "Jean-Jacques Rousseau": {
+    "id": "jean-jacques-rousseau",
+    "profesiones": [
+      "Filósofo",
+      "Escritor"
+    ],
+    "nacimiento": "1712",
+    "fallecimiento": "1778",
+    "origen": "Ginebra, República de Ginebra",
+    "nacionalidad": "Ginebrina",
+    "resumen": "Filósofo y escritor ginebrino de la Ilustración. Sus reflexiones sobre desigualdad, educación y soberanía popular influyeron en la filosofía política moderna.",
+    "aportes": [
+      {
+        "rama": "Ciencia política",
+        "texto": "En El contrato social formula una teoría de la soberanía popular y la voluntad general."
+      },
+      {
+        "rama": "Filosofía",
+        "texto": "Analizó la desigualdad, la libertad y la formación de la persona."
+      }
+    ],
+    "obras": [
+      {
+        "titulo": "El contrato social",
+        "anio": "1762"
+      },
+      {
+        "titulo": "Discurso sobre el origen y los fundamentos de la desigualdad entre los hombres",
+        "anio": "1755"
+      },
+      {
+        "titulo": "Emilio, o De la educación",
+        "anio": "1762"
+      }
+    ],
+    "masInformacion": [
+      {
+        "tipo": "sitio",
+        "titulo": "Jean-Jacques Rousseau — Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/rousseau/",
+        "descripcion": "Referencia biográfica y sobre su obra."
+      }
+    ],
+    "foto": "images/autores/jean-jacques-rousseau.jpg"
+  }
+}

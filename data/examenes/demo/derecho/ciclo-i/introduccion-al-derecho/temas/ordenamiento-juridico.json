@@ -1,0 +1,151 @@
+{
+  "id": "ordenamiento-juridico",
+  "tema": "Ordenamiento jurídico",
+  "preguntas": [
+    {
+      "id": "demo-003",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué idea expresa mejor que el Derecho se estudie como un ordenamiento?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Que las normas forman un conjunto relacionado y organizado"
+        },
+        {
+          "id": "b",
+          "texto": "Que cada norma opera siempre sin relación con las demás"
+        },
+        {
+          "id": "c",
+          "texto": "Que solo existen normas escritas en un mismo documento"
+        },
+        {
+          "id": "d",
+          "texto": "Que la costumbre elimina necesariamente toda legislación"
+        },
+        {
+          "id": "e",
+          "texto": "Que las normas carecen de criterios para resolver conflictos"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "La noción de ordenamiento dirige la atención a las relaciones entre normas, instituciones y criterios de organización dentro de un sistema jurídico."
+    },
+    {
+      "id": "demo-008",
+      "dificultad": "intermedio",
+      "enunciado": "Dos disposiciones parecen aplicables al mismo caso y conducen a resultados distintos. ¿Qué problema de estudio aparece?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Un posible conflicto normativo que requiere criterios de interpretación y relación entre normas"
+        },
+        {
+          "id": "b",
+          "texto": "La prueba de que ambas disposiciones dejan de existir automáticamente"
+        },
+        {
+          "id": "c",
+          "texto": "Una cuestión que solo puede resolverse preguntando la preferencia personal de las partes"
+        },
+        {
+          "id": "d",
+          "texto": "Una razón para ignorar el ordenamiento completo"
+        },
+        {
+          "id": "e",
+          "texto": "Un conflicto que nunca puede estudiarse jurídicamente"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "El análisis de posibles antinomias examina la relación entre disposiciones y los criterios que el sistema ofrece para resolver su aplicación concurrente."
+    },
+    {
+      "id": "demo-015",
+      "dificultad": "intermedio",
+      "enunciado": "¿Qué pregunta guía el análisis de la competencia de una autoridad?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Qué norma le atribuye facultades y cuáles son los límites de esas facultades"
+        },
+        {
+          "id": "b",
+          "texto": "Qué decisión prefiere tomar sin considerar sus atribuciones"
+        },
+        {
+          "id": "c",
+          "texto": "Cuántas personas están de acuerdo con la autoridad"
+        },
+        {
+          "id": "d",
+          "texto": "Si su decisión puede prescindir de todo procedimiento"
+        },
+        {
+          "id": "e",
+          "texto": "Qué autoridad tiene el cargo más antiguo, sin revisar reglas"
+        }
+      ],
+      "respuestaCorrecta": "a",
+      "explicacion": "La competencia se refiere a las atribuciones que el ordenamiento confiere a una autoridad y a las condiciones y límites para ejercerlas."
+    },
+    {
+      "id": "demo-027",
+      "dificultad": "intermedio",
+      "enunciado": "Al estudiar si una disposición fue producida válidamente, ¿qué aspecto es relevante?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Si el contenido resulta agradable para todas las personas"
+        },
+        {
+          "id": "b",
+          "texto": "Si la disposición fue comentada con frecuencia"
+        },
+        {
+          "id": "c",
+          "texto": "Si se siguieron las reglas de competencia y procedimiento reconocidas por el sistema"
+        },
+        {
+          "id": "d",
+          "texto": "Si el documento tiene más páginas que otras normas"
+        },
+        {
+          "id": "e",
+          "texto": "Si quien la lee la considera conveniente"
+        }
+      ],
+      "respuestaCorrecta": "c",
+      "explicacion": "La producción válida suele examinarse atendiendo a las autoridades competentes, procedimientos y demás criterios que establece el ordenamiento correspondiente."
+    },
+    {
+      "id": "demo-028",
+      "dificultad": "avanzado",
+      "enunciado": "Si dos reglas parecen regular un mismo supuesto, ¿qué análisis inicial ayuda a determinar su relación?",
+      "opciones": [
+        {
+          "id": "a",
+          "texto": "Elegir de inmediato la regla más conocida"
+        },
+        {
+          "id": "b",
+          "texto": "Suponer que ambas son inválidas"
+        },
+        {
+          "id": "c",
+          "texto": "Aplicar siempre la regla más reciente, sin otra consideración"
+        },
+        {
+          "id": "d",
+          "texto": "Dejar el caso sin análisis porque existe una tensión"
+        },
+        {
+          "id": "e",
+          "texto": "Delimitar sus ámbitos y examinar jerarquía, competencia y criterios de relación reconocidos por el sistema"
+        }
+      ],
+      "respuestaCorrecta": "e",
+      "explicacion": "Antes de resolver una posible concurrencia, se identifican los ámbitos de las reglas y se examinan los criterios pertinentes del sistema; ningún criterio aislado debe aplicarse sin verificar su contexto."
+    }
+  ]
+}
