@@ -80,6 +80,16 @@
         </button>
 
         <button
+            class="header-icon-btn theme-toggle-mobile"
+            type="button"
+            id="theme-toggle-mobile"
+            aria-label="Modo claro"
+            aria-pressed="false"
+        >
+            <span class="theme-toggle-mobile-icon" aria-hidden="true">◐</span>
+        </button>
+
+        <button
             class="header-icon-btn menu-toggle"
             type="button"
             id="menu-toggle"
@@ -117,6 +127,10 @@
 
         <a href="silabos.html">
             Sílabos
+        </a>
+
+        <a href="examenes.html">
+            Exámenes
         </a>
 
 
@@ -204,16 +218,18 @@
 
 </header>
 
+<button class="menu-scrim" id="menu-scrim" type="button" aria-label="Cerrar menú" hidden></button>
+
 
     <main id="contenido" tabindex="-1">
 
-        <section class="section">
+        <section class="section taxonomy-page taxonomy-page--colecciones">
 
             <div class="section-header section-header--compact">
 
                 <div>
                     <p class="eyebrow">
-                        ARCHIVO TEMÁTICO
+                        RUTAS DE LECTURA
                     </p>
 
                     <h1 class="page-title">Colecciones</h1>
@@ -224,31 +240,12 @@
             </div>
 
 
-            <div class="collection-grid" id="lista-colecciones">
+            <div class="collection-grid" id="lista-colecciones" role="region" aria-label="Colecciones del archivo">
 
             </div>
 
         </section>
 
-
-        <section class="manifesto">
-
-            <p class="eyebrow">
-                SOBRE LAS COLECCIONES
-            </p>
-
-            <h2>
-                No todo conocimiento
-                necesita estar separado.
-            </h2>
-
-            <p>
-                Una misma obra puede pertenecer a distintos
-                recorridos. Las colecciones permiten encontrar
-                conexiones entre autores, disciplinas y problemas.
-            </p>
-
-        </section>
 
     </main>
 
