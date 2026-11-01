@@ -81,6 +81,16 @@
         </button>
 
         <button
+            class="header-icon-btn theme-toggle-mobile"
+            type="button"
+            id="theme-toggle-mobile"
+            aria-label="Modo claro"
+            aria-pressed="false"
+        >
+            <span class="theme-toggle-mobile-icon" aria-hidden="true">◐</span>
+        </button>
+
+        <button
             class="header-icon-btn menu-toggle"
             type="button"
             id="menu-toggle"
@@ -118,6 +128,10 @@
 
         <a href="silabos.html">
             Sílabos
+        </a>
+
+        <a href="examenes.html">
+            Exámenes
         </a>
 
 
@@ -205,51 +219,12 @@
 
 </header>
 
+<button class="menu-scrim" id="menu-scrim" type="button" aria-label="Cerrar menú" hidden></button>
+
 
     <main id="contenido" tabindex="-1">
 
-        <section class="section">
-
-            <div class="section-header section-header--compact">
-
-                <div>
-                    <p class="eyebrow">
-                        ÍNDICE DE AUTORES
-                    </p>
-
-                    <h1 class="page-title">Autores</h1>
-
-
-                </div>
-
-            </div>
-
-
-<div class="collection-grid" id="lista-autores">
-
-</div>
-
-        </section>
-
-
-        <section class="manifesto">
-
-            <p class="eyebrow">
-                SOBRE LOS AUTORES
-            </p>
-
-            <h2>
-                Las ideas también tienen
-                una trayectoria.
-            </h2>
-
-            <p>
-                Códice reúne las obras junto con sus autores
-                para facilitar recorridos entre distintas
-                épocas, disciplinas y tradiciones intelectuales.
-            </p>
-
-        </section>
+        <div class="autores-app" id="autores-app" aria-busy="true"></div>
 
     </main>
 
@@ -275,6 +250,7 @@
 </footer>
 
 <script src="js/app.js"></script>
+<script src="js/autores.js"></script>
 
 </body>
 
