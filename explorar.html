@@ -79,6 +79,16 @@
         </button>
 
         <button
+            class="header-icon-btn theme-toggle-mobile"
+            type="button"
+            id="theme-toggle-mobile"
+            aria-label="Modo claro"
+            aria-pressed="false"
+        >
+            <span class="theme-toggle-mobile-icon" aria-hidden="true">◐</span>
+        </button>
+
+        <button
             class="header-icon-btn menu-toggle"
             type="button"
             id="menu-toggle"
@@ -116,6 +126,10 @@
 
         <a href="silabos.html">
             Sílabos
+        </a>
+
+        <a href="examenes.html">
+            Exámenes
         </a>
 
 
@@ -203,6 +217,8 @@
 
 </header>
 
+<button class="menu-scrim" id="menu-scrim" type="button" aria-label="Cerrar menú" hidden></button>
+
     <main id="contenido" tabindex="-1">
 
         <section class="section">
@@ -210,6 +226,11 @@
             <div class="section-header">
 
                 <div>
+
+                    <a class="aut-volver explorar-volver-temas" id="explorar-volver-temas" href="temas.html" hidden>
+                        <span class="aut-volver-flecha" aria-hidden="true">←</span>
+                        Temas
+                    </a>
 
                     <p class="eyebrow" id="explorar-tipo">
                         ARCHIVO
@@ -327,8 +348,5 @@
     <script src="js/app.js"></script>
 
 </body>
-
-</html>
-
 
 </html>
