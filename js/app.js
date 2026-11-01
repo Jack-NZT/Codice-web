@@ -22,8 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
     const silabosCarrera =
         document.getElementById("silabos-carrera");
 
-    const silabosResumen =
-        document.getElementById("silabos-resumen");
+    const silabosCicloActivo =
+        document.getElementById("silabos-ciclo-activo");
+
+    const silabosCarreras =
+        document.getElementById("silabos-carreras");
 
     const silabosIndice =
         document.getElementById("silabos-indice");
@@ -45,6 +48,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const explorarDescripcion =
         document.getElementById("explorar-descripcion");
+
+    const explorarVolverTemas =
+        document.getElementById("explorar-volver-temas");
 
     const busquedaTitulo =
         document.getElementById("busqueda-titulo");
@@ -102,6 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     let obrasCargadas = [];
+    let disciplinasTemas = [];
 
 
     /* =========================================================
@@ -172,6 +179,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const themeIcon =
         document.querySelector(".theme-toggle-icon");
 
+    const mobileThemeToggle =
+        document.getElementById("theme-toggle-mobile");
+
+    const mobileThemeIcon =
+        document.querySelector(".theme-toggle-mobile-icon");
+
     const themeState =
         document.querySelector(".theme-toggle-state");
 
@@ -213,6 +226,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
         }
 
+        if (mobileThemeIcon) {
+
+            mobileThemeIcon.textContent =
+                esClaro ? "☼" : "◐";
+
+        }
+
 
         if (themeState) {
 
@@ -243,6 +263,20 @@ document.addEventListener("DOMContentLoaded", () => {
             );
 
             themeToggle.setAttribute(
+                "aria-label",
+                "Modo claro"
+            );
+
+        }
+
+        if (mobileThemeToggle) {
+
+            mobileThemeToggle.setAttribute(
+                "aria-pressed",
+                esClaro ? "true" : "false"
+            );
+
+            mobileThemeToggle.setAttribute(
                 "aria-label",
                 "Modo claro"
             );
@@ -354,6 +388,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     }
 
+    if (mobileThemeToggle) {
+
+        mobileThemeToggle.addEventListener(
+            "click",
+            alternarTema
+        );
+
+    }
+
 
     /* =========================================================
        PARÁMETROS DE URL
@@ -378,6 +421,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const tema =
         parametros.get("tema");
+
+    const disciplina =
+        parametros.get("disciplina");
+
+    const subtema =
+        parametros.get("subtema");
 
     const busqueda =
         parametros.get("q");
@@ -586,135 +635,500 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
-    /* =========================================================
-       GENERAR ÍNDICE DE TEMAS
-    ========================================================= */
+    function crearArteTaxonomia(entrada, tipo) {
 
-    function cargarTemas(obras) {
+        const arte = crearElemento("div", "taxonomy-art");
+        arte.setAttribute("aria-hidden", "true");
 
-        if (!listaTemas) {
-            return;
-        }
+        const ns = "http://www.w3.org/2000/svg";
+        const svg = document.createElementNS(ns, "svg");
+        svg.setAttribute("viewBox", "0 0 240 160");
+        svg.setAttribute("class", `taxonomy-art-svg taxonomy-art-svg--${tipo}`);
+        svg.setAttribute("focusable", "false");
 
-
-        const temas =
-            [
-                ...new Set(
-                    obras.flatMap(
-                        obra =>
-                            obra.temas || []
-                    )
-                )
-            ].sort();
-
-
-        listaTemas.innerHTML = "";
-
-
-        temas.forEach(
-            (tema, indice) => {
-
-                const tarjeta =
-                    document.createElement("a");
-
-
-                tarjeta.href =
-                    `explorar.html?tema=${encodeURIComponent(tema)}`;
-
-
-                tarjeta.classList.add(
-                    "collection-card"
-                );
-
-
-                tarjeta.innerHTML = `
-                    <span>
-                        ${String(indice + 1).padStart(2, "0")}
-                    </span>
-
-                    <h3>
-                        ${esc(tema)}
-                    </h3>
-
-                    <p>
-                        ${etiquetaObras(obras.filter(o => (o.temas || []).includes(tema)).length)} en el archivo.
-                    </p>
-                `;
-
-
-                listaTemas.appendChild(
-                    tarjeta
-                );
-
-            }
+        const trazo = document.createElementNS(ns, "path");
+        trazo.setAttribute(
+            "d",
+            tipo === "tema"
+                ? "M28 116 72 46 124 91 174 34 218 75M72 46 180 122 218 75M28 116 102 130 124 91"
+                : "M18 126 C54 84 78 134 112 86 S168 47 220 28"
         );
+        trazo.setAttribute("class", "taxonomy-art-trazo");
+        svg.append(trazo);
+
+        const nodos = tipo === "tema"
+            ? [[28, 116], [72, 46], [124, 91], [174, 34], [218, 75], [180, 122], [102, 130]]
+            : [[18, 126], [76, 112], [112, 86], [164, 57], [220, 28]];
+
+        nodos.forEach(([cx, cy], indice) => {
+            const nodo = document.createElementNS(ns, "circle");
+            nodo.setAttribute("cx", String(cx));
+            nodo.setAttribute("cy", String(cy));
+            nodo.setAttribute("r", indice % 3 === 0 ? "3.5" : "2.2");
+            nodo.setAttribute("class", "taxonomy-art-nodo");
+            svg.append(nodo);
+        });
+
+        const mosaico = crearElemento("div", "taxonomy-art-mosaico");
+        entrada.obras
+            .filter(obra => obra.portada)
+            .slice(0, 3)
+            .forEach(obra => {
+                const imagen = crearElemento("img", "taxonomy-art-portada");
+                imagen.src = obra.portada;
+                imagen.alt = "";
+                imagen.loading = "lazy";
+                imagen.decoding = "async";
+                imagen.addEventListener("error", () => imagen.remove(), { once: true });
+                mosaico.append(imagen);
+            });
+
+        arte.append(svg, mosaico);
+        return arte;
 
     }
 
 
-    /* =========================================================
-       GENERAR ÍNDICE DE COLECCIONES
-    ========================================================= */
+    function crearTarjetaTaxonomia(entrada, tipo, indice, abrirDetalle) {
 
-    function cargarColecciones(obras) {
+        const tarjeta = crearElemento(
+            "article",
+            `collection-card taxonomy-card taxonomy-card--${tipo}`
+        );
+        tarjeta.dataset.nombre = entrada.nombre;
 
-        if (!listaColecciones) {
-            return;
-        }
+        const autores = [...new Set(entrada.obras.map(obra => obra.autor).filter(Boolean))];
+        const boton = crearElemento(
+            "button",
+            "taxonomy-card-action",
+            tipo === "coleccion" ? "Explorar ruta" : "Explorar tema"
+        );
+        boton.type = "button";
+        boton.setAttribute("aria-expanded", "false");
+        boton.setAttribute("aria-controls", "taxonomy-detail");
+        boton.addEventListener("click", () => abrirDetalle(entrada, tarjeta, boton));
 
-
-        const colecciones =
-            [
-                ...new Set(
-                    obras.flatMap(
-                        obra =>
-                            obra.colecciones || []
-                    )
-                )
-            ].sort();
-
-
-        listaColecciones.innerHTML = "";
-
-
-        colecciones.forEach(
-            (coleccion, indice) => {
-
-                const tarjeta =
-                    document.createElement("a");
-
-
-                tarjeta.href =
-                    `explorar.html?coleccion=${encodeURIComponent(coleccion)}`;
-
-
-                tarjeta.classList.add(
-                    "collection-card"
-                );
-
-
-                tarjeta.innerHTML = `
-                    <span>
-                        ${String(indice + 1).padStart(2, "0")}
-                    </span>
-
-                    <h3>
-                        ${esc(coleccion)}
-                    </h3>
-
-                    <p>
-                        ${etiquetaObras(obras.filter(o => (o.colecciones || []).includes(coleccion)).length)} en el archivo.
-                    </p>
-                `;
-
-
-                listaColecciones.appendChild(
-                    tarjeta
-                );
-
-            }
+        const cabecera = crearElemento("div", "taxonomy-card-cabecera");
+        cabecera.append(
+            crearElemento("span", "taxonomy-card-numero", String(indice + 1).padStart(2, "0")),
+            boton
         );
 
+        const cuerpo = crearElemento("div", "taxonomy-card-cuerpo");
+        cuerpo.append(
+            crearElemento("h2", "", entrada.nombre),
+            crearElemento(
+                "p",
+                "taxonomy-card-meta",
+                `${etiquetaObras(entrada.obras.length)} · ${autores.length} ${autores.length === 1 ? "autor" : "autores"}`
+            )
+        );
+
+        tarjeta.append(crearArteTaxonomia(entrada, tipo), cabecera, cuerpo);
+        return tarjeta;
+
+    }
+
+
+    function crearDetalleTaxonomia(entrada, tipo, cerrarDetalle) {
+
+        const autores = [...new Set(entrada.obras.map(obra => obra.autor).filter(Boolean))];
+        const panelBase = crearElemento("section", "taxonomy-detail");
+        panelBase.id = "taxonomy-detail";
+        panelBase.hidden = false;
+        panelBase.setAttribute("aria-labelledby", "taxonomy-detail-title");
+
+        const cabecera = crearElemento("div", "taxonomy-detail-cabecera");
+        const rotulo = crearElemento(
+            "p",
+            "eyebrow",
+            tipo === "coleccion" ? "RECORRIDO DE LECTURA" : "CONEXIONES TEMÁTICAS"
+        );
+        const titulo = crearElemento("h2", "", entrada.nombre);
+        titulo.id = "taxonomy-detail-title";
+        titulo.tabIndex = -1;
+
+        const cerrar = crearElemento("button", "taxonomy-detail-cerrar", "×");
+        cerrar.type = "button";
+        cerrar.setAttribute("aria-label", "Volver a todas las opciones");
+        cerrar.addEventListener("click", cerrarDetalle);
+        cabecera.append(
+            crearElemento("div", "taxonomy-detail-identidad"),
+            cerrar
+        );
+        cabecera.firstChild.append(rotulo, titulo);
+
+        const contenido = crearElemento("div", "taxonomy-detail-contenido");
+        const seccionObras = crearElemento("section", "taxonomy-detail-seccion taxonomy-detail-obras");
+        seccionObras.append(
+            crearElemento("p", "eyebrow", tipo === "coleccion" ? "EN ESTE RECORRIDO" : "OBRAS RELACIONADAS"),
+            crearElemento("h3", "", "Obras")
+        );
+
+        const listaObras = crearElemento("div", "taxonomy-detail-lista-obras");
+        entrada.obras.slice(0, 4).forEach(obra => {
+            const enlace = crearElemento("a", "taxonomy-detail-obra");
+            enlace.href = `recurso.html?id=${encodeURIComponent(obra.id)}`;
+
+            if (obra.portada) {
+                const imagen = crearElemento("img", "taxonomy-detail-portada");
+                imagen.src = obra.portada;
+                imagen.alt = "";
+                imagen.loading = "lazy";
+                imagen.addEventListener("error", () => imagen.remove(), { once: true });
+                enlace.append(imagen);
+            }
+
+            const datos = crearElemento("span", "taxonomy-detail-obra-datos");
+            const meta = [obra.tipo, obra.anio].filter(Boolean).join(" · ");
+            datos.append(
+                crearElemento("span", "taxonomy-detail-obra-titulo", obra.titulo),
+                crearElemento("span", "taxonomy-detail-obra-meta", meta)
+            );
+            enlace.append(datos, crearElemento("span", "taxonomy-detail-flecha", "↗"));
+            listaObras.append(enlace);
+        });
+        seccionObras.append(listaObras);
+
+        const seccionAutores = crearElemento("section", "taxonomy-detail-seccion taxonomy-detail-autores");
+        seccionAutores.append(
+            crearElemento("p", "eyebrow", "AUTORES"),
+            crearElemento("h3", "", "Voces del archivo")
+        );
+
+        const listaAutoresRelacionados = crearElemento("div", "taxonomy-detail-lista-autores");
+        autores.slice(0, 8).forEach(autor => {
+            const enlace = crearElemento("a", "taxonomy-author-chip", autor);
+            enlace.href = `autores.html?a=${encodeURIComponent(autor)}`;
+            listaAutoresRelacionados.append(enlace);
+        });
+        seccionAutores.append(listaAutoresRelacionados);
+
+        const verTodo = crearElemento("a", "taxonomy-detail-todo", "Ver todas las obras →");
+        const parametro = tipo === "coleccion" ? "coleccion" : "tema";
+        verTodo.href = `explorar.html?${parametro}=${encodeURIComponent(entrada.nombre)}`;
+
+        contenido.append(seccionObras, seccionAutores);
+        panelBase.append(cabecera, contenido, verTodo);
+        return panelBase;
+
+    }
+
+
+    function cargarTaxonomia(contenedor, obras, tipo) {
+
+        if (!contenedor) return;
+
+        const nombreCampo = tipo === "coleccion" ? "colecciones" : "temas";
+        const entradas = [
+            ...new Set(obras.flatMap(obra => obra[nombreCampo] || []))
+        ].map(nombre => ({
+            nombre,
+            obras: obras.filter(obra => (obra[nombreCampo] || []).includes(nombre))
+        })).filter(entrada => entrada.obras.length > 0)
+            .sort((a, b) => b.obras.length - a.obras.length || a.nombre.localeCompare(b.nombre, "es"));
+
+        contenedor.classList.add("taxonomy-grid");
+        contenedor.replaceChildren();
+
+        const opciones = crearElemento("div", "taxonomy-options");
+        const panelBase = crearElemento("section", "taxonomy-detail");
+        panelBase.id = "taxonomy-detail";
+        panelBase.hidden = true;
+        panelBase.setAttribute("aria-labelledby", "taxonomy-detail-title");
+
+        let entradaActiva = null;
+        let tarjetaActiva = null;
+        let botonActivo = null;
+        let panel = panelBase;
+
+        function animarMovimiento(tarjeta, rectAntes) {
+
+            if (!tarjeta || !rectAntes || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+            const rectDespues = tarjeta.getBoundingClientRect();
+            if (!rectDespues.width || !rectDespues.height || typeof tarjeta.animate !== "function") return;
+
+            tarjeta.animate(
+                [
+                    {
+                        transformOrigin: "top left",
+                        transform: `translate(${rectAntes.left - rectDespues.left}px, ${rectAntes.top - rectDespues.top}px) scale(${rectAntes.width / rectDespues.width}, ${rectAntes.height / rectDespues.height})`
+                    },
+                    { transformOrigin: "top left", transform: "translate(0, 0) scale(1, 1)" }
+                ],
+                { duration: 760, easing: "cubic-bezier(.2,.75,.25,1)" }
+            );
+
+        }
+
+        function cerrarDetalle({ devolverFoco = true } = {}) {
+
+            if (!entradaActiva) return;
+
+            const tarjeta = tarjetaActiva;
+            const boton = botonActivo;
+            const rectAntes = tarjeta?.getBoundingClientRect();
+
+            contenedor.classList.remove("is-expanded");
+            tarjeta?.classList.remove("is-active");
+            boton?.setAttribute("aria-expanded", "false");
+            if (boton) boton.hidden = false;
+            if (panel) {
+                panel.hidden = true;
+                panel.replaceChildren();
+            }
+
+            entradaActiva = null;
+            tarjetaActiva = null;
+            botonActivo = null;
+
+            requestAnimationFrame(() => animarMovimiento(tarjeta, rectAntes));
+            if (devolverFoco) boton?.focus({ preventScroll: true });
+
+        }
+
+        function abrirDetalle(entrada, tarjeta, boton) {
+
+            if (entradaActiva?.nombre === entrada.nombre) {
+                cerrarDetalle();
+                return;
+            }
+
+            const rectAntes = tarjeta.getBoundingClientRect();
+
+            tarjetaActiva?.classList.remove("is-active");
+            botonActivo?.setAttribute("aria-expanded", "false");
+            if (botonActivo) botonActivo.hidden = false;
+            tarjeta.classList.add("is-active");
+            boton.setAttribute("aria-expanded", "true");
+            boton.hidden = true;
+            contenedor.classList.add("is-expanded");
+
+            entradaActiva = entrada;
+            tarjetaActiva = tarjeta;
+            botonActivo = boton;
+
+            const panelNuevo = crearDetalleTaxonomia(
+                entrada,
+                tipo,
+                () => cerrarDetalle()
+            );
+            panel.replaceWith(panelNuevo);
+            panel = panelNuevo;
+
+            requestAnimationFrame(() => {
+                animarMovimiento(tarjeta, rectAntes);
+                const tituloDetalle = panelNuevo.querySelector("#taxonomy-detail-title");
+                tituloDetalle?.focus();
+                if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches && typeof panelNuevo.animate === "function") {
+                    panelNuevo.animate(
+                        [
+                            { opacity: 0, transform: "translateY(12px)" },
+                            { opacity: 1, transform: "translateY(0)" }
+                        ],
+                        { duration: 520, easing: "cubic-bezier(.2,.75,.25,1)" }
+                    );
+                }
+            });
+
+        }
+
+        entradas.forEach((entrada, indice) => {
+            opciones.append(crearTarjetaTaxonomia(entrada, tipo, indice, abrirDetalle));
+        });
+
+        contenedor.append(opciones, panel);
+
+        contenedor.addEventListener("keydown", evento => {
+            if (evento.key === "Escape" && entradaActiva) {
+                evento.preventDefault();
+                cerrarDetalle();
+            }
+        });
+
+    }
+
+
+    function cargarTemas(obras, definiciones) {
+
+        if (!listaTemas) return;
+
+        disciplinasTemas = Array.isArray(definiciones) ? definiciones : [];
+        listaTemas.classList.add("taxonomy-grid", "taxonomy-grid--temas");
+        listaTemas.replaceChildren();
+
+        const opciones = crearElemento("div", "taxonomy-options");
+        let activa = null;
+        let detalleActivo = null;
+        let disparadorActivo = null;
+        let arteActivo = null;
+        let copiaActiva = null;
+        let tituloOriginalActivo = null;
+        let tituloEnlaceActivo = null;
+
+        function posicionesTarjetas() {
+            return [...opciones.querySelectorAll(".topic-card")].map(tarjeta => ({
+                tarjeta,
+                rect: tarjeta.getBoundingClientRect()
+            }));
+        }
+
+        function animarReordenamiento(posiciones) {
+            if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+            requestAnimationFrame(() => posiciones.forEach(({ tarjeta, rect }) => {
+                const nuevo = tarjeta.getBoundingClientRect();
+                if (!nuevo.width || !nuevo.height || typeof tarjeta.animate !== "function") return;
+                const dx = rect.left - nuevo.left;
+                const dy = rect.top - nuevo.top;
+                const sx = rect.width / nuevo.width;
+                const sy = rect.height / nuevo.height;
+                if (!dx && !dy && sx === 1 && sy === 1) return;
+                tarjeta.animate([
+                    { transformOrigin: "top left", transform: `translate(${dx}px, ${dy}px) scale(${sx}, ${sy})` },
+                    { transformOrigin: "top left", transform: "translate(0, 0) scale(1, 1)" }
+                ], { duration: 460, easing: "cubic-bezier(.2,.75,.25,1)" });
+            }));
+        }
+
+        function cerrar(devolverFoco = true, animar = true) {
+            const posiciones = posicionesTarjetas();
+            const tarjetaActiva = activa;
+            const botonActivo = disparadorActivo;
+            if (copiaActiva && tituloEnlaceActivo && tituloOriginalActivo) {
+                tituloEnlaceActivo.replaceWith(tituloOriginalActivo);
+            }
+            detalleActivo?.remove();
+            if (tarjetaActiva && botonActivo && arteActivo && copiaActiva) {
+                botonActivo.append(arteActivo, copiaActiva);
+                tarjetaActiva.prepend(botonActivo);
+            }
+            activa?.classList.remove("is-active");
+            botonActivo?.setAttribute("aria-expanded", "false");
+            activa = null;
+            detalleActivo = null;
+            disparadorActivo = null;
+            arteActivo = null;
+            copiaActiva = null;
+            tituloOriginalActivo = null;
+            tituloEnlaceActivo = null;
+            listaTemas.classList.remove("topics-expanded");
+            if (animar) animarReordenamiento(posiciones);
+            if (devolverFoco) botonActivo?.focus({ preventScroll: true });
+        }
+
+        function abrir(definicion, tarjeta, boton) {
+            if (activa === tarjeta) { cerrar(); return; }
+            cerrar(false, false);
+            const posiciones = posicionesTarjetas();
+            activa = tarjeta;
+            tarjeta.classList.add("is-active");
+            boton.setAttribute("aria-expanded", "true");
+
+            const arte = boton.querySelector(".topic-card-art");
+            const copia = boton.querySelector(".topic-card-copy");
+            const tituloOriginal = copia.querySelector(".topic-card-title");
+            const tituloEnlace = crearElemento("a", "topic-detail-primary", definicion.nombre);
+            tituloEnlace.href = `explorar.html?disciplina=${encodeURIComponent(definicion.id)}`;
+            tituloEnlace.setAttribute("aria-label", `Explorar todas las obras de ${definicion.nombre}`);
+            const tituloConEnlace = crearElemento("h2", "topic-card-title topic-card-title--link");
+            tituloConEnlace.append(tituloEnlace);
+            tituloOriginal.replaceWith(tituloConEnlace);
+            tarjeta.insertBefore(arte, boton);
+            tarjeta.insertBefore(copia, boton);
+            boton.remove();
+            disparadorActivo = boton;
+            arteActivo = arte;
+            copiaActiva = copia;
+            tituloOriginalActivo = tituloOriginal;
+            tituloEnlaceActivo = tituloConEnlace;
+
+            const detalle = crearElemento("section", "topic-expanded-content");
+            detalle.id = `topic-detail-${definicion.id}`;
+            detalle.setAttribute("aria-label", `Subtemas de ${definicion.nombre}`);
+            detalle.setAttribute("aria-live", "polite");
+            const descripcion = crearElemento("p", "topic-detail-description", definicion.descripcion);
+            const subtitulo = crearElemento("h3", "topic-detail-heading", "Explorar por subtema");
+            const lista = crearElemento("div", "topic-subtopics");
+            (definicion.subtemas || []).forEach(sub => {
+                const enlace = crearElemento("a", "topic-subtopic", sub.nombre);
+                enlace.href = `explorar.html?subtema=${encodeURIComponent(sub.id)}`;
+                lista.append(enlace);
+            });
+            const cerrarBoton = crearElemento("button", "taxonomy-detail-cerrar", "×");
+            cerrarBoton.type = "button";
+            cerrarBoton.setAttribute("aria-label", "Cerrar detalle de disciplina");
+            cerrarBoton.addEventListener("click", cerrar);
+            const opcionesHeader = crearElemento("div", "topic-expanded-header");
+            opcionesHeader.append(subtitulo);
+            detalle.append(descripcion, opcionesHeader, lista, cerrarBoton);
+            tarjeta.append(detalle);
+            detalleActivo = detalle;
+            listaTemas.classList.add("topics-expanded");
+            tituloEnlace.focus({ preventScroll: true });
+            animarReordenamiento(posiciones);
+        }
+
+        disciplinasTemas.forEach((definicion, indice) => {
+            const tags = (definicion.subtemas || []).flatMap(sub => sub.filtros || []);
+            const cantidad = obras.filter(obra => (obra.temas || []).some(tag => tags.includes(tag))).length;
+            const tarjeta = crearElemento("article", "taxonomy-card topic-card");
+            const boton = crearElemento("button", "topic-card-trigger");
+            boton.type = "button";
+            boton.setAttribute("aria-expanded", "false");
+            boton.setAttribute("aria-controls", `topic-detail-${definicion.id}`);
+            boton.setAttribute("aria-label", `Explorar ${definicion.nombre}`);
+            boton.addEventListener("click", evento => {
+                evento.stopPropagation();
+                abrir(definicion, tarjeta, boton);
+            });
+            tarjeta.addEventListener("click", evento => {
+                if (activa === tarjeta && !evento.target.closest("a, button")) cerrar();
+            });
+
+            const arte = crearElemento("span", "topic-card-art");
+            arte.setAttribute("aria-hidden", "true");
+            const imagenes = (Array.isArray(definicion.imagenes) && definicion.imagenes.length
+                ? definicion.imagenes
+                : [definicion.imagen]).filter(Boolean).slice(0, 3);
+            arte.classList.add(`topic-card-art--${imagenes.length || 1}`);
+            imagenes.forEach((src, imagenIndice) => {
+                const imagen = crearElemento("img", "topic-card-image");
+                imagen.src = src;
+                imagen.alt = "";
+                imagen.loading = "lazy";
+                imagen.dataset.imagen = String(imagenIndice + 1);
+                imagen.addEventListener("error", () => imagen.remove(), { once: true });
+                arte.append(imagen);
+            });
+            arte.append(crearElemento("span", "topic-card-number", String(indice + 1).padStart(2, "0")));
+            const texto = crearElemento("span", "topic-card-copy");
+            texto.append(crearElemento("span", "eyebrow", "DISCIPLINA"), crearElemento("h2", "topic-card-title", definicion.nombre));
+            texto.append(crearElemento("span", "topic-card-meta", cantidad ? `${etiquetaObras(cantidad)} en el archivo` : "Aún sin obras"));
+            boton.append(arte, texto);
+            tarjeta.append(boton);
+            opciones.append(tarjeta);
+        });
+
+        listaTemas.append(opciones);
+
+        listaTemas.addEventListener("keydown", evento => {
+            if (evento.key === "Escape" && activa) { cerrar(); }
+        });
+
+        const idSolicitado = new URLSearchParams(window.location.search).get("disciplina");
+        if (idSolicitado) {
+            const indice = disciplinasTemas.findIndex(item => item.id === idSolicitado);
+            if (indice >= 0) {
+                const tarjeta = opciones.children[indice];
+                abrir(disciplinasTemas[indice], tarjeta, tarjeta.querySelector("button"));
+            }
+        }
+    }
+
+
+    function cargarColecciones(obras) {
+        cargarTaxonomia(listaColecciones, obras, "coleccion");
     }
 
 
@@ -802,6 +1216,199 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
 
+    function iniciarLecturasInicio(obras) {
+
+        const bloque =
+            document.querySelector(".home-discover");
+
+        const principal =
+            bloque?.querySelector(".discover-main");
+
+        const lista =
+            bloque?.querySelector(".discover-list");
+
+        const contador =
+            bloque?.querySelector("[data-discover-number]");
+
+        const anterior =
+            bloque?.querySelector("[data-discover-prev]");
+
+        const siguiente =
+            bloque?.querySelector("[data-discover-next]");
+
+        if (!bloque || !principal || !lista || !contador || !anterior || !siguiente) {
+            return;
+        }
+
+
+        const ordenEditorial = [
+            "el-principe",
+            "la-republica",
+            "la-politica-como-vocacion"
+        ];
+
+        const lecturas =
+            ordenEditorial
+                .map(id => obras.find(obra => obra.id === id))
+                .filter(obra => obra && obra.portada);
+
+        if (lecturas.length < 2) {
+            return;
+        }
+
+        bloque.querySelector(".discover-controls")?.removeAttribute("hidden");
+
+
+        const portada =
+            principal.querySelector(".discover-cover img");
+
+        const tipo =
+            principal.querySelector(".discover-main-info .eyebrow");
+
+        const titulo =
+            principal.querySelector(".discover-main-info h3");
+
+        const autor =
+            principal.querySelector(".discover-main-info p:not(.eyebrow)");
+
+        const enlaceTexto =
+            principal.querySelector(".discover-main-info > span");
+
+        if (!portada || !tipo || !titulo || !autor || !enlaceTexto) {
+            return;
+        }
+
+
+        let indice = 0;
+        let punteroDentro = false;
+        let focoDentro = false;
+        let temporizador = null;
+
+
+        function crearTarjetaSecundaria(obra) {
+
+            const enlace =
+                crearElemento("a", "discover-item");
+
+            enlace.href =
+                `recurso.html?id=${encodeURIComponent(obra.id)}`;
+
+            const datos =
+                crearElemento("div");
+
+            const etiqueta =
+                [obra.tipo, obra.anio].filter(Boolean).join(" · ");
+
+            datos.append(
+                crearElemento("p", "eyebrow", etiqueta.toUpperCase()),
+                crearElemento("h3", "", obra.titulo),
+                crearElemento("p", "", obra.autor)
+            );
+
+            const flecha =
+                crearElemento("span", "", "→");
+
+            flecha.setAttribute("aria-hidden", "true");
+            enlace.append(datos, flecha);
+
+            return enlace;
+
+        }
+
+
+        function pintarLectura() {
+
+            const obra = lecturas[indice];
+            const etiqueta = [obra.tipo, obra.anio].filter(Boolean).join(" · ");
+
+            principal.href =
+                `recurso.html?id=${encodeURIComponent(obra.id)}`;
+
+            portada.src = obra.portada;
+            portada.alt = `Portada de ${obra.titulo}, de ${obra.autor}`;
+            tipo.textContent = etiqueta.toUpperCase();
+            titulo.textContent = obra.titulo;
+            autor.textContent = obra.autor;
+            enlaceTexto.textContent = "Ver obra →";
+            contador.textContent =
+                `${String(indice + 1).padStart(2, "0")} / ${String(lecturas.length).padStart(2, "0")}`;
+
+            lista.replaceChildren();
+
+            for (let paso = 1; paso < lecturas.length; paso += 1) {
+                const otra = lecturas[(indice + paso) % lecturas.length];
+                lista.append(crearTarjetaSecundaria(otra));
+            }
+
+            principal.classList.remove("is-changing");
+            void principal.offsetWidth;
+            principal.classList.add("is-changing");
+            window.setTimeout(() => principal.classList.remove("is-changing"), 260);
+
+        }
+
+
+        function puedeRotar() {
+
+            return !punteroDentro &&
+                !focoDentro &&
+                !document.hidden;
+
+        }
+
+
+        function sincronizarTemporizador() {
+
+            window.clearInterval(temporizador);
+            temporizador = null;
+
+            if (puedeRotar()) {
+                temporizador = window.setInterval(avanzar, 6000);
+            }
+
+        }
+
+
+        function avanzar(sentido = 1) {
+
+            indice = (indice + sentido + lecturas.length) % lecturas.length;
+            pintarLectura();
+            sincronizarTemporizador();
+
+        }
+
+
+        anterior.addEventListener("click", () => avanzar(-1));
+        siguiente.addEventListener("click", () => avanzar(1));
+
+        bloque.addEventListener("pointerenter", () => {
+            punteroDentro = true;
+            sincronizarTemporizador();
+        });
+
+        bloque.addEventListener("pointerleave", () => {
+            punteroDentro = false;
+            sincronizarTemporizador();
+        });
+
+        bloque.addEventListener("focusin", () => {
+            focoDentro = true;
+            sincronizarTemporizador();
+        });
+
+        bloque.addEventListener("focusout", evento => {
+            focoDentro = bloque.contains(evento.relatedTarget);
+            sincronizarTemporizador();
+        });
+
+        document.addEventListener("visibilitychange", sincronizarTemporizador);
+
+        pintarLectura();
+        sincronizarTemporizador();
+
+    }
+
+
     /* =========================================================
        VISTA DEL CATÁLOGO EN MÓVIL (lista / cuadrícula)
 
@@ -875,13 +1482,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     /* =========================================================
-       CABECERA MÓVIL (menú plegable + búsqueda desplegable)
+       CABECERA MÓVIL (menú compacto + búsqueda desplegable)
 
        Por debajo de 960 px la navegación deja de caber en línea.
-       Se muestra una cabecera compacta con dos botones: búsqueda
-       y menú. El menú es un panel a pantalla completa; mientras
-       está abierto, el resto de la página queda inerte (no recibe
-       foco ni clics). Escape lo cierra y devuelve el foco al botón.
+       La cabecera compacta ofrece búsqueda, tema y menú. El menú
+       se despliega como panel superpuesto bajo la cabecera; el
+       contenido queda ligeramente atenuado e inerte. Escape, el
+       fondo o un enlace lo cierran.
     ========================================================= */
 
     function iniciarCabeceraMovil() {
@@ -891,6 +1498,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
         const navegacion =
             document.getElementById("site-nav");
+
+        const fondoMenu =
+            document.getElementById("menu-scrim");
 
         const botonBuscar =
             document.getElementById("search-shortcut");
@@ -932,6 +1542,10 @@ document.addEventListener("DOMContentLoaded", () => {
         function abrirMenu(abrir, devolverFoco = false) {
 
             navegacion.classList.toggle("is-open", abrir);
+
+            if (fondoMenu) {
+                fondoMenu.hidden = !abrir;
+            }
 
             botonMenu.classList.toggle("is-open", abrir);
 
@@ -1002,6 +1616,15 @@ document.addEventListener("DOMContentLoaded", () => {
             "click",
             () => abrirMenu(!menuAbierto())
         );
+
+        if (fondoMenu) {
+
+            fondoMenu.addEventListener(
+                "click",
+                () => abrirMenu(false)
+            );
+
+        }
 
         if (botonBuscar) {
 
@@ -2379,6 +3002,36 @@ document.addEventListener("DOMContentLoaded", () => {
             );
 
 
+        } else if (disciplina || subtema) {
+
+            const definicion = disciplinasTemas.find(item => item.id === disciplina);
+            const definicionSubtema = disciplinasTemas
+                .flatMap(item => item.subtemas || [])
+                .find(item => item.id === subtema);
+            const disciplinaSubtema = disciplinasTemas.find(item =>
+                (item.subtemas || []).some(sub => sub.id === subtema)
+            );
+            const filtros = disciplina
+                ? (definicion?.subtemas || []).flatMap(item => item.filtros || [])
+                : (definicionSubtema?.filtros || []);
+            const nombre = disciplina ? (definicion?.nombre || disciplina) : (definicionSubtema?.nombre || subtema);
+
+            obrasBase = obras.filter(obra => (obra.temas || []).some(etiqueta => filtros.includes(etiqueta)));
+            configurarExploracion(
+                disciplina ? "DISCIPLINA" : "SUBTEMA",
+                nombre,
+                disciplina
+                    ? `Obras clasificadas en ${nombre} y sus subtemas.`
+                    : `Obras relacionadas con ${nombre}.`
+            );
+
+            if (explorarVolverTemas) {
+                explorarVolverTemas.hidden = false;
+                explorarVolverTemas.href = disciplina
+                    ? `temas.html?disciplina=${encodeURIComponent(disciplina)}`
+                    : `temas.html?disciplina=${encodeURIComponent(disciplinaSubtema?.id || "")}`;
+            }
+
         } else if (autor) {
 
             obrasBase =
@@ -2600,6 +3253,8 @@ document.addEventListener("DOMContentLoaded", () => {
                 tipo;
 
         }
+
+        if (explorarVolverTemas) explorarVolverTemas.hidden = true;
 
 
         if (explorarTitulo) {
@@ -3340,7 +3995,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
 
-        fetch("data/silabos.json")
+        fetch("data/silabos/carreras.json")
 
             .then(
                 respuesta => {
@@ -3359,41 +4014,48 @@ document.addEventListener("DOMContentLoaded", () => {
             )
 
             .then(
-                silabos => {
+                async carreras => {
 
-                    if (
-                        !Array.isArray(silabos) ||
-                        silabos.length === 0
-                    ) {
-
-                        mostrarMensaje(
-                            listaSilabos,
-                            "Aún no hay sílabos publicados."
-                        );
-
-                        return;
-
+                    if (!Array.isArray(carreras) || carreras.length === 0) {
+                        throw new Error("El registro de carreras está vacío o no es válido.");
                     }
 
+                    const validas = carreras.filter(c => c && c.id && c.nombre && c.archivo);
+                    if (validas.length === 0) {
+                        throw new Error("El registro no contiene carreras utilizables.");
+                    }
 
-                    const carreras =
-                        [
-                            ...new Set(
-                                silabos
-                                    .map(s => s.carrera)
-                                    .filter(Boolean)
-                            )
-                        ];
+                    const solicitada = new URLSearchParams(window.location.search).get("carrera");
+                    const carreraActiva = validas.find(c => c.id === solicitada) || validas[0];
 
-                    const carreraActiva =
-                        carreras[0] || null;
+                    if (silabosCarrera) silabosCarrera.textContent = carreraActiva.nombre;
+                    document.title = `Sílabos de ${carreraActiva.nombre} — Códice`;
 
-                    const cursos =
-                        carreraActiva
-                            ? silabos.filter(
-                                s => s.carrera === carreraActiva
-                            )
-                            : silabos;
+                    if (silabosCarreras) {
+                        silabosCarreras.innerHTML = "";
+                        validas.forEach(carrera => {
+                            const enlace = crearElemento(
+                                "a",
+                                `syllabus-career-tab${carrera.id === carreraActiva.id ? " is-active" : ""}`
+                            );
+                            enlace.href = `silabos.html?carrera=${encodeURIComponent(carrera.id)}`;
+                            if (carrera.id === carreraActiva.id) enlace.setAttribute("aria-current", "page");
+                            enlace.append(crearElemento("span", "syllabus-career-name", carrera.nombre));
+                            if (carrera.demo) enlace.append(crearElemento("span", "syllabus-career-demo", "Prueba"));
+                            silabosCarreras.append(enlace);
+                        });
+                    }
+
+                    const respuestaCursos = await fetch(carreraActiva.archivo);
+                    if (!respuestaCursos.ok) {
+                        throw new Error(`Error HTTP ${respuestaCursos.status} al cargar ${carreraActiva.nombre}.`);
+                    }
+
+                    const cursos = await respuestaCursos.json();
+                    if (!Array.isArray(cursos) || cursos.length === 0) {
+                        mostrarMensaje(listaSilabos, "Aún no hay sílabos publicados para esta carrera.");
+                        return;
+                    }
 
 
                     /* Agrupar por ciclo y ordenar por cicloNumero */
@@ -3440,29 +4102,13 @@ document.addEventListener("DOMContentLoaded", () => {
                     }
 
 
-                    /* Cabecera de la página */
-
-                    if (silabosCarrera && carreraActiva) {
-
-                        silabosCarrera.textContent =
-                            carreraActiva;
-
-                    }
-
-                    if (silabosResumen) {
-
-                        silabosResumen.textContent =
-                            `${cursos.length} curso${cursos.length === 1 ? "" : "s"} · ` +
-                            `${ciclos.length} ciclo${ciclos.length === 1 ? "" : "s"}`;
-
-                    }
-
-
                     const numeros =
                         ciclos.map(c => c.numero);
 
                     const CLAVE_STORAGE =
-                        "codice-silabos-ciclo";
+                        `codice-silabos-ciclo-${carreraActiva.id}`;
+
+                    let cicloActivo = null;
 
 
                     function numeroDesdeHash() {
@@ -3496,12 +4142,9 @@ document.addEventListener("DOMContentLoaded", () => {
                         }
 
 
-                        const guardado =
-                            Number(
-                                almacen.leer(
-                                    CLAVE_STORAGE
-                                )
-                            );
+                        const preferenciaGuardada = almacen.leer(CLAVE_STORAGE) ||
+                            (carreraActiva.id === "derecho" ? almacen.leer("codice-silabos-ciclo") : null);
+                        const guardado = Number(preferenciaGuardada);
 
                         if (numeros.includes(guardado)) {
                             return guardado;
@@ -3565,6 +4208,11 @@ document.addEventListener("DOMContentLoaded", () => {
                                 enlace.dataset.ciclo =
                                     ciclo.numero;
 
+                                enlace.setAttribute(
+                                    "aria-label",
+                                    ciclo.nombre
+                                );
+
                                 if (ciclo.numero === activo) {
 
                                     enlace.setAttribute(
@@ -3579,11 +4227,6 @@ document.addEventListener("DOMContentLoaded", () => {
                                         "span",
                                         "syllabus-index-roman",
                                         ciclo.nombre.split(" ")[0]
-                                    ),
-                                    crearElemento(
-                                        "span",
-                                        "syllabus-index-count",
-                                        `${ciclo.cursos.length}`
                                     )
                                 );
 
@@ -3610,25 +4253,9 @@ document.addEventListener("DOMContentLoaded", () => {
                         listaSilabos.innerHTML = "";
 
 
-                        const encabezado =
-                            crearElemento(
-                                "div",
-                                "syllabus-cycle-heading"
-                            );
-
-                        encabezado.append(
-                            crearElemento(
-                                "h2",
-                                null,
-                                ciclo.nombre
-                            ),
-                            crearElemento(
-                                "span",
-                                "syllabus-cycle-heading-count",
-                                `${ciclo.cursos.length} curso${ciclo.cursos.length === 1 ? "" : "s"}`
-                            )
-                        );
-
+                        if (silabosCicloActivo) {
+                            silabosCicloActivo.textContent = ciclo.nombre;
+                        }
 
                         const lista =
                             crearElemento(
@@ -3680,82 +4307,129 @@ if (curso.url) {
 cuerpo.append(tituloCurso);
 
 
-                                if (curso.descripcion) {
-
-                                    cuerpo.append(
-                                        crearElemento(
-                                            "p",
-                                            "syllabus-course-description",
-                                            curso.descripcion
-                                        )
-                                    );
-
-                                }
-
-
                                 /* Bibliografía — solo si hay datos.
                                    No se muestra "—" ni campos vacíos. */
 
                                 const ids =
                                     curso.bibliografia || [];
 
-                                if (ids.length > 0) {
+                                if (curso.descripcion || ids.length > 0) {
 
-                                    const bibliografia =
+                                    const detalles =
                                         crearElemento(
-                                            "p",
-                                            "syllabus-course-meta"
+                                            "details",
+                                            "syllabus-course-details"
                                         );
 
-                                    bibliografia.append(
+                                    const alternarDetalles = crearElemento(
+                                        "summary",
+                                        "syllabus-course-details-toggle"
+                                    );
+                                    alternarDetalles.setAttribute(
+                                        "aria-label",
+                                        `Mostrar información de ${curso.curso}`
+                                    );
+                                    alternarDetalles.append(
                                         crearElemento(
                                             "span",
-                                            "syllabus-meta-label",
-                                            "Bibliografía"
+                                            "visually-hidden",
+                                            `Mostrar información de ${curso.curso}`
                                         )
                                     );
 
-                                    const enlaces =
+                                    const contenidoDetalles =
                                         crearElemento(
-                                            "span",
-                                            "relation-links"
+                                            "div",
+                                            "syllabus-course-details-content"
                                         );
 
-                                    ids.forEach(
-                                        idRecurso => {
+                                    if (curso.descripcion) {
 
-                                            const enlace =
-                                                crearElemento(
-                                                    "a",
-                                                    "relation-link"
-                                                );
+                                        contenidoDetalles.append(
+                                            crearElemento(
+                                                "p",
+                                                "syllabus-course-description",
+                                                curso.descripcion
+                                            )
+                                        );
 
-                                            const recurso =
-                                                encontrarObra(
-                                                    idRecurso
-                                                );
+                                    }
 
-                                            enlace.href =
-                                                `recurso.html?id=${encodeURIComponent(idRecurso)}`;
+                                    if (ids.length > 0) {
 
-                                            enlace.textContent =
-                                                recurso
-                                                    ? recurso.titulo
-                                                    : idRecurso;
-
-                                            enlaces.append(
-                                                enlace
+                                        const bibliografia =
+                                            crearElemento(
+                                                "p",
+                                                "syllabus-course-meta"
                                             );
 
-                                        }
+                                        bibliografia.append(
+                                            crearElemento(
+                                                "span",
+                                                "syllabus-meta-label",
+                                                "Bibliografía"
+                                            )
+                                        );
+
+                                        const enlaces =
+                                            crearElemento(
+                                                "span",
+                                                "relation-links"
+                                            );
+
+                                        ids.forEach(
+                                            idRecurso => {
+
+                                                const enlace =
+                                                    crearElemento(
+                                                        "a",
+                                                        "relation-link"
+                                                    );
+
+                                                const recurso =
+                                                    encontrarObra(
+                                                        idRecurso
+                                                    );
+
+                                                enlace.href =
+                                                    `recurso.html?id=${encodeURIComponent(idRecurso)}`;
+
+                                                enlace.textContent =
+                                                    recurso
+                                                        ? recurso.titulo
+                                                        : idRecurso;
+
+                                                enlaces.append(
+                                                    enlace
+                                                );
+
+                                            }
+                                        );
+
+                                        bibliografia.append(
+                                            enlaces
+                                        );
+
+                                        contenidoDetalles.append(
+                                            bibliografia
+                                        );
+
+                                    }
+
+                                    detalles.append(
+                                        alternarDetalles,
+                                        contenidoDetalles
                                     );
 
-                                    bibliografia.append(
-                                        enlaces
-                                    );
+                                    detalles.addEventListener("toggle", () => {
+                                        alternarDetalles.setAttribute(
+                                            "aria-label",
+                                            `${detalles.open ? "Ocultar" : "Mostrar"} información de ${curso.curso}`
+                                        );
+                                    });
 
                                     cuerpo.append(
-                                        bibliografia
+                                        detalles
                                     );
 
                                 }
@@ -3838,10 +4512,7 @@ cuerpo.append(tituloCurso);
                         }
 
 
-                        listaSilabos.append(
-                            encabezado,
-                            lista
-                        );
+                        listaSilabos.append(lista);
 
                         if (anterior || siguiente) {
 
@@ -3856,16 +4527,44 @@ cuerpo.append(tituloCurso);
 
                     function activarCiclo(
                         numero,
-                        actualizarHash = true
+                        {
+                            actualizarHash = true,
+                            agregarHistorial = true
+                        } = {}
                     ) {
 
                         if (!numeros.includes(numero)) {
                             return;
                         }
 
+                        if (numero === cicloActivo && !actualizarHash) {
+                            return;
+                        }
+
                         pintarIndice(numero);
                         pintarContenido(numero);
-                        sincronizarSelector(numero);
+                        cicloActivo = numero;
+
+                        if (window.matchMedia("(max-width: 700px)").matches) {
+
+                            const enlaceActivo =
+                                silabosIndice.querySelector(
+                                    `[data-ciclo="${numero}"]`
+                                );
+
+                            if (enlaceActivo) {
+
+                                enlaceActivo.scrollIntoView({
+                                    behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches
+                                        ? "auto"
+                                        : "smooth",
+                                    block: "nearest",
+                                    inline: "center"
+                                });
+
+                            }
+
+                        }
 
                         almacen.guardar(
                             CLAVE_STORAGE,
@@ -3874,97 +4573,21 @@ cuerpo.append(tituloCurso);
 
                         if (actualizarHash) {
 
-                            history.replaceState(
-                                null,
-                                "",
-                                `#ciclo-${numero}`
-                            );
+                            const hash = `#ciclo-${numero}`;
+
+                            if (window.location.hash !== hash) {
+
+                                const metodo = agregarHistorial
+                                    ? "pushState"
+                                    : "replaceState";
+
+                                history[metodo](null, "", hash);
+
+                            }
 
                         }
 
                     }
-
-
-                    /* Selector de ciclo para móvil: un <select> nativo
-                       (selector del sistema, 16 px, objetivo grande) sustituye
-                       a la franja de 12 numerales romanos. En escritorio queda
-                       oculto y se usa el índice lateral. */
-
-                    const selectorCiclo =
-                        crearElemento("div", "syllabus-picker");
-
-                    const etiquetaSelector =
-                        crearElemento(
-                            "label",
-                            "syllabus-picker-label",
-                            "Ciclo académico"
-                        );
-
-                    etiquetaSelector.htmlFor =
-                        "silabos-selector";
-
-                    const controlSelector =
-                        crearElemento("span", "syllabus-picker-control");
-
-                    const selectCiclo =
-                        crearElemento("select", "syllabus-picker-select");
-
-                    selectCiclo.id =
-                        "silabos-selector";
-
-                    ciclos.forEach(
-                        ciclo => {
-
-                            const opcion =
-                                crearElemento(
-                                    "option",
-                                    null,
-                                    `${ciclo.nombre} · ${ciclo.cursos.length} cursos`
-                                );
-
-                            opcion.value =
-                                String(ciclo.numero);
-
-                            selectCiclo.append(opcion);
-
-                        }
-                    );
-
-                    const flechaSelector =
-                        crearElemento("span", "syllabus-picker-caret", "▾");
-
-                    flechaSelector.setAttribute("aria-hidden", "true");
-
-                    controlSelector.append(selectCiclo, flechaSelector);
-
-                    selectorCiclo.append(etiquetaSelector, controlSelector);
-
-                    silabosIndice.before(selectorCiclo);
-
-
-                    function sincronizarSelector(numero) {
-
-                        selectCiclo.value =
-                            String(numero);
-
-                    }
-
-
-                    selectCiclo.addEventListener(
-                        "change",
-                        () => {
-
-                            activarCiclo(
-                                Number(selectCiclo.value)
-                            );
-
-                            listaSilabos.scrollIntoView({
-                                behavior: "smooth",
-                                block: "start"
-                            });
-
-                        }
-                    );
 
 
                     silabosIndice.addEventListener(
@@ -4013,16 +4636,11 @@ cuerpo.append(tituloCurso);
                                 block: "start"
                             });
 
-                            const encabezadoCiclo =
-                                listaSilabos.querySelector(
-                                    ".syllabus-cycle-heading h2"
-                                );
+                            if (silabosCicloActivo) {
 
-                            if (encabezadoCiclo) {
+                                silabosCicloActivo.tabIndex = -1;
 
-                                encabezadoCiclo.tabIndex = -1;
-
-                                encabezadoCiclo.focus({
+                                silabosCicloActivo.focus({
                                     preventScroll: true
                                 });
 
@@ -4042,7 +4660,25 @@ cuerpo.append(tituloCurso);
 
                                 activarCiclo(
                                     numero,
-                                    false
+                                    { actualizarHash: false }
+                                );
+
+                            }
+
+                        }
+                    );
+
+                    window.addEventListener(
+                        "popstate",
+                        () => {
+
+                            const numero = numeroDesdeHash();
+
+                            if (numero !== null) {
+
+                                activarCiclo(
+                                    numero,
+                                    { actualizarHash: false }
                                 );
 
                             }
@@ -4052,7 +4688,8 @@ cuerpo.append(tituloCurso);
 
 
                     activarCiclo(
-                        numeroInicial()
+                        numeroInicial(),
+                        { agregarHistorial: false }
                     );
 
                 }
@@ -4082,26 +4719,18 @@ cuerpo.append(tituloCurso);
        CARGAR BIBLIOTECA
     ========================================================= */
 
-    fetch("data/biblioteca.json")
-
+    Promise.all([
+        fetch("data/biblioteca.json").then(respuesta => {
+            if (!respuesta.ok) throw new Error(`Error HTTP ${respuesta.status}`);
+            return respuesta.json();
+        }),
+        fetch("data/temas.json").then(respuesta => {
+            if (!respuesta.ok) throw new Error(`Error HTTP ${respuesta.status}`);
+            return respuesta.json();
+        })
+    ])
         .then(
-            respuesta => {
-
-                if (!respuesta.ok) {
-
-                    throw new Error(
-                        `Error HTTP ${respuesta.status}`
-                    );
-
-                }
-
-                return respuesta.json();
-
-            }
-        )
-
-        .then(
-            obras => {
+            ([obras, definicionesTemas]) => {
 
                 obrasCargadas =
                     Array.isArray(obras)
@@ -4127,7 +4756,8 @@ cuerpo.append(tituloCurso);
                 );
 
                 cargarTemas(
-                    obras
+                    obras,
+                    definicionesTemas
                 );
 
                 cargarColecciones(
@@ -4136,6 +4766,10 @@ cuerpo.append(tituloCurso);
 
 
                 cargarColeccionesInicio(
+                    obras
+                );
+
+                iniciarLecturasInicio(
                     obras
                 );
 
