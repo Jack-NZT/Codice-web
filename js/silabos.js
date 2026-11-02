@@ -182,3 +182,4 @@ document.addEventListener("DOMContentLoaded", async () => {
         porId("ficha-bibliografia").replaceChildren();
     }
 });
+
