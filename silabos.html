@@ -10,6 +10,7 @@
     <title>Sílabos — Códice</title>
 
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/silabos.css">
     <script>
     (function () {
         try {
@@ -79,6 +80,16 @@
         </button>
 
         <button
+            class="header-icon-btn theme-toggle-mobile"
+            type="button"
+            id="theme-toggle-mobile"
+            aria-label="Modo claro"
+            aria-pressed="false"
+        >
+            <span class="theme-toggle-mobile-icon" aria-hidden="true">◐</span>
+        </button>
+
+        <button
             class="header-icon-btn menu-toggle"
             type="button"
             id="menu-toggle"
@@ -116,6 +127,10 @@
 
         <a href="silabos.html" class="active" aria-current="page">
             Sílabos
+        </a>
+
+        <a href="examenes.html">
+            Exámenes
         </a>
 
 
@@ -203,39 +218,44 @@
 
 </header>
 
+<button class="menu-scrim" id="menu-scrim" type="button" aria-label="Cerrar menú" hidden></button>
+
     <main id="contenido" tabindex="-1">
 
-        <section class="section">
+        <section class="section syllabus-section">
 
             <div class="section-header section-header--compact syllabus-heading">
-
-                <div>
-
-                    <p class="eyebrow">
-                        SÍLABOS
-                    </p>
-
-                    <h1 id="silabos-carrera">
-                        Derecho
-                    </h1>
-
+                <div class="syllabus-heading-copy">
+                    <p class="eyebrow"><span class="syllabus-heading-mark" aria-hidden="true">01</span> Archivo académico</p>
+                    <h1 id="silabos-carrera">Derecho</h1>
+                    <div class="syllabus-overview" id="silabos-resumen" aria-live="polite"></div>
                 </div>
 
+                <div class="syllabus-heading-aside">
+                    <span class="syllabus-careers-label">EXPLORAR POR CARRERA</span>
+                    <nav class="syllabus-careers" id="silabos-carreras" aria-label="Carreras con sílabos"></nav>
+                </div>
+            </div>
+
+            <span class="visually-hidden" id="silabos-ciclo-activo" aria-live="polite" aria-atomic="true"></span>
+
+            <div class="syllabus-navigator">
+                <nav class="syllabus-index" id="silabos-indice" aria-label="Ciclos académicos"></nav>
+                <label class="syllabus-search" for="silabos-buscar">
+                    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="10.8" cy="10.8" r="6.5"></circle><path d="m16 16 5 5"></path></svg>
+                    <span class="visually-hidden">Buscar una asignatura en todos los ciclos</span>
+                    <input id="silabos-buscar" type="search" placeholder="Buscar asignatura…" autocomplete="off">
+                    <span class="syllabus-search-hint" aria-hidden="true">⌕</span>
+                </label>
             </div>
 
 
             <div class="syllabus-layout">
-
-                <nav
-                    class="syllabus-index"
-                    id="silabos-indice"
-                    aria-label="Ciclos académicos"
-                >
-                </nav>
-
                 <div
                     class="syllabus-content"
                     id="lista-silabos"
+                    role="region"
+                    aria-label="Asignaturas del ciclo seleccionado"
                 >
 
                     <p class="description">
@@ -248,21 +268,6 @@
 
         </section>
 
-
-        <section class="manifesto">
-
-            <p class="eyebrow">
-                SOBRE LOS SÍLABOS
-            </p>
-
-            <p>
-                Los sílabos organizan los cursos y permiten
-                relacionar sus contenidos con los libros,
-                artículos, normas y demás recursos disponibles
-                en CÓDICE.
-            </p>
-
-        </section>
 
     </main>
 
@@ -289,6 +294,7 @@
 
 
     <script src="js/app.js"></script>
+    <script src="js/silabos.js"></script>
 
 </body>
 
