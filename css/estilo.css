@@ -8010,6 +8010,86 @@ footer {
     .taxonomy-page .taxonomy-grid--temas { grid-template-columns: minmax(0, 1fr); }
 }
 
+/* Las fichas de Temas crecen según el texto en teléfono; los títulos largos
+   y los subtemas ya no comparten una altura fija con la imagen. */
+@media (max-width: 600px) {
+    .taxonomy-page .taxonomy-grid--temas .topic-card {
+        min-height: 0;
+        height: auto;
+        overflow: visible;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas .topic-card-trigger {
+        grid-template-rows: 132px minmax(92px, auto);
+        min-height: 0;
+        height: auto;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas .topic-card-copy {
+        min-width: 0;
+        padding: 12px 14px 14px;
+        overflow-wrap: anywhere;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas .topic-card-title {
+        max-width: 100%;
+        font-size: clamp(21px, 6vw, 26px);
+        line-height: 1.12;
+        overflow-wrap: anywhere;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas.topics-expanded .topic-card.is-active {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        min-height: 0;
+        overflow: visible;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas.topics-expanded .topic-card.is-active .topic-card-art {
+        flex: 0 0 auto;
+        width: 100%;
+        height: clamp(132px, 42vw, 190px) !important;
+        min-height: 0;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas.topics-expanded .topic-card.is-active .topic-card-copy,
+    .taxonomy-page .taxonomy-grid--temas.topics-expanded .topic-card.is-active .topic-expanded-content {
+        width: 100%;
+        min-width: 0;
+        box-sizing: border-box;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas.topics-expanded .topic-card.is-active .topic-card-copy {
+        padding: 12px 14px;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas.topics-expanded .topic-card.is-active .topic-expanded-content {
+        gap: 10px;
+        padding: 13px 14px 16px;
+        overflow: visible;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas.topics-expanded .topic-subtopics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 100%;
+        max-height: none;
+        gap: 8px;
+    }
+
+    .taxonomy-page .taxonomy-grid--temas.topics-expanded .topic-subtopic {
+        display: flex;
+        justify-content: center;
+        min-width: 0;
+        min-height: 42px;
+        padding: 7px 9px;
+        line-height: 1.3;
+        text-align: center;
+        white-space: normal;
+        overflow-wrap: anywhere;
+    }
+}
+
 /* El carrusel conserva la misma altura al cambiar obras con títulos de distintas longitudes. */
 .discover-main {
     transition: opacity 220ms var(--ease-soft);
