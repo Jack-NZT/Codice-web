@@ -31,6 +31,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const silabosIndice =
         document.getElementById("silabos-indice");
 
+    const silabosResumen =
+        document.getElementById("silabos-resumen");
+
+    const silabosBuscar =
+        document.getElementById("silabos-buscar");
+
     const buscadorForm =
         document.getElementById("buscar-form");
 
@@ -4090,6 +4096,30 @@ document.addEventListener("DOMContentLoaded", () => {
                             (a, b) => a.numero - b.numero
                         );
 
+                    if (silabosResumen) {
+                        silabosResumen.replaceChildren();
+                        const datoCiclos = crearElemento("span", "syllabus-overview-item");
+                        datoCiclos.append(
+                            crearElemento("strong", "", String(ciclos.length).padStart(2, "0")),
+                            document.createTextNode(" ciclos")
+                        );
+                        const separador = crearElemento("span", "syllabus-overview-divider", "·");
+                        separador.setAttribute("aria-hidden", "true");
+                        const datoCursos = crearElemento("span", "syllabus-overview-item");
+                        datoCursos.append(
+                            crearElemento("strong", "", String(cursos.length).padStart(2, "0")),
+                            document.createTextNode(" asignaturas")
+                        );
+                        const separadorProgramas = crearElemento("span", "syllabus-overview-divider", "·");
+                        separadorProgramas.setAttribute("aria-hidden", "true");
+                        const datoProgramas = crearElemento("span", "syllabus-overview-item");
+                        datoProgramas.append(
+                            crearElemento("strong", "", String(cursos.filter(curso => curso.url).length).padStart(2, "0")),
+                            document.createTextNode(" programas")
+                        );
+                        silabosResumen.append(datoCiclos, separador, datoCursos, separadorProgramas, datoProgramas);
+                    }
+
                     if (ciclos.length === 0) {
 
                         mostrarMensaje(
@@ -4227,6 +4257,11 @@ document.addEventListener("DOMContentLoaded", () => {
                                         "span",
                                         "syllabus-index-roman",
                                         ciclo.nombre.split(" ")[0]
+                                    ),
+                                    crearElemento(
+                                        "span",
+                                        "syllabus-index-count",
+                                        String(ciclo.cursos.length).padStart(2, "0")
                                     )
                                 );
 
@@ -4236,6 +4271,77 @@ document.addEventListener("DOMContentLoaded", () => {
 
                             }
                         );
+
+                    }
+
+
+                    function crearTarjetaCurso(curso, indiceCurso, nombreCiclo, mostrarCiclo = false) {
+
+                        const fila = crearElemento("li", "syllabus-course");
+                        const cuerpo = crearElemento("div", "syllabus-course-body");
+                        const numero = crearElemento(
+                            "span",
+                            "syllabus-course-number",
+                            String(indiceCurso + 1).padStart(2, "0")
+                        );
+                        numero.setAttribute("aria-hidden", "true");
+
+                        const enlaceFicha = crearElemento("a", "syllabus-course-main");
+                        enlaceFicha.href = `silabo-curso.html?carrera=${encodeURIComponent(carreraActiva.id)}&curso=${encodeURIComponent(curso.id)}`;
+                        enlaceFicha.setAttribute("aria-label", `Ver ficha de ${curso.curso}, ${nombreCiclo}`);
+
+                        if (mostrarCiclo) {
+                            enlaceFicha.append(crearElemento("span", "syllabus-course-context", nombreCiclo));
+                        }
+
+                        const encabezado = crearElemento("span", "syllabus-course-heading");
+                        encabezado.append(
+                            crearElemento("h3", "syllabus-course-name", curso.curso),
+                            crearElemento("span", "syllabus-course-arrow", "↗")
+                        );
+                        enlaceFicha.append(encabezado);
+
+                        cuerpo.append(enlaceFicha);
+
+                        const acciones = crearElemento("div", "syllabus-course-actions");
+                        const programa = crearElemento("a", `syllabus-course-resource${curso.url ? "" : " is-disabled"}`);
+                        programa.href = curso.url || "#";
+                        programa.append(
+                            crearElemento("span", "syllabus-resource-symbol", "↗"),
+                            document.createTextNode(curso.url ? "Abrir sílabo" : "Sílabo no disponible")
+                        );
+                        if (curso.url) {
+                            programa.target = "_blank";
+                            programa.rel = "noopener noreferrer";
+                            programa.setAttribute("aria-label", `Abrir el sílabo de ${curso.curso} en una nueva pestaña`);
+                        } else {
+                            programa.setAttribute("aria-disabled", "true");
+                            programa.tabIndex = -1;
+                            programa.addEventListener("click", evento => evento.preventDefault());
+                        }
+                        acciones.append(programa);
+
+                        const bibliografia = Array.isArray(curso.bibliografia) ? curso.bibliografia : [];
+                        const etiquetaObras = crearElemento(
+                            "span",
+                            `syllabus-course-resource syllabus-course-resource--quiet${bibliografia.length ? "" : " is-disabled"}`,
+                            `${bibliografia.length} ${bibliografia.length === 1 ? "obra" : "obras"} en Códice`
+                        );
+                        etiquetaObras.prepend(crearElemento("span", "syllabus-resource-symbol", "▤"));
+                        acciones.append(etiquetaObras);
+
+                        const recursos = Array.isArray(curso.recursos) ? curso.recursos : [];
+                        if (recursos.length) {
+                            acciones.append(
+                                crearElemento("span", "syllabus-course-resource syllabus-course-resource--quiet", `${recursos.length} recursos`)
+                            );
+                        }
+
+                        if (acciones.childElementCount) cuerpo.append(acciones);
+                        fila.append(numero, cuerpo);
+                        fila.dataset.curso = (curso.curso + " " + (curso.descripcion || "") + " " + nombreCiclo)
+                            .normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es");
+                        return fila;
 
                     }
 
@@ -4251,207 +4357,46 @@ document.addEventListener("DOMContentLoaded", () => {
                             ciclos[indiceActivo];
 
                         listaSilabos.innerHTML = "";
+                        const consulta = silabosBuscar ? silabosBuscar.value.trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es") : "";
+                        const buscando = consulta.length > 0;
+                        if (silabosCicloActivo) silabosCicloActivo.textContent = ciclo.nombre;
 
-
-                        if (silabosCicloActivo) {
-                            silabosCicloActivo.textContent = ciclo.nombre;
-                        }
-
-                        const lista =
-                            crearElemento(
-                                "ol",
-                                "syllabus-courses"
-                            );
-
-                        ciclo.cursos.forEach(
-                            (curso, indiceCurso) => {
-
-                                const fila =
-                                    crearElemento(
-                                        "li",
-                                        "syllabus-course"
-                                    );
-
-                                const cuerpo =
-                                    crearElemento(
-                                        "div",
-                                        "syllabus-course-body"
-                                    );
-
-
-const tituloCurso = crearElemento(
-    "h3",
-    "syllabus-course-name"
-);
-
-if (curso.url) {
-    const enlaceCurso = crearElemento(
-        "a",
-        "syllabus-course-link",
-        curso.curso
-    );
-
-    enlaceCurso.href = curso.url;
-    enlaceCurso.target = "_blank";
-    enlaceCurso.rel = "noopener noreferrer";
-    enlaceCurso.setAttribute(
-        "aria-label",
-        `Abrir sílabo de ${curso.curso} en una nueva pestaña`
-    );
-
-    tituloCurso.append(enlaceCurso);
-} else {
-    tituloCurso.textContent = curso.curso;
-}
-
-cuerpo.append(tituloCurso);
-
-
-                                /* Bibliografía — solo si hay datos.
-                                   No se muestra "—" ni campos vacíos. */
-
-                                const ids =
-                                    curso.bibliografia || [];
-
-                                if (curso.descripcion || ids.length > 0) {
-
-                                    const detalles =
-                                        crearElemento(
-                                            "details",
-                                            "syllabus-course-details"
-                                        );
-
-                                    const alternarDetalles = crearElemento(
-                                        "summary",
-                                        "syllabus-course-details-toggle"
-                                    );
-                                    alternarDetalles.setAttribute(
-                                        "aria-label",
-                                        `Mostrar información de ${curso.curso}`
-                                    );
-                                    alternarDetalles.append(
-                                        crearElemento(
-                                            "span",
-                                            "visually-hidden",
-                                            `Mostrar información de ${curso.curso}`
-                                        )
-                                    );
-
-                                    const contenidoDetalles =
-                                        crearElemento(
-                                            "div",
-                                            "syllabus-course-details-content"
-                                        );
-
-                                    if (curso.descripcion) {
-
-                                        contenidoDetalles.append(
-                                            crearElemento(
-                                                "p",
-                                                "syllabus-course-description",
-                                                curso.descripcion
-                                            )
-                                        );
-
-                                    }
-
-                                    if (ids.length > 0) {
-
-                                        const bibliografia =
-                                            crearElemento(
-                                                "p",
-                                                "syllabus-course-meta"
-                                            );
-
-                                        bibliografia.append(
-                                            crearElemento(
-                                                "span",
-                                                "syllabus-meta-label",
-                                                "Bibliografía"
-                                            )
-                                        );
-
-                                        const enlaces =
-                                            crearElemento(
-                                                "span",
-                                                "relation-links"
-                                            );
-
-                                        ids.forEach(
-                                            idRecurso => {
-
-                                                const enlace =
-                                                    crearElemento(
-                                                        "a",
-                                                        "relation-link"
-                                                    );
-
-                                                const recurso =
-                                                    encontrarObra(
-                                                        idRecurso
-                                                    );
-
-                                                enlace.href =
-                                                    `recurso.html?id=${encodeURIComponent(idRecurso)}`;
-
-                                                enlace.textContent =
-                                                    recurso
-                                                        ? recurso.titulo
-                                                        : idRecurso;
-
-                                                enlaces.append(
-                                                    enlace
-                                                );
-
-                                            }
-                                        );
-
-                                        bibliografia.append(
-                                            enlaces
-                                        );
-
-                                        contenidoDetalles.append(
-                                            bibliografia
-                                        );
-
-                                    }
-
-                                    detalles.append(
-                                        alternarDetalles,
-                                        contenidoDetalles
-                                    );
-
-                                    detalles.addEventListener("toggle", () => {
-                                        alternarDetalles.setAttribute(
-                                            "aria-label",
-                                            `${detalles.open ? "Ocultar" : "Mostrar"} información de ${curso.curso}`
-                                        );
-                                    });
-
-                                    cuerpo.append(
-                                        detalles
-                                    );
-
-                                }
-
-
-                                fila.append(
-                                    crearElemento(
-                                        "span",
-                                        "syllabus-course-number",
-                                        String(indiceCurso + 1).padStart(2, "0")
-                                    ),
-                                    cuerpo
-                                );
-
-                                lista.append(
-                                    fila
-                                );
-
-                            }
+                        const encabezadoCiclo = crearElemento("div", `syllabus-cycle-heading${buscando ? " is-search-results" : ""}`);
+                        const copiaCiclo = crearElemento("div", "syllabus-cycle-copy");
+                        copiaCiclo.append(
+                            ...(buscando ? [crearElemento("h2", "syllabus-cycle-title", `Resultados para “${silabosBuscar.value.trim()}”`)] : [])
                         );
 
+                        const cursosMostrados = buscando
+                            ? cursos.filter(curso => (curso.curso + " " + (curso.descripcion || "") + " " + curso.ciclo).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("es").includes(consulta))
+                            : ciclo.cursos;
+                        const cuenta = crearElemento("span", "syllabus-cycle-total", `${cursosMostrados.length} ${cursosMostrados.length === 1 ? "asignatura" : "asignaturas"}`);
+                        encabezadoCiclo.append(copiaCiclo);
+                        if (buscando) encabezadoCiclo.append(cuenta);
+                        if (!buscando) {
+                            copiaCiclo.append(crearElemento("span", "syllabus-cycle-hint", "Toca una asignatura para ver su descripción y más información"));
+                        }
+                        listaSilabos.append(encabezadoCiclo);
 
+                        if (cursosMostrados.length) {
+                            const lista = crearElemento("ol", "syllabus-courses");
+                            cursosMostrados.forEach(curso => {
+                                const indiceOriginal = cursos.indexOf(curso);
+                                lista.append(crearTarjetaCurso(curso, buscando ? indiceOriginal : ciclo.cursos.indexOf(curso), curso.ciclo, buscando));
+                            });
+                            listaSilabos.append(lista);
+                        } else {
+                            const vacio = crearElemento("div", "syllabus-search-empty");
+                            vacio.append(
+                                crearElemento("span", "syllabus-empty-mark", "⌕"),
+                                crearElemento("p", "", "No encontramos asignaturas con ese término."),
+                                crearElemento("small", "", "Prueba con otra palabra o revisa el nombre del ciclo.")
+                            );
+                            listaSilabos.append(vacio);
+                        }
+
+
+                        if (!buscando) {
                         const paginador =
                             crearElemento(
                                 "nav",
@@ -4512,14 +4457,13 @@ cuerpo.append(tituloCurso);
                         }
 
 
-                        listaSilabos.append(lista);
-
                         if (anterior || siguiente) {
 
                             listaSilabos.append(
                                 paginador
                             );
 
+                        }
                         }
 
                     }
@@ -4539,6 +4483,10 @@ cuerpo.append(tituloCurso);
 
                         if (numero === cicloActivo && !actualizarHash) {
                             return;
+                        }
+
+                        if (silabosBuscar && silabosBuscar.value) {
+                            silabosBuscar.value = "";
                         }
 
                         pintarIndice(numero);
@@ -4611,6 +4559,12 @@ cuerpo.append(tituloCurso);
 
                         }
                     );
+
+                    if (silabosBuscar) {
+                        silabosBuscar.addEventListener("input", () => {
+                            if (cicloActivo !== null) pintarContenido(cicloActivo);
+                        });
+                    }
 
                     listaSilabos.addEventListener(
                         "click",
