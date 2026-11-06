@@ -3140,6 +3140,7 @@ body:has(#biblioteca) > main > .section {
 }
 
 #biblioteca .resource-card {
+    position: relative;
     display: grid;
 
     min-width: 0;
@@ -3180,22 +3181,95 @@ body:has(#biblioteca) > main > .section {
 
 #biblioteca .card-info h3 {
     grid-row: 2;
-
-    max-width: 95%;
-
-    margin: 0 0 5px;
+    display: -webkit-box;
+    max-width: 100%;
+    overflow: hidden;
+    min-height: 2.1em;
+    margin: 0;
 
     color: var(--ivory);
 
     font-family: var(--serif);
-    font-size: 24px;
+    font-size: 23px;
     font-weight: 400;
     line-height: 1.05;
     letter-spacing: -0.015em;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 
     transition:
         color var(--transition-fast),
         transform var(--transition);
+}
+
+#biblioteca .card-title-wrap {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-row: 2;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+    gap: 4px;
+    min-width: 0;
+}
+
+#biblioteca .card-title-wrap h3 { grid-row: auto; }
+#biblioteca .card-title-link { color: inherit; }
+#biblioteca .card-title-link::after { position: absolute; z-index: 1; inset: 0; content: ""; }
+#biblioteca .card-title-link:focus-visible { outline: 1px solid var(--accent); outline-offset: 4px; }
+
+#biblioteca .card-title-reveal {
+    position: absolute;
+    z-index: 4;
+    inset: 0 0 auto;
+    display: block;
+    width: 100%;
+    padding: 0 3px 5px 0;
+    background: var(--black);
+    color: var(--ivory);
+    font-family: var(--serif);
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    overflow-wrap: anywhere;
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(2px);
+    transition: opacity var(--transition-fast), transform var(--transition-fast), visibility var(--transition-fast);
+}
+
+#biblioteca .card-title-wrap:hover .card-title-reveal,
+#biblioteca .card-title-wrap:focus-within .card-title-reveal {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#biblioteca .card-title-toggle {
+    position: relative;
+    z-index: 3;
+    display: none;
+    place-items: center;
+    width: 28px;
+    min-height: 40px;
+    border: 1px solid var(--line);
+    color: var(--accent);
+    background: var(--surface);
+    font-size: 15px;
+    line-height: 1;
+    transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+#biblioteca .card-title-toggle[aria-expanded="true"] { transform: rotate(180deg); }
+#biblioteca .card-title-toggle:focus-visible { outline: 1px solid var(--accent); outline-offset: 2px; }
+#biblioteca .resource-card.title-expanded .card-info h3 { display: block; overflow: visible; min-height: 0; -webkit-line-clamp: unset; }
+
+@media (hover: none), (max-width: 700px) {
+    #biblioteca .card-title-wrap { grid-template-columns: minmax(0, 1fr) 28px; }
+    #biblioteca .card-title-toggle { display: grid; }
+    #biblioteca .card-title-reveal { display: none; }
 }
 
 #biblioteca .resource-card:hover .card-info h3 {
@@ -3279,7 +3353,9 @@ body:has(#biblioteca) > main > .section {
 #biblioteca .metadata {
     grid-row: 5;
 
-    display: block;
+    display: -webkit-box;
+    overflow: hidden;
+    min-height: 3em;
 
     padding-top: 11px;
 
@@ -3288,9 +3364,12 @@ body:has(#biblioteca) > main > .section {
     font-size: 9px;
     line-height: 1.5;
     letter-spacing: 0.06em;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
-#biblioteca .resource-card:focus-visible {
+#biblioteca .resource-card:focus-visible,
+#biblioteca .resource-card:has(.card-title-link:focus-visible) {
     outline: 1px solid var(--accent);
     outline-offset: 5px;
 }
@@ -3702,6 +3781,57 @@ body.page-explorar:has(#biblioteca) > main > .section:first-child {
     letter-spacing: -0.055em;
 }
 
+/* Ficha de obra: título, portada y datos con una escala más equilibrada. */
+.resource-page .resource-heading {
+    margin-bottom: 38px;
+}
+
+.resource-page .resource-heading h1 {
+    max-width: 860px;
+    font-size: clamp(40px, 5.4vw, 68px);
+    line-height: .98;
+    letter-spacing: -.04em;
+    overflow-wrap: anywhere;
+}
+
+.resource-page .resource-detail {
+    grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
+    gap: clamp(32px, 5vw, 68px);
+    padding-top: 28px;
+}
+
+.resource-page .resource-detail-cover img {
+    width: min(100%, 280px);
+}
+
+.resource-page .resource-detail.sin-portada {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.resource-page .resource-detail.sin-portada .resource-detail-cover {
+    display: none;
+}
+
+.resource-page .resource-detail-info > .description {
+    margin-bottom: 30px;
+    font-size: clamp(18px, 1.8vw, 23px);
+    line-height: 1.48;
+}
+
+.resource-page .resource-metadata {
+    margin-bottom: 26px;
+}
+
+.resource-page .resource-action {
+    margin-bottom: 28px;
+}
+
+.resource-page .resource-section {
+    padding-top: 76px;
+    padding-bottom: 76px;
+    border-top: var(--border-thin);
+}
+
 .resource-author-name {
     margin: 0;
 
@@ -4083,6 +4213,40 @@ body.page-explorar:has(#biblioteca) > main > .section:first-child {
         max-width: none;
     }
 
+}
+
+@media (max-width: 700px) {
+    .resource-page .resource-heading { margin-bottom: 22px; }
+    .resource-page .resource-heading h1 {
+        font-size: clamp(34px, 9vw, 48px);
+        line-height: 1.02;
+    }
+    .resource-page .resource-detail {
+        grid-template-columns: 104px minmax(0, 1fr);
+        gap: 0 18px;
+        padding-top: 20px;
+    }
+    .resource-page .resource-detail-cover { position: static; }
+    .resource-page .resource-detail-cover img { width: 100%; max-width: none; }
+    .resource-page .resource-detail.sin-portada { grid-template-columns: minmax(0, 1fr); }
+    .resource-page .resource-detail.sin-portada .resource-detail-info > .description { grid-column: 1 / -1; }
+    .resource-page .resource-detail-info > .description {
+        margin: 0;
+        font-size: 16px;
+        line-height: 1.45;
+    }
+    .resource-page .resource-metadata,
+    .resource-page .resource-citation,
+    .resource-page .resource-relations { grid-column: 1 / -1; }
+    .resource-page .resource-metadata { margin-top: 22px; }
+    .resource-page .resource-section { padding-top: 54px; padding-bottom: 54px; }
+}
+
+@media (max-width: 420px) {
+    .resource-page .resource-detail { grid-template-columns: 84px minmax(0, 1fr); gap: 0 14px; }
+    .resource-page .resource-detail-info > .description { font-size: 15px; }
+    .resource-page .resource-metadata { grid-template-columns: 1fr; }
+    .resource-page .resource-metadata p:nth-child(even) { padding-left: 0; border-left: 0; }
 }
 
 @media (max-width: 600px) {
@@ -5327,7 +5491,7 @@ main:focus {
     }
 
     body #biblioteca.is-list .resource-type,
-    body #biblioteca.is-list .card-info h3,
+    body #biblioteca.is-list .card-title-wrap,
     body #biblioteca.is-list .author,
     body #biblioteca.is-list .metadata {
         grid-column: 2;
@@ -5343,6 +5507,11 @@ main:focus {
         margin: 0 0 4px;
 
         font-size: 21px;
+    }
+
+    body #biblioteca.is-list .card-title-wrap {
+        grid-row: 2;
+        grid-template-columns: minmax(0, 1fr) 28px;
     }
 
     body #biblioteca.is-list .author {
@@ -5887,7 +6056,8 @@ main:focus {
     border-radius: 50%;
 }
 
-.aut-foto img {
+.aut-foto--card img,
+.aut-foto--mini img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -5897,8 +6067,10 @@ main:focus {
     transition: filter var(--transition-slow);
 }
 
-a:hover > .aut-foto img,
-.aut-foto:hover img {
+a:hover > .aut-foto--card img,
+a:hover > .aut-foto--mini img,
+.aut-foto--card:hover img,
+.aut-foto--mini:hover img {
     filter: grayscale(0.15);
 }
 
@@ -6097,15 +6269,17 @@ a:hover > .aut-foto img,
     align-items: center;
     justify-content: space-between;
     gap: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 3px;
 }
 
 .aut-hero-contexto .eyebrow { margin: 0; }
 
 .aut-hero {
     display: grid;
-    grid-template-columns: minmax(0, 1.45fr) minmax(300px, .85fr);
-    gap: clamp(34px, 4vw, 58px);
+    grid-template-columns: var(--aut-foto-w) minmax(0, 1.45fr) minmax(250px, .85fr);
+    grid-template-areas: "foto titulo obras" "foto meta obras" "foto contenido obras";
+    column-gap: clamp(34px, 4vw, 58px);
+    row-gap: 3px;
     align-items: start;
 
     padding-bottom: 56px;
@@ -6114,25 +6288,18 @@ a:hover > .aut-foto img,
     border-bottom: var(--border-thin);
 }
 
-.aut-identidad {
-    display: grid;
-    grid-template-columns: var(--aut-foto-w) minmax(0, 1fr);
-    gap: clamp(24px, 3vw, 42px);
-    align-items: start;
-    min-width: 0;
-}
-
-.autores-app[data-foto="no"] .aut-identidad { grid-template-columns: minmax(0, 1fr); }
-.autores-app[data-foto="no"] .aut-hero { grid-template-columns: minmax(0, 1.45fr) minmax(300px, .85fr); }
-
-.aut-hero-foto { min-width: 0; }
+.aut-hero-titulo { grid-area: titulo; min-width: 0; }
+.aut-hero-foto { grid-area: foto; min-width: 0; }
 .aut-foto--hero { width: 100%; }
+.aut-hero-contenido { grid-area: contenido; min-width: 0; max-width: 760px; margin-top: 12px; }
 
 .aut-ficha-metadatos {
     display: grid;
-    gap: 13px;
-    padding-top: 17px;
-    margin: 17px 0 0;
+    grid-area: meta;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px 18px;
+    padding-top: 4px;
+    margin: 0;
     border-top: var(--border-thin);
 }
 
@@ -6152,13 +6319,15 @@ a:hover > .aut-foto img,
     line-height: 1.5;
 }
 
-.aut-hero-texto { min-width: 0; max-width: 760px; }
+.autores-app[data-foto="no"] .aut-hero { grid-template-columns: minmax(0, 1.45fr) minmax(250px, .85fr); grid-template-areas: "titulo obras" "meta obras" "contenido obras"; }
+.autores-app[data-foto="no"] .aut-hero.sin-obras { grid-template-columns: minmax(0, 1fr); grid-template-areas: "titulo" "meta" "contenido"; }
 
 .aut-hero-obras {
+    grid-area: obras;
     min-width: 0;
-    padding-left: clamp(24px, 3vw, 42px);
-    border-left: var(--border-thin);
+    padding-left: 0;
 }
+.aut-hero.sin-obras { grid-template-columns: var(--aut-foto-w) minmax(0, 1fr); grid-template-areas: "foto titulo" "foto meta" "foto contenido"; }
 
 .aut-hero-obras .aut-sec + .aut-sec { margin-top: 34px; }
 .aut-hero-obras .aut-sec-cab { margin-bottom: 14px; }
@@ -6166,7 +6335,7 @@ a:hover > .aut-foto img,
 .aut-hero-obras .aut-obras { font-size: 14px; }
 
 .aut-nombre {
-    margin: 12px 0 12px;
+    margin: 4px 0 0;
     color: var(--ivory);
     font-family: var(--serif);
     font-size: clamp(36px, 3.6vw, 52px);
@@ -6262,8 +6431,8 @@ a:hover > .aut-foto img,
 .autores-app[data-layout="una-columna"] .aut-col--lateral { max-width: 860px; }
 
 .aut-col--lateral {
-    padding-left: clamp(0px, 3vw, 40px);
-    border-left: var(--border-thin);
+    padding-left: 0;
+    border-left: 0;
 }
 
 .autores-app[data-layout="una-columna"] .aut-col--lateral {
@@ -6387,9 +6556,9 @@ a:hover > .aut-foto img,
 }
 
 .aut-obra--disponible .aut-obra-cuerpo {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 48px minmax(0, 1fr);
+    align-items: center;
     gap: 6px;
     min-height: 100%;
     padding: 10px 12px;
@@ -6398,6 +6567,8 @@ a:hover > .aut-foto img,
     text-decoration: none;
     transition: transform var(--transition-fast), border-color var(--transition-fast), background-color var(--transition-fast), box-shadow var(--transition-fast);
 }
+.aut-obra-portada { display: block; width: 48px; height: 68px; object-fit: cover; object-position: center; }
+.aut-obra-info { display: flex; flex-direction: column; align-items: flex-start; gap: 6px; min-width: 0; }
 
 .aut-obra--disponible:hover .aut-obra-cuerpo {
     transform: translateY(-2px);
@@ -6750,8 +6921,11 @@ body.aut-fuentes-abiertas { overflow: hidden; }
 }
 
 @media (max-width: 1100px) {
-    .aut-hero { grid-template-columns: minmax(0, 1fr); gap: 32px; }
-    .aut-hero-obras { padding: 28px 0 0; border-top: var(--border-thin); border-left: 0; }
+    .aut-hero { grid-template-columns: var(--aut-foto-w) minmax(0, 1fr); grid-template-areas: "foto titulo" "foto meta" "foto contenido" "obras obras"; column-gap: 30px; row-gap: 3px; }
+    .aut-hero.sin-obras { grid-template-areas: "foto titulo" "foto meta" "foto contenido"; }
+    .autores-app[data-foto="no"] .aut-hero { grid-template-columns: minmax(0, 1fr) minmax(240px, .8fr); grid-template-areas: "titulo obras" "meta obras" "contenido contenido"; }
+    .autores-app[data-foto="no"] .aut-hero.sin-obras { grid-template-columns: minmax(0, 1fr); grid-template-areas: "titulo" "meta" "contenido"; }
+    .aut-hero-obras { padding: 24px 0 0; border-top: var(--border-thin); }
 }
 
 @media (max-width: 700px) {
@@ -6772,10 +6946,14 @@ body.aut-fuentes-abiertas { overflow: hidden; }
         margin-bottom: 36px;
     }
 
-    .aut-identidad { grid-template-columns: minmax(0, 1fr); gap: 24px; }
-    .aut-hero .aut-foto--hero { width: min(var(--aut-foto-w), 58%); }
-    .aut-ficha-metadatos { width: min(100%, 360px); }
-    .aut-hero-obras { padding-top: 24px; }
+    .aut-hero { grid-template-columns: 104px minmax(0, 1fr); grid-template-areas: "titulo titulo" "foto meta" "contenido contenido" "obras obras"; column-gap: 18px; row-gap: 4px; }
+    .aut-hero.sin-obras { grid-template-areas: "titulo titulo" "foto meta" "contenido contenido"; }
+    .autores-app[data-foto="no"] .aut-hero,
+    .autores-app[data-foto="no"] .aut-hero.sin-obras { grid-template-columns: minmax(0, 1fr); grid-template-areas: "titulo" "meta" "contenido" "obras"; }
+    .aut-hero .aut-foto--hero { width: 100%; }
+    .aut-ficha-metadatos { width: auto; grid-template-columns: minmax(0, 1fr); align-content: center; gap: 8px; padding: 4px 0 0; border-top: var(--border-thin); }
+    .aut-ficha-valor { font-size: 12px; line-height: 1.35; }
+    .aut-hero-obras { padding-top: 20px; }
     .aut-nombre { font-size: clamp(34px, 10vw, 46px); }
     .aut-resumen { font-size: 17px; }
     .aut-hero-contexto { gap: 8px; }
@@ -6802,6 +6980,7 @@ body.aut-fuentes-abiertas { overflow: hidden; }
         box-shadow: none;
     }
     .aut-fuente:hover { transform: none; }
+    .aut-foto--mini img { filter: grayscale(0.15); }
 }
 
 
