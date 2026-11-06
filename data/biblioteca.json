@@ -4,12 +4,12 @@
     "titulo": "El príncipe",
     "autor": "Nicolás Maquiavelo",
     "tipo": "Libro",
-    "anio": "1513",
-    "editorial": "",
+    "anio": "2019",
+    "editorial": "Editorial Digital, Imprenta Nacional de Costa Rica",
     "idioma": "Español",
-    "formato": "Documento digital",
-    "paginas": "",
-    "isbn": "",
+    "formato": "Documento digital (PDF)",
+    "paginas": "56",
+    "isbn": "978-9977-58-505-5",
     "estado": "Disponible",
     "temas": [
       "Política",
@@ -20,10 +20,10 @@
       "Clásicos",
       "Estado y poder"
     ],
-    "descripcion": "Un texto clásico sobre poder, Estado, estrategia y gobierno.",
-    "resumen": "Obra dedicada al análisis del poder político, las formas de adquisición y conservación del poder y las decisiones que debe adoptar quien gobierna. Maquiavelo examina la relación entre virtud, fortuna, fuerza, estrategia y estabilidad política.",
-    "biografiaAutor": "Nicolás Maquiavelo (1469–1527) fue un diplomático, funcionario y pensador político florentino. Sus escritos analizaron el poder, el Estado y la acción política desde una perspectiva histórica y pragmática.",
-    "citaAPA": "Maquiavelo, N. (1513). El príncipe.",
+    "descripcion": "Edición digital en español del tratado político en el que Maquiavelo examina distintos tipos de principado, las vías para adquirirlos y las decisiones que ayudan a conservarlos.",
+    "resumen": "Escrito en 1513 y publicado póstumamente en 1532, el tratado analiza las condiciones concretas del poder en las ciudades y principados de su época. Maquiavelo estudia la relación entre virtud política, fortuna, fuerza, reputación y necesidad, y compara gobernantes y episodios históricos. Esta edición de la Imprenta Nacional de Costa Rica se publicó en 2019; el PDF ofrece el texto íntegro en español.",
+    "biografiaAutor": "Nicolás Maquiavelo (1469–1527) fue diplomático, funcionario e historiador florentino. Sus escritos políticos —entre ellos El príncipe y los Discursos sobre la primera década de Tito Livio— analizan el poder, las instituciones republicanas y la experiencia histórica.",
+    "citaAPA": "Maquiavelo, N. (2019). El príncipe (1.ª ed.). Editorial Digital, Imprenta Nacional de Costa Rica.",
     "portada": "images/covers/el-principe.jfif",
     "archivo": "https://www.imprentanacional.go.cr/editorialdigital/libros/literatura%20universal/el_principe_edincr.pdf"
   },
@@ -33,7 +33,7 @@
     "autor": "Hans Kelsen",
     "tipo": "Libro",
     "anio": "1982",
-    "editorial": "",
+    "editorial": "Instituto de Investigaciones Jurídicas, Universidad Nacional Autónoma de México",
     "idioma": "Español",
     "formato": "Documento digital",
     "paginas": "378",
@@ -50,22 +50,22 @@
       "Estado y poder"
     ],
     "descripcion": "Un texto clásico sobre poder, Estado, estrategia y gobierno.",
-    "resumen": "Obra dedicada al análisis del poder político, las formas de adquisición y conservación del poder y las decisiones que debe adoptar quien gobierna. Maquiavelo examina la relación entre virtud, fortuna, fuerza, estrategia y estabilidad política.",
-    "biografiaAutor": "Nicolás Maquiavelo (1469–1527) fue un diplomático, funcionario y pensador político florentino. Sus escritos analizaron el poder, el Estado y la acción política desde una perspectiva histórica y pragmática.",
-    "citaAPA": "Maquiavelo, N. (1513). El príncipe.",
+    "resumen": "Kelsen presenta un método para estudiar el derecho como un sistema de normas y delimitar la ciencia jurídica frente a explicaciones causales de la sociología o valoraciones morales y políticas. Examina la validez, la relación entre normas de distinto nivel, la unidad del ordenamiento y la norma fundamental presupuesta. Esta edición en español reproduce la segunda edición alemana, revisada y ampliada, publicada en 1960; fue traducida por Roberto J. Vernengo.",
+    "biografiaAutor": "Hans Kelsen (1881–1973) fue un jurista y filósofo del derecho austríaco, más tarde ciudadano estadounidense. Desarrolló la teoría pura del derecho y participó en la elaboración de la Constitución austriaca de 1920. Roberto J. Vernengo tradujo esta edición al español.",
+    "citaAPA": "Kelsen, H., & Vernengo, R. J. (1982). Teoría pura del derecho. Instituto de Investigaciones Jurídicas, Universidad Nacional Autónoma de México.",
     "portada": "images/covers/teoría-pura-del-derecho.jfif",
     "archivo": "https://drive.google.com/file/d/1uBPA-iE3Dp0Ijj0TUzU-iG1zBFLVygLr/view?usp=sharing"
   },
   {
     "id": "Introducción-al-estudio-del-derecho",
-    "titulo": "I. al estudio del derecho",
+    "titulo": "Introducción al estudio del derecho",
     "autor": "Eduardo García Máynez",
     "tipo": "Libro",
     "anio": "2002",
-    "editorial": "Editorial Porrua",
+    "editorial": "Editorial Porrúa",
     "idioma": "Español",
     "formato": "Documento digital",
-    "paginas": "466",
+    "paginas": "444",
     "isbn": "970-07-1495-0",
     "estado": "Disponible",
     "temas": [
@@ -78,10 +78,10 @@
       "Clásicos",
       "Estado y poder"
     ],
-    "descripcion": "Un texto clásico sobre poder, Estado, estrategia y gobierno.",
-    "resumen": "Obra dedicada al análisis del poder político, las formas de adquisición y conservación del poder y las decisiones que debe adoptar quien gobierna. Maquiavelo examina la relación entre virtud, fortuna, fuerza, estrategia y estabilidad política.",
-    "biografiaAutor": "Nicolás Maquiavelo (1469–1527) fue un diplomático, funcionario y pensador político florentino. Sus escritos analizaron el poder, el Estado y la acción política desde una perspectiva histórica y pragmática.",
-    "citaAPA": "Maquiavelo, N. (1513). El príncipe.",
+    "descripcion": "Manual introductorio que presenta las normas, fuentes y conceptos jurídicos fundamentales, y explica cómo se aplican e interpretan las disposiciones jurídicas.",
+    "resumen": "García Máynez organiza el estudio en cuatro grandes partes: la noción del derecho y las normas; las disciplinas jurídicas; conceptos como derecho subjetivo, deber, persona y sanción; y la técnica jurídica. En esta última examina la aplicación e interpretación, la integración del ordenamiento y los conflictos de leyes en el tiempo y el espacio. La obra ofrece un mapa sistemático de conceptos para los primeros cursos de derecho.",
+    "biografiaAutor": "Eduardo García Máynez (1908–1993) fue un jurista y filósofo mexicano especializado en filosofía del derecho, lógica jurídica y teoría de los valores. Fue profesor e investigador de la UNAM, fundó el Centro de Estudios Filosóficos de esa universidad y formó parte de El Colegio Nacional.",
+    "citaAPA": "García Máynez, E. (2002). Introducción al estudio del derecho (54.ª ed.). Porrúa.",
     "portada": "images/covers/introduccion-al-estudio-del-derecho.jpg",
     "archivo": "https://drive.google.com/file/d/1_w6hg_9Aj6d4tx3D5Gab-pH4OMvxvZdf/view?usp=sharing"
   },
@@ -107,9 +107,9 @@
       "Clásicos"
     ],
     "descripcion": "Una investigación filosófica sobre justicia, ciudad y formas de gobierno.",
-    "resumen": "",
+    "resumen": "En diez libros, Sócrates y sus interlocutores investigan qué es la justicia y si la persona justa puede vivir mejor que la injusta. La conversación construye una ciudad en el discurso, examina educación y formas de gobierno y presenta la analogía entre ciudad y alma. Incluye la alegoría de la caverna y la figura del filósofo gobernante. Sus propuestas políticas se estudian como argumentos filosóficos y como textos de su tiempo.",
     "biografiaAutor": "Platón fue un filósofo griego de la Antigüedad y discípulo de Sócrates. Su obra abordó cuestiones fundamentales sobre la justicia, el conocimiento, la política, la educación y la organización de la ciudad.",
-    "citaAPA": "Platón. (s. f.). La República.",
+    "citaAPA": "Platón. (c. 375 a. C.). La República.",
     "portada": "images/covers/Platon-la-republica.jpg",
     "archivo": "https://circulosemiotico.wordpress.com/wp-content/uploads/2019/03/platc3b3n-la-republica.pdf"
   },
@@ -134,11 +134,184 @@
       "Estado y poder"
     ],
     "descripcion": "Una reflexión sobre poder, Estado, dominación y vocación política.",
-    "resumen": "",
+    "resumen": "Texto de la conferencia de Weber de 1919 sobre qué significa vivir para la política y vivir de la política. Analiza el Estado moderno, que define mediante su pretensión de monopolizar el uso legítimo de la fuerza dentro de un territorio, y distingue tipos de legitimidad y figuras profesionales de la política. Contrasta ética de la convicción y ética de la responsabilidad como orientaciones que deben ponerse en relación al actuar políticamente.",
     "biografiaAutor": "Max Weber (1864–1920) fue un sociólogo, economista y jurista alemán. Sus investigaciones sobre acción social, burocracia, legitimidad, dominación y Estado tuvieron una influencia decisiva en las ciencias sociales modernas.",
     "citaAPA": "Weber, M. (1919). La política como vocación.",
     "portada": "images/covers/la-politica-como-vocacion.jpg",
     "archivo": "https://www.memoriapoliticademexico.org/Textos/6Revolucion/IM/Weber-Politica-Vocacion.pdf"
+  },
+  {
+    "id": "calificacion-denuncias-penales-hesbert-benavente",
+    "titulo": "Calificación de las denuncias penales",
+    "autor": "Hesbert Benavente Chorres",
+    "tipo": "Libro",
+    "anio": "",
+    "editorial": "Gaceta Jurídica",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "214",
+    "isbn": "",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Procesal Penal",
+      "Investigación preparatoria",
+      "Ministerio Público"
+    ],
+    "colecciones": [
+      "Derecho Procesal Penal"
+    ],
+    "descripcion": "Estudio especializado sobre la calificación jurídica de las denuncias penales, los criterios que orientan la actuación del Ministerio Público y los presupuestos que determinan el inicio de una investigación o el archivo de una denuncia.",
+    "resumen": "Hesbert Benavente Chorres desarrolla los criterios jurídicos y procesales que deben considerarse al momento de calificar una denuncia penal. Examina la relevancia jurídico-penal de los hechos comunicados, la teoría del caso como instrumento de análisis inicial y las decisiones que puede adoptar el fiscal frente a una denuncia. La obra permite comprender la función del Ministerio Público en la evaluación preliminar de los hechos y los fundamentos que justifican iniciar una investigación, continuar con las diligencias correspondientes o disponer el archivo.",
+    "biografiaAutor": "Hesbert Benavente Chorres es un jurista y académico especializado en Derecho Procesal Penal. Sus trabajos abordan instituciones del proceso penal, la investigación preparatoria, la teoría del caso y la actividad del Ministerio Público, con especial atención a la aplicación práctica del sistema procesal penal.",
+    "citaAPA": "Benavente Chorres, H. (s. f.). Calificación de las denuncias penales. Gaceta Jurídica.",
+    "portada": "images/covers/Calificación de las denuncias penales.png",
+    "archivo": "https://drive.google.com/file/d/1COx3bwq673pHXVQxnNVyzYQABWAwwau4/view?usp=sharing"
+  },
+  {
+    "id": "cuando-caso-es-penal-no-civil-james-reategui",
+    "titulo": "Cuándo un caso es penal y no civil",
+    "autor": "James Reátegui Sánchez",
+    "tipo": "Libro",
+    "anio": "",
+    "editorial": "Gaceta Jurídica",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "198",
+    "isbn": "",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Penal",
+      "Teoría del delito",
+      "Derecho Civil",
+      "Delimitación de responsabilidades"
+    ],
+    "colecciones": [
+      "Derecho Penal"
+    ],
+    "descripcion": "Obra jurídica que examina los criterios para distinguir los conflictos de naturaleza penal de aquellos que corresponden al ámbito civil, abordando los límites del poder punitivo y la intervención del Derecho Penal en las relaciones jurídicas.",
+    "resumen": "James Reátegui Sánchez aborda la problemática de la delimitación entre los conflictos civiles y penales, una cuestión fundamental para determinar cuándo una conducta constituye un ilícito penal y cuándo debe resolverse mediante los mecanismos propios del Derecho Civil. La obra permite examinar la diferencia entre el incumplimiento de obligaciones, los conflictos patrimoniales y las conductas que pueden adquirir relevancia delictiva. Su estudio contribuye a comprender el carácter fragmentario y subsidiario del Derecho Penal y a evitar la utilización indebida de la vía penal para resolver controversias esencialmente civiles.",
+    "biografiaAutor": "James Reátegui Sánchez es un jurista peruano especializado en Derecho Penal. Sus publicaciones desarrollan aspectos de la teoría del delito, la interpretación de las instituciones penales y la aplicación de la legislación penal peruana, con especial atención a los problemas que surgen en la práctica jurídica.",
+    "citaAPA": "Reátegui Sánchez, J. (s. f.). Cuándo un caso es penal y no civil. Gaceta Jurídica.",
+    "portada": "images/covers/",
+    "archivo": "https://drive.google.com/file/d/10zd6ZXmKsVdarcC0xf0nu3csKFLuZM07/view?usp=sharing"
+  },
+  {
+    "id": "derechos-humanos-justicia-penal-javier-llobet",
+    "titulo": "Derechos humanos y justicia penal",
+    "autor": "Javier Llobet Rodríguez",
+    "tipo": "Libro",
+    "anio": "2007",
+    "editorial": "Poder Judicial de Costa Rica, Departamento de Artes Gráficas",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "251",
+    "isbn": "978-9968-770-42-2",
+    "estado": "Disponible",
+    "temas": [
+      "Derechos Humanos",
+      "Derecho Procesal Penal",
+      "Derecho Penal",
+      "Garantías constitucionales",
+      "Justicia penal"
+    ],
+    "colecciones": [
+      "Derechos Humanos",
+      "Derecho Penal"
+    ],
+    "descripcion": "Estudio jurídico sobre la relación entre los derechos humanos y el sistema de justicia penal, que examina los límites del poder punitivo estatal, las garantías fundamentales y la protección de la dignidad humana durante el ejercicio de la función jurisdiccional.",
+    "resumen": "Javier Llobet Rodríguez desarrolla la relación entre los derechos humanos y la administración de justicia penal, examinando cómo los instrumentos internacionales de protección de derechos fundamentales condicionan el ejercicio del poder punitivo del Estado. La obra aborda la importancia de las garantías procesales, la protección de la libertad individual, el debido proceso y los límites que deben observar las autoridades encargadas de investigar, acusar y juzgar. Su contenido permite comprender la necesidad de armonizar la persecución del delito con el respeto de los derechos fundamentales de las personas sometidas al sistema penal.",
+    "biografiaAutor": "Javier Llobet Rodríguez es un jurista costarricense especializado en Derecho Penal y Derecho Procesal Penal. Su producción académica aborda la teoría del delito, los derechos humanos, las garantías procesales y la evolución de los sistemas de justicia penal, con especial atención a la influencia de los instrumentos internacionales sobre la legislación y la práctica judicial.",
+    "citaAPA": "Llobet Rodríguez, J. (2007). Derechos humanos y justicia penal. Poder Judicial, Departamento de Artes Gráficas.",
+    "portada": "images/covers/",
+    "archivo": "https://drive.google.com/file/d/19Ci5-kKteOrApIeRKntyVAS8sued20dH/view?usp=sharing"
+  },
+  {
+    "id": "delito-libramiento-indebido-jurisprudencia-penal",
+    "titulo": "El delito de libramiento indebido en la jurisprudencia penal",
+    "autor": "",
+    "tipo": "Libro",
+    "anio": "",
+    "editorial": "Gaceta Jurídica",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "166",
+    "isbn": "",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Penal",
+      "Derecho Penal Económico",
+      "Delitos patrimoniales",
+      "Derecho Penal Empresarial"
+    ],
+    "colecciones": [
+      "Derecho Penal Económico"
+    ],
+    "descripcion": "Estudio jurídico y jurisprudencial del delito de libramiento indebido, que examina sus elementos constitutivos, las modalidades de comisión y los criterios de interpretación aplicados por los órganos jurisdiccionales.",
+    "resumen": "La obra examina el delito de libramiento indebido desde una perspectiva jurídico-penal y jurisprudencial, prestando atención a las conductas relacionadas con la emisión y circulación irregular de cheques. Desarrolla los aspectos relevantes para determinar la configuración del ilícito, la responsabilidad penal del agente y la interpretación de sus elementos constitutivos. Asimismo, permite aproximarse a los criterios utilizados por la jurisprudencia penal para resolver controversias relacionadas con este delito, cuya relevancia se encuentra vinculada a la protección de la confianza y seguridad en las relaciones comerciales y patrimoniales.",
+    "biografiaAutor": "",
+    "citaAPA": "El delito de libramiento indebido en la jurisprudencia penal. (s. f.). Gaceta Jurídica.",
+    "portada": "images/covers/",
+    "archivo": "https://drive.google.com/file/d/1GQrE5lBS0CeO-VEn6qOgEj5eaFk6F0JX/view?usp=sharing"
+  },
+  {
+    "id": "habeas-corpus-ambito-penal-james-reategui",
+    "titulo": "El hábeas corpus en el ámbito penal",
+    "autor": "James Reátegui Sánchez",
+    "tipo": "Libro",
+    "anio": "",
+    "editorial": "Gaceta Jurídica",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "198",
+    "isbn": "",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Constitucional",
+      "Derecho Procesal Constitucional",
+      "Derecho Procesal Penal",
+      "Libertad individual",
+      "Garantías constitucionales"
+    ],
+    "colecciones": [
+      "Derecho Constitucional",
+      "Derecho Procesal Penal"
+    ],
+    "descripcion": "Estudio sobre la aplicación del proceso constitucional de hábeas corpus en materia penal, sus fundamentos, modalidades y alcances como mecanismo de protección de la libertad individual y de los derechos conexos frente a actuaciones arbitrarias.",
+    "resumen": "James Reátegui Sánchez examina la función del hábeas corpus en el ámbito de la justicia penal como mecanismo de tutela de la libertad individual y de otros derechos constitucionales relacionados con ella. La obra permite estudiar los supuestos en los que procede esta garantía frente a detenciones arbitrarias, restricciones ilegítimas de la libertad y vulneraciones de derechos durante la actuación de las autoridades penales. Asimismo, contribuye a comprender la relación entre la jurisdicción constitucional y la jurisdicción penal, así como los límites de la intervención judicial en la protección de los derechos fundamentales.",
+    "biografiaAutor": "James Reátegui Sánchez es un jurista peruano especializado en Derecho Penal. Su producción académica comprende estudios sobre la teoría del delito, la jurisprudencia penal y diversas instituciones relacionadas con la aplicación del Derecho Penal y la protección de los derechos fundamentales.",
+    "citaAPA": "Reátegui Sánchez, J. (s. f.). El hábeas corpus en el ámbito penal. Gaceta Jurídica.",
+    "portada": "images/covers/",
+    "archivo": "https://drive.google.com/file/d/1ZHGVTYRvJrGBXx6tdAJ1VpIn23IoSGfi/view?usp=sharing"
+  },
+  {
+    "id": "estudios-criticos-derecho-penal-peruano",
+    "titulo": "Estudios críticos de derecho penal peruano",
+    "autor": "Obra colectiva",
+    "tipo": "Libro",
+    "anio": "",
+    "editorial": "Gaceta Jurídica",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "558",
+    "isbn": "",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Penal",
+      "Teoría del delito",
+      "Política Criminal",
+      "Dogmática Penal",
+      "Jurisprudencia Penal"
+    ],
+    "colecciones": [
+      "Derecho Penal",
+      "Dogmática Penal"
+    ],
+    "descripcion": "Compilación de estudios jurídicos especializados que examinan críticamente diversas instituciones del Derecho Penal peruano, abordando problemas dogmáticos, interpretativos y político-criminales relacionados con la legislación y la jurisprudencia nacional.",
+    "resumen": "Esta obra colectiva reúne investigaciones y reflexiones jurídicas orientadas al análisis crítico del Derecho Penal peruano. Sus contribuciones permiten examinar las principales instituciones de la disciplina desde distintas perspectivas doctrinales, atendiendo a los problemas que plantea la interpretación de la legislación penal, la aplicación de la teoría del delito y el desarrollo de la jurisprudencia. La diversidad de enfoques ofrece una aproximación especializada a los debates contemporáneos de la dogmática penal y la política criminal, constituyendo un material de consulta para estudiantes, investigadores y profesionales del Derecho.",
+    "biografiaAutor": "Obra colectiva elaborada por diversos juristas y especialistas en Derecho Penal. Sus autores participan en el análisis de instituciones penales desde perspectivas dogmáticas, jurisprudenciales y político-criminales.",
+    "citaAPA": "Estudios críticos de derecho penal peruano. (s. f.). Gaceta Jurídica.",
+    "portada": "images/covers/",
+    "archivo": "https://drive.google.com/file/d/16JM2eS9eDeSuVrsLf_WsDn4I5Ln1tfSY/view?usp=sharing"
   },
   {
     "id": "introduccion-derecho-anibal-torres",
@@ -192,5 +365,1449 @@
     "citaAPA": "Bobbio, N. (2002). Teoría general del derecho (J. Guerrero R., Trad.; 4.ª reimpresión de la 2.ª ed.). Editorial Temis S.A.",
     "portada": "images/covers/Teoría-general-Bobbio.png",
     "archivo": "https://drive.google.com/file/d/1Obigi3-oLw80AyS4KblX7peeTfqZR8mt/view?usp=sharing"
+  },
+  {
+    "id": "aspectos-juridicos-contratacion-moron-aguilera",
+    "titulo": "Aspectos jurídicos de la contratación",
+    "autor": "Juan Carlos Morón Urbina y Zita Aguilera Becerril",
+    "tipo": "Libro",
+    "anio": "2019",
+    "editorial": "Fondo Editorial",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "198",
+    "isbn": "978-612-317-238-1",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Civil",
+      "Derecho Administrativo",
+      "Contratos",
+      "Teoría General del Contrato"
+    ],
+    "colecciones": [
+      "Derecho Civil",
+      "Derecho Administrativo"
+    ],
+    "descripcion": "Estudio jurídico de los aspectos fundamentales de la contratación, que examina las instituciones, principios y reglas que regulan la formación, interpretación y ejecución de los contratos, así como sus efectos y consecuencias jurídicas.",
+    "resumen": "Juan Carlos Morón Urbina y Zita Aguilera Becerril desarrollan los principales aspectos jurídicos relacionados con la contratación, abordando las instituciones y reglas que permiten comprender la formación de las relaciones contractuales y sus efectos. La obra ofrece herramientas para analizar los requisitos de validez de los contratos, las obligaciones de las partes y las consecuencias derivadas de su cumplimiento o incumplimiento. Constituye un material de consulta para comprender la contratación desde una perspectiva jurídica y su aplicación en las relaciones entre particulares y otros sujetos del ordenamiento.",
+    "biografiaAutor": "Juan Carlos Morón Urbina es un jurista peruano especializado en Derecho Administrativo. Su producción académica comprende estudios sobre procedimiento administrativo, contratación pública, actividad de la Administración y control de la actuación estatal. Zita Aguilera Becerril participa en el desarrollo de estudios jurídicos relacionados con la contratación y sus instituciones.",
+    "citaAPA": "Morón Urbina, J. C., & Aguilera Becerril, Z. (2019). Aspectos jurídicos de la contratación (3.ª ed.). Fondo Editorial.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/11VfyHqsuE--1AOqian83FlJUWzDWTzLV/view?usp=sharing"
+  },
+  {
+    "id": "derecho-laboral-libia-reyes-mendoza",
+    "titulo": "Derecho laboral",
+    "autor": "Libia Reyes Mendoza",
+    "tipo": "Libro",
+    "anio": "2012",
+    "editorial": "Red Tercer Milenio",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "157",
+    "isbn": "978-607-733-009-7",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Laboral",
+      "Derecho Individual del Trabajo",
+      "Relaciones Laborales",
+      "Contratos de Trabajo",
+      "Derechos del Trabajador"
+    ],
+    "colecciones": [
+      "Derecho Laboral",
+      "Fundamentos del Derecho"
+    ],
+    "descripcion": "Obra introductoria al Derecho Laboral que desarrolla los fundamentos de las relaciones de trabajo, sus sujetos, principios e instituciones esenciales, así como los derechos y obligaciones que surgen entre trabajadores y empleadores.",
+    "resumen": "Libia Reyes Mendoza presenta una aproximación sistemática al Derecho Laboral, examinando su concepto, evolución, principios y principales instituciones. La obra aborda la relación jurídica entre trabajador y empleador, el contrato de trabajo y las condiciones que caracterizan la prestación de servicios subordinados. Asimismo, permite comprender los derechos y obligaciones de las partes, la protección jurídica del trabajador y la función de las normas laborales en la regulación de las relaciones de trabajo. Por su carácter introductorio, constituye un recurso útil para quienes comienzan el estudio de esta rama del Derecho.",
+    "biografiaAutor": "Libia Reyes Mendoza es autora de materiales académicos orientados a la enseñanza de las ciencias jurídicas. Su obra Derecho laboral desarrolla contenidos fundamentales de la disciplina con un enfoque didáctico, dirigido a estudiantes y personas interesadas en comprender las instituciones que regulan las relaciones de trabajo.",
+    "citaAPA": "Reyes Mendoza, L. (2012). Derecho laboral. Red Tercer Milenio.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1B9J-xuiVdwd5CskNCEW2c18BSyV5Tttl/view?usp=sharing"
+  },
+  {
+    "id": "jornada-horario-trabajo-horas-extras",
+    "titulo": "Jornada, horario de trabajo y horas extras",
+    "autor": "",
+    "tipo": "Libro",
+    "anio": "2009",
+    "editorial": "Imprenta Editorial El Búho E.I.R.L.",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Laboral",
+      "Jornada de Trabajo",
+      "Tiempo de Trabajo",
+      "Horas Extras",
+      "Derechos del Trabajador"
+    ],
+    "colecciones": [
+      "Derecho Laboral"
+    ],
+    "descripcion": "Estudio de las instituciones relacionadas con el tiempo de prestación de servicios laborales, que aborda la jornada de trabajo, los horarios laborales y el régimen de horas extraordinarias, así como sus implicancias en los derechos de los trabajadores.",
+    "resumen": "La obra examina tres instituciones fundamentales del Derecho Laboral: la jornada de trabajo, el horario laboral y las horas extraordinarias. Desarrolla los conceptos relacionados con la duración del trabajo, la distribución del tiempo de prestación de servicios y las condiciones bajo las cuales pueden realizarse labores fuera de la jornada ordinaria. Asimismo, permite comprender la importancia de los límites legales de la jornada como mecanismo de protección de la salud, el descanso y la integridad del trabajador. Su contenido resulta de utilidad para estudiar la regulación del tiempo de trabajo y las obligaciones que corresponden al empleador.",
+    "biografiaAutor": "",
+    "citaAPA": "Jornada, horario de trabajo y horas extras. (2009). Imprenta Editorial El Búho E.I.R.L.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1-xB_eEWSUAQUSeIjDfzM68xp00iwf7jU/view?usp=drive_link"
+  },
+  {
+    "id": "derechos-humanos-laborales-obra-colectiva",
+    "titulo": "Los derechos humanos laborales",
+    "autor": "Obra colectiva",
+    "tipo": "Libro",
+    "anio": "2017",
+    "editorial": "Comisión Nacional de los Derechos Humanos (CNDH)",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "540",
+    "isbn": "978-607-729-394-1",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Laboral",
+      "Derechos Humanos",
+      "Derecho Internacional del Trabajo",
+      "Derechos Fundamentales",
+      "Protección del Trabajador"
+    ],
+    "colecciones": [
+      "Derechos Humanos",
+      "Derecho Laboral"
+    ],
+    "descripcion": "Obra colectiva dedicada al estudio de los derechos humanos en el ámbito laboral, que examina los derechos fundamentales de los trabajadores, sus mecanismos de protección y las obligaciones estatales y sociales orientadas a garantizar condiciones de trabajo dignas.",
+    "resumen": "Esta compilación aborda los derechos humanos laborales desde una perspectiva jurídica y de protección de la dignidad humana. Examina los derechos fundamentales que corresponden a las personas en el ámbito del trabajo, así como los principios de igualdad, no discriminación, libertad sindical, condiciones laborales justas y protección frente a situaciones de vulnerabilidad. También permite comprender la relación entre los derechos laborales y los instrumentos nacionales e internacionales de derechos humanos. Su enfoque contribuye a estudiar el trabajo no solamente como una actividad económica, sino como un ámbito en el que deben garantizarse condiciones compatibles con la dignidad, la libertad y la igualdad de las personas.",
+    "biografiaAutor": "Obra colectiva que reúne contribuciones de especialistas en derechos humanos y Derecho Laboral. Su publicación institucional corresponde a la Comisión Nacional de los Derechos Humanos de México, organismo dedicado a la promoción, protección y divulgación de los derechos humanos.",
+    "citaAPA": "Comisión Nacional de los Derechos Humanos. (2017). Los derechos humanos laborales.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1Sk8DUZqTtnGV8cSmDWYWPA1GLft38aSi/view?usp=drive_link"
+  },
+  {
+    "id": "derecho-laboral-alejandro-najera",
+    "titulo": "Derecho laboral",
+    "autor": "Alejandro Nájera Martínez",
+    "tipo": "Libro",
+    "anio": "2009",
+    "editorial": "",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "196",
+    "isbn": "",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Laboral",
+      "Derecho Individual del Trabajo",
+      "Relaciones Laborales",
+      "Contrato de Trabajo",
+      "Legislación Laboral"
+    ],
+    "colecciones": [
+      "Derecho Laboral",
+      "Fundamentos del Derecho"
+    ],
+    "descripcion": "Material de estudio sobre los fundamentos del Derecho Laboral, sus principios e instituciones, que desarrolla los elementos esenciales de las relaciones entre trabajadores y empleadores y el marco jurídico que regula la prestación de servicios subordinados.",
+    "resumen": "Alejandro Nájera Martínez presenta una exposición de los fundamentos del Derecho Laboral y de las instituciones que regulan las relaciones de trabajo. La obra permite aproximarse a la naturaleza jurídica de esta disciplina, sus principios protectores y las características de la relación laboral. Asimismo, aborda aspectos relacionados con los sujetos de la relación de trabajo, el contrato laboral, los derechos y obligaciones de las partes y la regulación jurídica de las condiciones en que se desarrolla la actividad del trabajador. Constituye un material introductorio para comprender la estructura y finalidad de la legislación laboral.",
+    "biografiaAutor": "Alejandro Nájera Martínez es autor de materiales académicos de carácter jurídico y didáctico. Su publicación Derecho laboral está orientada al estudio de los conceptos e instituciones fundamentales que conforman esta rama del ordenamiento jurídico.",
+    "citaAPA": "Nájera Martínez, A. (2009). Derecho laboral.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1Bk-UcEXQHMAwRhqgP2UBII8fvP783Y5G/view?usp=drive_link"
+  },
+  {
+    "id": "manual-derechos-laborales-trabajadores-rurales",
+    "titulo": "Manual sobre derechos laborales de los trabajadores rurales",
+    "autor": "L. Montanaro (coordinador)",
+    "tipo": "Libro",
+    "anio": "2001",
+    "editorial": "",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "116",
+    "isbn": "92-9088-117-8",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Laboral",
+      "Derecho Agrario",
+      "Trabajo Rural",
+      "Derechos del Trabajador",
+      "Protección Laboral"
+    ],
+    "colecciones": [
+      "Derecho Laboral",
+      "Derecho Agrario"
+    ],
+    "descripcion": "Manual especializado en los derechos laborales de los trabajadores rurales, que aborda las condiciones particulares del trabajo en el ámbito agrario, la protección jurídica de los trabajadores y las garantías necesarias para el ejercicio de sus derechos laborales.",
+    "resumen": "Esta obra aborda la situación jurídica de los trabajadores rurales y las particularidades de la protección laboral en las actividades agrarias. Examina los derechos que corresponden a quienes desarrollan labores en el ámbito rural, considerando las condiciones específicas de este sector y los problemas que pueden afectar el reconocimiento y ejercicio efectivo de sus garantías laborales. Su contenido permite comprender la importancia de la regulación del trabajo rural, la protección de las condiciones de empleo y la necesidad de asegurar el respeto de los derechos fundamentales de los trabajadores en el sector agrario. Constituye un material de consulta para el estudio de la relación entre el Derecho Laboral y las actividades productivas rurales.",
+    "biografiaAutor": "L. Montanaro figura como coordinador de esta publicación colectiva, dedicada al estudio y divulgación de los derechos laborales de los trabajadores rurales.",
+    "citaAPA": "Montanaro, L. (Coord.). (2001). Manual sobre derechos laborales de los trabajadores rurales.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1ehRERl-li0hTBiGJ7tO6OGdJXMSFJUdZ/view?usp=sharing"
+  },
+  {
+    "id": "derecho-penal-parte-general-wessels-beulke-satzger",
+    "titulo": "Derecho penal. Parte general: el delito y su estructura (46.ª edición)",
+    "autor": "Johannes Wessels, Werner Beulke y Helmut Satzger",
+    "tipo": "Libro",
+    "anio": "",
+    "editorial": "",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "",
+    "isbn": "978-612-322-104-1",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Penal",
+      "Parte General",
+      "Teoría del Delito",
+      "Tipicidad",
+      "Antijuridicidad",
+      "Culpabilidad"
+    ],
+    "colecciones": [
+      "Derecho Penal",
+      "Dogmática Penal"
+    ],
+    "descripcion": "Obra especializada de dogmática penal que desarrolla la estructura jurídica del delito y sus principales categorías, examinando los presupuestos de la responsabilidad penal desde una perspectiva sistemática y doctrinal.",
+    "resumen": "Johannes Wessels, Werner Beulke y Helmut Satzger presentan un estudio sistemático de la parte general del Derecho Penal, centrado en la estructura del delito y los elementos que permiten determinar la responsabilidad penal. La obra examina los fundamentos de la acción, la tipicidad, la antijuridicidad y la culpabilidad, así como las distintas cuestiones dogmáticas que surgen en su aplicación. Su desarrollo permite comprender cómo se construye el juicio de responsabilidad penal y cómo se relacionan las diferentes categorías de la teoría del delito. Constituye una referencia para profundizar en la dogmática penal alemana y su influencia en los sistemas jurídicos contemporáneos.",
+    "biografiaAutor": "Johannes Wessels fue un destacado jurista alemán y profesor de Derecho Penal, reconocido por sus aportes a la sistematización de la parte general del Derecho Penal. Werner Beulke es un jurista alemán especializado en Derecho Penal y Derecho Procesal Penal. Helmut Satzger es un académico alemán especializado en Derecho Penal, Derecho Penal Internacional y Derecho Penal Europeo. Los tres han contribuido al desarrollo y actualización de la exposición sistemática de la dogmática penal alemana.",
+    "citaAPA": "Wessels, J., Beulke, W., & Satzger, H. (s. f.). Derecho penal. Parte general: El delito y su estructura (46.ª ed.).",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1Hlh4kkUF5D3R1jPFpQxo_FbZp8_ZhzlN/view?usp=sharing"
+  },
+  {
+    "id": "derecho-penal-basico-felipe-villavicencio",
+    "titulo": "Derecho penal básico",
+    "autor": "Felipe Villavicencio Terreros",
+    "tipo": "Libro",
+    "anio": "2017",
+    "editorial": "Fondo Editorial",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "166",
+    "isbn": "978-612-317-232-9",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Penal",
+      "Parte General",
+      "Teoría del Delito",
+      "Principios del Derecho Penal",
+      "Ley Penal"
+    ],
+    "colecciones": [
+      "Derecho Penal",
+      "Fundamentos del Derecho"
+    ],
+    "descripcion": "Obra introductoria que presenta los fundamentos del Derecho Penal, sus principios, características y principales instituciones, ofreciendo una aproximación sistemática a los conceptos necesarios para comprender la responsabilidad penal y la estructura del delito.",
+    "resumen": "Felipe Villavicencio Terreros desarrolla los fundamentos esenciales del Derecho Penal, abordando su concepto, finalidad, principios limitadores y función dentro del ordenamiento jurídico. La obra permite comprender las bases de la potestad punitiva del Estado, los límites de la intervención penal y las instituciones que estructuran esta disciplina. Asimismo, proporciona una aproximación a la ley penal y a los elementos fundamentales de la teoría del delito. Por su carácter introductorio, constituye un material útil para adquirir una base conceptual antes de profundizar en los problemas específicos de la dogmática penal.",
+    "biografiaAutor": "Felipe Villavicencio Terreros es un jurista peruano y destacado especialista en Derecho Penal. Su producción académica comprende estudios sobre teoría del delito, principios limitadores del poder punitivo, política criminal y legislación penal peruana. Sus publicaciones constituyen materiales de referencia en la enseñanza universitaria del Derecho Penal.",
+    "citaAPA": "Villavicencio Terreros, F. (2017). Derecho penal básico. Fondo Editorial.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/13-8mqmdxFSVbWR565-RXwiYvl8zwKZOb/view?usp=sharing"
+  },
+  {
+    "id": "derecho-penal-parte-especial-delitos-victor-prado",
+    "titulo": "Derecho penal. Parte especial: los delitos",
+    "autor": "Víctor Prado Saldarriaga",
+    "tipo": "Libro",
+    "anio": "2017",
+    "editorial": "Fondo Editorial",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "230",
+    "isbn": "978-612-317-301-2",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Penal",
+      "Parte Especial",
+      "Delitos",
+      "Delitos contra la vida",
+      "Delitos contra el patrimonio",
+      "Tipificación penal"
+    ],
+    "colecciones": [
+      "Derecho Penal",
+      "Dogmática Penal"
+    ],
+    "descripcion": "Estudio de la parte especial del Derecho Penal que examina las principales figuras delictivas, sus elementos constitutivos y los criterios jurídicos necesarios para interpretar y aplicar los tipos penales.",
+    "resumen": "Víctor Prado Saldarriaga aborda el estudio de la parte especial del Derecho Penal, dedicada al análisis de las conductas que el ordenamiento jurídico reconoce como delitos. La obra permite comprender cómo se estructuran los tipos penales, cuáles son los bienes jurídicos protegidos y qué elementos deben concurrir para determinar la configuración de una conducta delictiva. Su contenido facilita el tránsito desde los fundamentos generales de la teoría del delito hacia el examen concreto de las figuras delictivas previstas en la legislación penal. Constituye un recurso para estudiar la interpretación de los tipos penales y su aplicación en la resolución de casos.",
+    "biografiaAutor": "Víctor Prado Saldarriaga es un jurista peruano especializado en Derecho Penal y Política Criminal. Ha desarrollado una destacada trayectoria académica y judicial, con investigaciones sobre teoría del delito, criminalidad organizada, delitos de especial complejidad y política criminal. Ha ejercido funciones jurisdiccionales en el Poder Judicial peruano y es reconocido por sus contribuciones a la doctrina penal nacional.",
+    "citaAPA": "Prado Saldarriaga, V. (2017). Derecho penal. Parte especial: Los delitos (1.ª ed.). Fondo Editorial.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1rskoDsz4ykE6w9iFkXu9LW2H57hrxyN7/view?usp=sharing"
+  },
+  {
+    "id": "obligaciones-civiles-manuel-bejarano",
+    "titulo": "Obligaciones civiles (6.ª edición)",
+    "autor": "Manuel Bejarano Sánchez",
+    "tipo": "Libro",
+    "anio": "2011",
+    "editorial": "",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "552",
+    "isbn": "978-607-426-081-6",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Civil",
+      "Derecho de Obligaciones",
+      "Fuentes de las Obligaciones",
+      "Cumplimiento de las Obligaciones",
+      "Incumplimiento de las Obligaciones",
+      "Responsabilidad Civil"
+    ],
+    "colecciones": [
+      "Derecho Civil",
+      "Obligaciones y Contratos"
+    ],
+    "descripcion": "Estudio sistemático de la teoría general de las obligaciones civiles, que desarrolla su concepto, elementos, fuentes, modalidades y formas de extinción, así como las consecuencias jurídicas derivadas de su cumplimiento e incumplimiento.",
+    "resumen": "Manuel Bejarano Sánchez desarrolla los fundamentos de la teoría general de las obligaciones civiles, examinando la relación jurídica que vincula a un acreedor con un deudor en torno a una prestación exigible. La obra aborda los elementos de la obligación, sus fuentes, modalidades y efectos jurídicos, así como las distintas formas de cumplimiento y extinción. También estudia las consecuencias del incumplimiento y los mecanismos jurídicos de protección del acreedor. Su contenido permite comprender la estructura de las relaciones obligatorias y constituye una base para el estudio de los contratos, la responsabilidad civil y otras instituciones del Derecho Privado.",
+    "biografiaAutor": "Manuel Bejarano Sánchez fue un jurista y académico mexicano dedicado al estudio del Derecho Civil. Su trabajo académico se centró en instituciones fundamentales del Derecho Privado, particularmente en la teoría general de las obligaciones y los contratos. Su obra Obligaciones civiles es utilizada como material de consulta en la formación jurídica universitaria.",
+    "citaAPA": "Bejarano Sánchez, M. (2011). Obligaciones civiles (6.ª ed.).",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1oLo1E832S6dQfaynlmFM9E7wV2g6-gE2/view?usp=sharing"
+  },
+  {
+    "id": "contratos-civiles-ramon-sanchez-medal",
+    "titulo": "De los contratos civiles (24.ª edición)",
+    "autor": "Ramón Sánchez Medal",
+    "tipo": "Libro",
+    "anio": "",
+    "editorial": "Editorial Porrúa",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "624",
+    "isbn": "978-607-09-0461-5",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Civil",
+      "Derecho de Contratos",
+      "Teoría General del Contrato",
+      "Contratos en Especial",
+      "Registro Público de la Propiedad",
+      "Obligaciones"
+    ],
+    "colecciones": [
+      "Derecho Civil",
+      "Obligaciones y Contratos"
+    ],
+    "descripcion": "Tratado de Derecho Civil dedicado al estudio de la teoría general del contrato y de las principales modalidades contractuales, incluyendo sus requisitos de validez, efectos jurídicos y aspectos relacionados con el Registro Público de la Propiedad.",
+    "resumen": "Ramón Sánchez Medal desarrolla un estudio amplio de la contratación civil, comenzando por los principios y elementos que conforman la teoría general del contrato. Examina aspectos como el consentimiento, el objeto, la capacidad de las partes, la forma y los efectos jurídicos de los acuerdos contractuales. Posteriormente, aborda los contratos en especial, analizando sus características, modalidades y régimen jurídico particular. La obra también comprende aspectos relacionados con la publicidad registral y el Registro Público de la Propiedad. Su desarrollo permite comprender tanto la estructura común de los contratos como las particularidades de las distintas figuras contractuales del Derecho Civil.",
+    "biografiaAutor": "Ramón Sánchez Medal fue un jurista mexicano especializado en Derecho Civil. Su producción doctrinal se concentró en el estudio de las obligaciones, los contratos y las instituciones fundamentales del Derecho Privado. Su obra De los contratos civiles es reconocida como una referencia doctrinal para el análisis de la contratación civil mexicana.",
+    "citaAPA": "Sánchez Medal, R. (s. f.). De los contratos civiles (24.ª ed.). Editorial Porrúa.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1OM7q-jDghI2g8sPm6wfLA2iG9DdKcXul/view?usp=drive_link"
+  },
+  {
+    "id": "lecciones-derecho-civil-ii-federico-arnau",
+    "titulo": "Lecciones de Derecho Civil II: Obligaciones y contratos",
+    "autor": "Federico Arnau Moya",
+    "tipo": "Libro",
+    "anio": "",
+    "editorial": "Publicacions de la Universitat Jaume I",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "",
+    "isbn": "978-84-691-5640-7",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Civil",
+      "Derecho de Obligaciones",
+      "Derecho de Contratos",
+      "Teoría General del Contrato",
+      "Fuentes de las Obligaciones"
+    ],
+    "colecciones": [
+      "Derecho Civil",
+      "Obligaciones y Contratos",
+      "Sapientia"
+    ],
+    "descripcion": "Material académico universitario dedicado al estudio de las obligaciones y los contratos dentro del Derecho Civil, que desarrolla sus fundamentos conceptuales, elementos, fuentes y principales instituciones jurídicas.",
+    "resumen": "Federico Arnau Moya presenta una exposición didáctica de las instituciones del Derecho Civil relacionadas con las obligaciones y los contratos. La obra examina la relación jurídica obligatoria, sus elementos, fuentes y efectos, así como los principios que regulan la formación y eficacia de los contratos. Desarrolla las bases necesarias para comprender las relaciones jurídicas entre acreedores y deudores y las consecuencias que surgen de los acuerdos celebrados entre particulares. Su organización académica facilita el estudio progresivo de estas instituciones y permite establecer conexiones entre la teoría general de las obligaciones y el régimen jurídico de la contratación.",
+    "biografiaAutor": "Federico Arnau Moya es un jurista y académico vinculado a la Universitat Jaume I de España. Su actividad docente y académica comprende el estudio del Derecho Civil, especialmente las obligaciones y los contratos. Sus materiales de enseñanza están orientados a la formación universitaria y al análisis sistemático de las instituciones del Derecho Privado.",
+    "citaAPA": "Arnau Moya, F. (s. f.). Lecciones de Derecho Civil II: Obligaciones y contratos. Publicacions de la Universitat Jaume I.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1Utnh1OPGU8MHJX_Cw6QNAEx5PjnaPIt2/view?usp=sharing"
+  },
+  {
+    "id": "dogmatica-penal-derecho-penal-economico-tomo-i",
+    "titulo": "Dogmática penal de Derecho Penal Económico y Política Criminal (Tomo I)",
+    "autor": "",
+    "tipo": "Libro",
+    "anio": "2015",
+    "editorial": "Gaceta Jurídica",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "689",
+    "isbn": "978-612-311-235-6",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Penal",
+      "Derecho Penal Económico",
+      "Dogmática Penal",
+      "Política Criminal",
+      "Responsabilidad Penal de las Personas Jurídicas",
+      "Delitos Económicos"
+    ],
+    "colecciones": [
+      "Derecho Penal",
+      "Derecho Penal Económico",
+      "Dogmática Penal"
+    ],
+    "descripcion": "Obra colectiva especializada que reúne estudios doctrinales sobre los fundamentos y problemas de la dogmática penal económica, examinando las categorías de responsabilidad penal, las particularidades de la criminalidad empresarial y los desafíos que plantea la intervención penal en la actividad económica.",
+    "resumen": "Esta obra colectiva, coordinada por José Urquizo Olaechea, Manuel Abanto Vásquez y Nelson Salazar Sánchez, reúne investigaciones de especialistas nacionales y extranjeros sobre los principales problemas del Derecho Penal Económico. El primer tomo desarrolla cuestiones relacionadas con la dogmática penal y el tratamiento jurídico de las conductas delictivas vinculadas a la actividad económica y empresarial. Sus estudios permiten examinar la aplicación de las categorías tradicionales de la teoría del delito a contextos de criminalidad económica, así como los problemas derivados de la atribución de responsabilidad penal en estructuras empresariales. Constituye un material especializado para profundizar en la evolución de la dogmática penal y sus respuestas frente a las nuevas formas de criminalidad.",
+    "biografiaAutor": "José Urquizo Olaechea es un jurista peruano especializado en Derecho Penal y ciencias penales. Manuel Abanto Vásquez es un reconocido especialista en Derecho Penal Económico y dogmática penal, con investigaciones sobre responsabilidad penal empresarial y delitos económicos. Nelson Salazar Sánchez es un jurista vinculado al estudio del Derecho Penal y sus instituciones. Los tres participan como coordinadores de esta compilación académica, que reúne contribuciones de diversos especialistas.",
+    "citaAPA": "Urquizo Olaechea, J., Abanto Vásquez, M., & Salazar Sánchez, N. (Coords.). (2015). Dogmática penal de Derecho Penal Económico y Política Criminal (2.ª ed., Tomo I). Gaceta Jurídica.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1yg6e4Qg3-NKN1aOJhcMo5KQDw6Fc1yj_/view?usp=sharing"
+  },
+  {
+    "id": "dogmatica-penal-derecho-penal-economico-tomo-ii",
+    "titulo": "Dogmática penal de Derecho Penal Económico y Política Criminal (Tomo II)",
+    "autor": "",
+    "tipo": "Libro",
+    "anio": "2015",
+    "editorial": "Gaceta Jurídica",
+    "idioma": "Español",
+    "formato": "Documento digital",
+    "paginas": "649",
+    "isbn": "978-612-311-237-0",
+    "estado": "Disponible",
+    "temas": [
+      "Derecho Penal",
+      "Derecho Penal Económico",
+      "Dogmática Penal",
+      "Política Criminal",
+      "Derecho Procesal Penal",
+      "Criminalidad Empresarial"
+    ],
+    "colecciones": [
+      "Derecho Penal",
+      "Derecho Penal Económico",
+      "Dogmática Penal"
+    ],
+    "descripcion": "Segundo tomo de una obra colectiva dedicada al análisis especializado del Derecho Penal Económico y la Política Criminal, que reúne investigaciones sobre los problemas de la criminalidad económica, la responsabilidad penal y los mecanismos jurídicos de persecución y prevención.",
+    "resumen": "El segundo tomo de esta compilación, coordinada por José Urquizo Olaechea, Manuel Abanto Vásquez y Nelson Salazar Sánchez, amplía el estudio de los problemas contemporáneos del Derecho Penal Económico y la Política Criminal. Reúne contribuciones doctrinales que permiten examinar las respuestas del ordenamiento jurídico frente a la criminalidad económica y empresarial, así como los desafíos que surgen en la interpretación de las normas penales y en la aplicación de los mecanismos de persecución penal. La obra ofrece una perspectiva especializada sobre la relación entre dogmática penal, política criminal y funcionamiento del sistema de justicia frente a las nuevas manifestaciones de criminalidad.",
+    "biografiaAutor": "José Urquizo Olaechea es un jurista peruano especializado en Derecho Penal y ciencias penales. Manuel Abanto Vásquez es un reconocido especialista en Derecho Penal Económico y dogmática penal, con investigaciones sobre responsabilidad penal empresarial y delitos económicos. Nelson Salazar Sánchez es un jurista vinculado al estudio del Derecho Penal y sus instituciones. Los tres participan como coordinadores de esta compilación académica, que reúne contribuciones de diversos especialistas.",
+    "citaAPA": "Urquizo Olaechea, J., Abanto Vásquez, M., & Salazar Sánchez, N. (Coords.). (2015). Dogmática penal de Derecho Penal Económico y Política Criminal (2.ª ed., Tomo II). Gaceta Jurídica.",
+    "portada": "",
+    "archivo": "https://drive.google.com/file/d/1BCAe8iAFGckeprWefLCAw3iwmi47R3GF/view?usp=sharing"
+  },
+  {
+    "id": "acto-juridico-anibal-torres",
+    "titulo": "Acto jurídico",
+    "autor": "Aníbal Torres Vásquez",
+    "tipo": "Libro",
+    "anio": "2018",
+    "editorial": "Jurista Editores",
+    "idioma": "Español",
+    "formato": "Edición impresa; registro bibliográfico",
+    "paginas": "2 tomos",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Derecho Civil",
+      "Acto jurídico",
+      "Manifestación de voluntad"
+    ],
+    "colecciones": [
+      "Derecho Civil"
+    ],
+    "descripcion": "Estudio sistemático de los requisitos, modalidades, interpretación y efectos del acto jurídico en el derecho civil peruano.",
+    "resumen": "Torres Vásquez desarrolla el acto jurídico como manifestación de voluntad destinada a crear, regular, modificar o extinguir relaciones jurídicas. La obra examina sus elementos y requisitos de validez, la representación, modalidades, interpretación, simulación, fraude, nulidad y anulabilidad, así como sus consecuencias prácticas. La ficha corresponde a la edición en dos tomos de Jurista Editores publicada en 2018; no incluye un archivo digital de la obra.",
+    "biografiaAutor": "Sus libros de teoría general y derecho civil se utilizan en la formación jurídica peruana. En Acto jurídico estudia la manifestación de voluntad, los requisitos de validez, las modalidades, la interpretación y las consecuencias de esta institución.",
+    "citaAPA": "Torres Vásquez, A. (2018). Acto jurídico (2 tomos). Jurista Editores.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "esencia-valor-democracia",
+    "titulo": "Esencia y valor de la democracia",
+    "autor": "Hans Kelsen",
+    "tipo": "Libro",
+    "anio": "1920",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Ciencia política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Kelsen examina la democracia representativa, el parlamentarismo, el compromiso político y la relación entre democracia y relativismo filosófico.",
+    "resumen": "Ensayo de teoría política que estudia la democracia como procedimiento para formar la voluntad colectiva y resolver desacuerdos en sociedades plurales. Kelsen contrasta esa forma de organización con la autocracia y analiza el papel de los partidos, el Parlamento y el principio de mayoría. La obra ayuda a situar su teoría jurídica dentro de su defensa institucional de la democracia.",
+    "biografiaAutor": "Distingue la validez de una norma de su valoración moral y estudia el derecho como un orden normativo escalonado. También defendió la revisión judicial de la constitucionalidad y participó en el diseño de la Constitución austriaca de 1920.",
+    "citaAPA": "Kelsen, H. (1920). Esencia y valor de la democracia.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "teoria-general-del-estado-kelsen",
+    "titulo": "Teoría general del Estado",
+    "autor": "Hans Kelsen",
+    "tipo": "Libro",
+    "anio": "1925",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Teoría del Estado"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Exposición sistemática del Estado desde una concepción jurídica y normativa.",
+    "resumen": "Kelsen estudia el Estado como orden jurídico, examina los elementos y formas de organización estatal y relaciona el poder público con las normas que lo constituyen. El libro desarrolla ideas que luego reformularía en la teoría pura del derecho. Es una referencia para comparar las teorías jurídicas del Estado de comienzos del siglo XX.",
+    "biografiaAutor": "Distingue la validez de una norma de su valoración moral y estudia el derecho como un orden normativo escalonado. También defendió la revisión judicial de la constitucionalidad y participó en el diseño de la Constitución austriaca de 1920.",
+    "citaAPA": "Kelsen, H. (1925). Teoría general del Estado.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "teologia-politica-schmitt",
+    "titulo": "Teología política",
+    "autor": "Carl Schmitt",
+    "tipo": "Libro",
+    "anio": "1922",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Teoría política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Ensayo sobre soberanía, excepción y la relación histórica entre conceptos teológicos y conceptos políticos modernos.",
+    "resumen": "Schmitt formula su conocida tesis de que los conceptos centrales de la teoría moderna del Estado guardan una relación histórica con categorías teológicas secularizadas. Examina la soberanía a partir de la decisión sobre la excepción y critica los enfoques que suponen que el orden jurídico puede prever por completo las crisis. Conviene estudiarla en su contexto histórico y junto con la trayectoria política del autor.",
+    "biografiaAutor": "Su obra discute la soberanía, la excepción, la representación y los límites del liberalismo parlamentario. Su ingreso al Partido Nazi en 1933 y su colaboración con el régimen son parte indispensable de una lectura crítica de sus conceptos.",
+    "citaAPA": "Schmitt, C. (1922). Teología política.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "teoria-constitucion-schmitt",
+    "titulo": "Teoría de la Constitución",
+    "autor": "Carl Schmitt",
+    "tipo": "Libro",
+    "anio": "1928",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Derecho constitucional"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Estudio de los conceptos de Constitución, poder constituyente y formas de organización política.",
+    "resumen": "Schmitt distingue la decisión política fundamental que denomina Constitución de las disposiciones particulares de una ley constitucional. Analiza la unidad política, la representación, la democracia y las formas de gobierno. Su lectura permite debatir la relación entre poder constituyente y legalidad, con atención crítica a las consecuencias de su teoría y a su contexto histórico.",
+    "biografiaAutor": "Su obra discute la soberanía, la excepción, la representación y los límites del liberalismo parlamentario. Su ingreso al Partido Nazi en 1933 y su colaboración con el régimen son parte indispensable de una lectura crítica de sus conceptos.",
+    "citaAPA": "Schmitt, C. (1928). Teoría de la Constitución.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "discursos-tito-livio",
+    "titulo": "Discursos sobre la primera década de Tito Livio",
+    "autor": "Nicolás Maquiavelo",
+    "tipo": "Libro",
+    "anio": "1531",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Ciencia política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Análisis de la república romana y de las instituciones, los conflictos y las condiciones de la libertad política.",
+    "resumen": "En sus Discursos, Maquiavelo interpreta los primeros libros de la historia de Roma escrita por Tito Livio para examinar la fundación y conservación de las repúblicas. Estudia el conflicto entre grupos sociales, las leyes, la religión cívica, la milicia y la participación popular. La obra complementa El príncipe y muestra su interés por las instituciones republicanas.",
+    "biografiaAutor": "En El príncipe estudia los principados y la conservación del poder; en los Discursos analiza la libertad republicana, las instituciones y el conflicto político. Sus textos parten de casos históricos y de la experiencia diplomática florentina.",
+    "citaAPA": "Maquiavelo, N. (1531). Discursos sobre la primera década de Tito Livio.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "logica-juicio-juridico",
+    "titulo": "Lógica del juicio jurídico",
+    "autor": "Eduardo García Máynez",
+    "tipo": "Libro",
+    "anio": "1955",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Lógica jurídica"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Estudio de la estructura lógica de las normas y de los juicios jurídicos.",
+    "resumen": "García Máynez aplica herramientas de la lógica al análisis de proposiciones jurídicas, sus modalidades y relaciones. La obra desarrolla problemas de lógica deóntica y de la estructura del juicio jurídico, en conexión con su proyecto más amplio de construir una teoría formal del derecho. Complementa su manual introductorio con un tratamiento especializado de la argumentación normativa.",
+    "biografiaAutor": "Su producción articula la teoría general del derecho, la lógica jurídica y la axiología. Entre sus temas centrales figuran la norma, las fuentes, los conceptos jurídicos fundamentales y las técnicas de aplicación e interpretación del derecho.",
+    "citaAPA": "García Máynez, E. (1955). Lógica del juicio jurídico.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "filosofia-derecho-garcia-maynez",
+    "titulo": "Filosofía del derecho",
+    "autor": "Eduardo García Máynez",
+    "tipo": "Libro",
+    "anio": "1974",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía del derecho"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Tratamiento sistemático de los principales problemas filosóficos acerca del derecho, la justicia, los valores y el conocimiento jurídico.",
+    "resumen": "El libro presenta problemas ontológicos, axiológicos y epistemológicos del derecho, y revisa distintas respuestas sobre la esencia de lo jurídico y la justicia. García Máynez expone corrientes de filosofía jurídica y sus conceptos con un enfoque analítico y sistemático. Es una de las síntesis de madurez de su trayectoria académica.",
+    "biografiaAutor": "Su producción articula la teoría general del derecho, la lógica jurídica y la axiología. Entre sus temas centrales figuran la norma, las fuentes, los conceptos jurídicos fundamentales y las técnicas de aplicación e interpretación del derecho.",
+    "citaAPA": "García Máynez, E. (1974). Filosofía del derecho.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "el-banquete-platon",
+    "titulo": "El banquete",
+    "autor": "Platón",
+    "tipo": "Libro",
+    "anio": "c. 385–370 a. C.",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Diálogo sobre el amor, la belleza y el ascenso desde la experiencia sensible hacia la reflexión filosófica.",
+    "resumen": "Durante un banquete, varios interlocutores pronuncian discursos sobre Eros. La intervención de Sócrates, que relata lo aprendido de Diotima, propone una escala de comprensión del amor y la belleza. El diálogo combina argumentación filosófica, poesía y caracterización dramática; es una obra central para estudiar la ética y la metafísica de Platón.",
+    "biografiaAutor": "Escribió diálogos en los que Sócrates suele conducir la discusión. La República examina la justicia, la educación y la organización de la ciudad; otros diálogos exploran el amor, el conocimiento, la virtud y las leyes.",
+    "citaAPA": "Platón. (c. 385–370 a. C.). El banquete.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "etica-protestante-weber",
+    "titulo": "La ética protestante y el espíritu del capitalismo",
+    "autor": "Max Weber",
+    "tipo": "Libro",
+    "anio": "1904–1905",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Sociología"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Investigación sobre las afinidades históricas entre ciertas corrientes del protestantismo ascético y una ética de trabajo metódico.",
+    "resumen": "Weber analiza cómo algunas ideas religiosas sobre la vocación, la disciplina y el uso del tiempo se relacionaron con formas de conducta económica. No sostiene que el protestantismo haya sido la causa única del capitalismo: compara condiciones culturales e históricas y propone una explicación sociológica de afinidades entre prácticas e instituciones.",
+    "biografiaAutor": "Desarrolló herramientas para comprender el sentido de la acción social y estudió la racionalización, la burocracia y las formas de dominación legítima. La ética protestante y el espíritu del capitalismo analiza relaciones históricas entre prácticas religiosas y conducta económica.",
+    "citaAPA": "Weber, M. (1904–1905). La ética protestante y el espíritu del capitalismo.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "economia-sociedad-weber",
+    "titulo": "Economía y sociedad",
+    "autor": "Max Weber",
+    "tipo": "Libro",
+    "anio": "1922",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Sociología"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Obra póstuma que reúne análisis de acción social, dominación, burocracia, derecho y economía.",
+    "resumen": "Esta compilación póstuma presenta categorías centrales de la sociología comprensiva de Weber. Define tipos de acción social y dominación legítima y examina la burocracia, las organizaciones, la estratificación y las relaciones entre economía, religión y derecho. Su estructura y edición reflejan la historia editorial del manuscrito, por lo que las ediciones pueden variar.",
+    "biografiaAutor": "Desarrolló herramientas para comprender el sentido de la acción social y estudió la racionalización, la burocracia y las formas de dominación legítima. La ética protestante y el espíritu del capitalismo analiza relaciones históricas entre prácticas religiosas y conducta económica.",
+    "citaAPA": "Weber, M. (1922). Economía y sociedad.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "futuro-democracia-bobbio",
+    "titulo": "El futuro de la democracia",
+    "autor": "Norberto Bobbio",
+    "tipo": "Libro",
+    "anio": "1984",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Ciencia política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Ensayos sobre las promesas, los límites y las reglas institucionales de la democracia representativa.",
+    "resumen": "Bobbio examina la democracia como un conjunto de procedimientos y reglas para adoptar decisiones colectivas, y contrasta sus ideales con problemas de las democracias reales: opacidad del poder, persistencia de oligarquías y expansión de espacios no democráticos. El libro ofrece herramientas para discutir instituciones y participación sin reducir la democracia a elecciones periódicas.",
+    "biografiaAutor": "Su trabajo analítico aborda la estructura de las normas y de los ordenamientos jurídicos, así como la democracia, los derechos y las reglas del poder. Vinculó el análisis conceptual con la defensa de instituciones democráticas y del debate público.",
+    "citaAPA": "Bobbio, N. (1984). El futuro de la democracia.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "division-trabajo-durkheim",
+    "titulo": "La división del trabajo social",
+    "autor": "Émile Durkheim",
+    "tipo": "Libro",
+    "anio": "1893",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Sociología"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Estudio de cómo la especialización del trabajo transforma los vínculos y las formas de solidaridad en la sociedad.",
+    "resumen": "Durkheim relaciona la división del trabajo con dos tipos ideales de solidaridad: mecánica, basada en semejanzas y una conciencia colectiva intensa; y orgánica, basada en la interdependencia entre funciones diferenciadas. También estudia formas anómicas y forzadas de división del trabajo. Es una obra fundacional de la sociología y de la explicación institucional del cambio social.",
+    "biografiaAutor": "Propuso estudiar los hechos sociales como realidades colectivas y comparables. Analizó cómo la división del trabajo transforma la solidaridad, cómo se construyen las reglas del método sociológico y cómo se relacionan integración social y suicidio.",
+    "citaAPA": "Durkheim, É. (1893). La división del trabajo social.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "reglas-metodo-durkheim",
+    "titulo": "Las reglas del método sociológico",
+    "autor": "Émile Durkheim",
+    "tipo": "Libro",
+    "anio": "1895",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Sociología"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Programa metodológico para definir, observar y explicar los hechos sociales.",
+    "resumen": "Durkheim propone tratar los hechos sociales como realidades externas al individuo que ejercen constricción y deben investigarse mediante observación y comparación. Discute cómo delimitar un objeto sociológico, distinguir lo normal de lo patológico y buscar explicaciones sociales. El texto es una referencia para debatir los métodos, alcances y límites de la sociología científica.",
+    "biografiaAutor": "Propuso estudiar los hechos sociales como realidades colectivas y comparables. Analizó cómo la división del trabajo transforma la solidaridad, cómo se construyen las reglas del método sociológico y cómo se relacionan integración social y suicidio.",
+    "citaAPA": "Durkheim, É. (1895). Las reglas del método sociológico.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "suicidio-durkheim",
+    "titulo": "El suicidio",
+    "autor": "Émile Durkheim",
+    "tipo": "Libro",
+    "anio": "1897",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Sociología"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Investigación comparativa sobre las tasas de suicidio y su relación con la integración y regulación sociales.",
+    "resumen": "A partir de estadísticas disponibles en su época, Durkheim estudia variaciones sociales en las tasas de suicidio y propone una tipología basada en integración y regulación. Distingue tipos como el egoísta, altruista, anómico y fatalista. La obra ejemplifica un método sociológico comparativo; sus datos y categorías deben leerse desde su contexto histórico y metodológico.",
+    "biografiaAutor": "Propuso estudiar los hechos sociales como realidades colectivas y comparables. Analizó cómo la división del trabajo transforma la solidaridad, cómo se construyen las reglas del método sociológico y cómo se relacionan integración social y suicidio.",
+    "citaAPA": "Durkheim, É. (1897). El suicidio.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "manifiesto-comunista-marx-engels",
+    "titulo": "Manifiesto del Partido Comunista",
+    "autor": "Karl Marx y Friedrich Engels",
+    "tipo": "Libro",
+    "anio": "1848",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Historia de las ideas"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Texto político conjunto que presenta una interpretación de la historia basada en conflictos de clase y formula un programa comunista.",
+    "resumen": "Marx y Engels escribieron el Manifiesto por encargo de la Liga de los Comunistas. El texto ofrece una interpretación histórica del desarrollo de la burguesía y del capitalismo, describe conflictos de clase y expone los objetivos del movimiento comunista de su tiempo. Debe distinguirse este documento político breve de los análisis económicos desarrollados posteriormente por Marx en El capital.",
+    "biografiaAutor": "",
+    "citaAPA": "Marx, K., & Engels, F. (1848). Manifiesto del Partido Comunista.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "capital-tomo-i-marx",
+    "titulo": "El capital, tomo I",
+    "autor": "Karl Marx",
+    "tipo": "Libro",
+    "anio": "1867",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Economía política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Crítica de la economía política centrada en la producción capitalista, la mercancía, el valor y la acumulación.",
+    "resumen": "El primer tomo de El capital analiza cómo se organiza la producción capitalista y desarrolla conceptos como mercancía, fuerza de trabajo, plusvalor, jornada laboral y acumulación. Marx reconstruye relaciones económicas e históricas, además de examinar sus efectos sobre el trabajo. La obra forma parte de un proyecto más amplio; otros tomos fueron editados y publicados póstumamente por Friedrich Engels.",
+    "biografiaAutor": "Su crítica de la economía política estudia el capitalismo, el trabajo, las clases sociales y la acumulación. Escribió varias obras junto con Friedrich Engels; El capital desarrolla su análisis de la producción capitalista y el Manifiesto presenta una intervención política conjunta.",
+    "citaAPA": "Karl Marx (1867). El capital, tomo I.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "sentimientos-morales-smith",
+    "titulo": "Teoría de los sentimientos morales",
+    "autor": "Adam Smith",
+    "tipo": "Libro",
+    "anio": "1759",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía moral"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Investigación sobre la simpatía, el juicio moral y la formación de normas de conducta.",
+    "resumen": "Smith estudia cómo las personas juzgan sus propias acciones y las de otros mediante la simpatía y la figura del espectador imparcial. Examina la aprobación, la justicia, la prudencia, la benevolencia y la influencia de las relaciones sociales en la vida moral. Junto con La riqueza de las naciones, permite leer la economía política de Smith en el marco de una filosofía moral más amplia.",
+    "biografiaAutor": "Su filosofía moral estudia la simpatía y los juicios de los espectadores imparciales; su economía política examina la división del trabajo, los mercados y las instituciones. La riqueza de las naciones no reduce su pensamiento a una defensa irrestricta del mercado.",
+    "citaAPA": "Smith, A. (1759). Teoría de los sentimientos morales.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "riqueza-naciones-smith",
+    "titulo": "Investigación sobre la naturaleza y causas de la riqueza de las naciones",
+    "autor": "Adam Smith",
+    "tipo": "Libro",
+    "anio": "1776",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Economía política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Análisis de la división del trabajo, los intercambios, los precios, el crecimiento y las instituciones económicas.",
+    "resumen": "Smith estudia las fuentes del ingreso y la producción nacionales, desde la división del trabajo y el intercambio hasta el capital, los salarios, la renta y las políticas públicas. Compara sistemas económicos históricos y discute el papel de los mercados, la justicia y las funciones del Estado. Es una obra fundacional de la economía política, más amplia que una defensa simple del laissez-faire.",
+    "biografiaAutor": "Su filosofía moral estudia la simpatía y los juicios de los espectadores imparciales; su economía política examina la división del trabajo, los mercados y las instituciones. La riqueza de las naciones no reduce su pensamiento a una defensa irrestricta del mercado.",
+    "citaAPA": "Smith, A. (1776). Investigación sobre la naturaleza y causas de la riqueza de las naciones.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "consecuencias-paz-keynes",
+    "titulo": "Las consecuencias económicas de la paz",
+    "autor": "John Maynard Keynes",
+    "tipo": "Libro",
+    "anio": "1919",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Economía política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Crítica a las reparaciones y al diseño económico del Tratado de Versalles después de la Primera Guerra Mundial.",
+    "resumen": "Keynes argumenta que las condiciones impuestas a Alemania y el desmantelamiento de la cooperación económica europea podían producir inestabilidad y empobrecimiento en todo el continente. Es un análisis económico y político situado en el debate de posguerra, previo a sus aportes de macroeconomía. Sus pronósticos y propuestas deben leerse junto con el desarrollo posterior de la política europea.",
+    "biografiaAutor": "Analizó los efectos de la incertidumbre, la inversión y la demanda agregada sobre el empleo y la producción. Su Teoría general cuestionó que los mercados garanticen por sí solos el pleno empleo y dio forma a debates centrales de la macroeconomía moderna.",
+    "citaAPA": "Keynes, J. M. (1919). Las consecuencias económicas de la paz.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "teoria-general-keynes",
+    "titulo": "Teoría general del empleo, el interés y el dinero",
+    "autor": "John Maynard Keynes",
+    "tipo": "Libro",
+    "anio": "1936",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Macroeconomía"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Obra que analiza empleo, producción, inversión, interés y demanda agregada en una economía monetaria.",
+    "resumen": "Keynes cuestiona la idea de que los ajustes del mercado conduzcan necesariamente al pleno empleo. Desarrolla una explicación de la producción y el empleo basada en la demanda efectiva y examina el papel de la inversión, las expectativas, el dinero y la política económica. La obra fundó debates de la macroeconomía moderna; sus conceptos y su recepción han sido objeto de diversas revisiones.",
+    "biografiaAutor": "Analizó los efectos de la incertidumbre, la inversión y la demanda agregada sobre el empleo y la producción. Su Teoría general cuestionó que los mercados garanticen por sí solos el pleno empleo y dio forma a debates centrales de la macroeconomía moderna.",
+    "citaAPA": "Keynes, J. M. (1936). Teoría general del empleo, el interés y el dinero.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "etica-nicomaco-aristoteles",
+    "titulo": "Ética a Nicómaco",
+    "autor": "Aristóteles",
+    "tipo": "Libro",
+    "anio": "siglo IV a. C.",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía moral"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Tratado sobre la felicidad, la virtud, la deliberación y la vida buena.",
+    "resumen": "Aristóteles examina el fin de la vida humana, entiende la felicidad como actividad conforme a la virtud y desarrolla una teoría de la formación del carácter mediante hábitos. Analiza virtudes éticas e intelectuales, la prudencia, la justicia, la amistad y el placer. Su investigación ética se relaciona con la Política, que estudia las condiciones comunes de una vida buena.",
+    "biografiaAutor": "Fundó el Liceo y trató cuestiones de lógica, naturaleza, ética y política. La Ética a Nicómaco estudia la virtud y la vida buena; la Política examina la ciudad, las constituciones y las condiciones de la vida común.",
+    "citaAPA": "Aristóteles. (siglo IV a. C.). Ética a Nicómaco.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "politica-aristoteles",
+    "titulo": "Política",
+    "autor": "Aristóteles",
+    "tipo": "Libro",
+    "anio": "siglo IV a. C.",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Ciencia política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Investigación comparativa y normativa sobre la ciudad, sus constituciones y las formas de vida política.",
+    "resumen": "Aristóteles presenta la ciudad como una comunidad orientada a la vida buena, estudia hogares y ciudadanía, clasifica constituciones y compara sus ventajas y desviaciones. También aborda la ley, la educación, la participación y las condiciones de estabilidad. La obra combina análisis empírico de regímenes con preguntas normativas y debe leerse en su contexto antiguo, incluidas sus exclusiones históricas.",
+    "biografiaAutor": "Fundó el Liceo y trató cuestiones de lógica, naturaleza, ética y política. La Ética a Nicómaco estudia la virtud y la vida buena; la Política examina la ciudad, las constituciones y las condiciones de la vida común.",
+    "citaAPA": "Aristóteles. (siglo IV a. C.). Política.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "historias-herodoto",
+    "titulo": "Historias",
+    "autor": "Heródoto",
+    "tipo": "Libro",
+    "anio": "siglo V a. C.",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Historia antigua"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Relato en nueve libros de las guerras entre griegos y persas, acompañado por descripciones de pueblos y costumbres.",
+    "resumen": "Heródoto combina la narración de conflictos políticos y militares con investigaciones sobre territorios, genealogías, costumbres y relatos recibidos de distintas fuentes. Señala a veces las versiones que ha oído y distingue sus propias evaluaciones, por lo que su texto es tanto una fuente sobre el pasado como un testimonio de las prácticas de investigación y narración de la Grecia clásica.",
+    "biografiaAutor": "En los nueve libros de Historias narra los conflictos entre griegos y persas y reúne relatos sobre pueblos y costumbres. Expone versiones distintas de los acontecimientos, por lo que su obra también es una fuente para estudiar cómo se narraba el pasado en la Antigüedad.",
+    "citaAPA": "Heródoto. (siglo V a. C.). Historias.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "origenes-totalitarismo-arendt",
+    "titulo": "Los orígenes del totalitarismo",
+    "autor": "Hannah Arendt",
+    "tipo": "Libro",
+    "anio": "1951",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Teoría política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Estudio histórico y político del antisemitismo, el imperialismo y los movimientos totalitarios del siglo XX.",
+    "resumen": "Arendt organiza su análisis en torno al antisemitismo, el imperialismo y el totalitarismo, y examina las condiciones que hicieron posibles formas nuevas de dominación política. La obra generó debates y críticas historiográficas, por lo que conviene leerla junto con estudios posteriores sobre nazismo, estalinismo y colonialismo. Es una pieza central de su reflexión sobre política y modernidad.",
+    "biografiaAutor": "Analizó el totalitarismo, la acción, la libertad y la vida pública. Sus libros plantean problemas distintos: Los orígenes del totalitarismo estudia ese fenómeno político, La condición humana distingue actividades de la vida activa y Sobre la revolución compara experiencias revolucionarias.",
+    "citaAPA": "Arendt, H. (1951). Los orígenes del totalitarismo.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "condicion-humana-arendt",
+    "titulo": "La condición humana",
+    "autor": "Hannah Arendt",
+    "tipo": "Libro",
+    "anio": "1958",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Análisis de la vida activa mediante las categorías de labor, trabajo y acción.",
+    "resumen": "Arendt distingue la labor ligada al mantenimiento de la vida, el trabajo que construye un mundo de objetos y la acción que ocurre entre personas plurales mediante palabra e iniciativa. Examina cómo esas actividades se organizan en la antigüedad y la modernidad, y qué condiciones permiten una vida pública. El libro desarrolla una teoría política de acción, libertad y pluralidad.",
+    "biografiaAutor": "Analizó el totalitarismo, la acción, la libertad y la vida pública. Sus libros plantean problemas distintos: Los orígenes del totalitarismo estudia ese fenómeno político, La condición humana distingue actividades de la vida activa y Sobre la revolución compara experiencias revolucionarias.",
+    "citaAPA": "Arendt, H. (1958). La condición humana.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "sobre-la-revolucion-arendt",
+    "titulo": "Sobre la revolución",
+    "autor": "Hannah Arendt",
+    "tipo": "Libro",
+    "anio": "1963",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Ciencia política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Comparación de las revoluciones estadounidense y francesa y de sus tradiciones de libertad política.",
+    "resumen": "Arendt compara las trayectorias de ambas revoluciones y distingue la liberación de la opresión de la fundación de instituciones duraderas de libertad pública. Examina la cuestión social, la participación, los consejos y las formas de poder constituyente. Su interpretación es debatida por su selección de casos y debe contrastarse con otras historias de las revoluciones.",
+    "biografiaAutor": "Analizó el totalitarismo, la acción, la libertad y la vida pública. Sus libros plantean problemas distintos: Los orígenes del totalitarismo estudia ese fenómeno político, La condición humana distingue actividades de la vida activa y Sobre la revolución compara experiencias revolucionarias.",
+    "citaAPA": "Arendt, H. (1963). Sobre la revolución.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "ensayo-entendimiento-locke",
+    "titulo": "Ensayo sobre el entendimiento humano",
+    "autor": "John Locke",
+    "tipo": "Libro",
+    "anio": "1689",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Epistemología"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Investigación sobre el origen, el alcance y los límites del conocimiento humano.",
+    "resumen": "Locke cuestiona la existencia de principios innatos y sostiene que las ideas se forman a partir de la experiencia, mediante sensación y reflexión. Examina ideas simples y complejas, lenguaje, identidad personal, conocimiento y probabilidad. El Ensayo es central para el empirismo moderno y complementa sus escritos políticos, aunque ambas líneas de pensamiento tratan problemas distintos.",
+    "biografiaAutor": "En el Ensayo estudia los límites y el origen experiencial del conocimiento; en los Dos tratados sobre el gobierno desarrolla argumentos sobre derechos, consentimiento y autoridad política. Sus textos son centrales para comprender el liberalismo moderno, aunque su legado se estudia junto con sus contradicciones históricas.",
+    "citaAPA": "Locke, J. (1689). Ensayo sobre el entendimiento humano.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "segundo-tratado-locke",
+    "titulo": "Segundo tratado sobre el gobierno civil",
+    "autor": "John Locke",
+    "tipo": "Libro",
+    "anio": "1689",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Argumento sobre el origen del gobierno, los derechos, el consentimiento y los límites de la autoridad política.",
+    "resumen": "Locke parte de un estado de naturaleza para discutir propiedad, ley natural, consentimiento y formación de la sociedad política. Defiende un gobierno limitado cuya autoridad depende de proteger derechos y admite resistencia cuando incumple su propósito. El texto influyó en tradiciones liberales y constitucionales, y su lectura crítica considera también el contexto colonial e histórico de sus argumentos.",
+    "biografiaAutor": "En el Ensayo estudia los límites y el origen experiencial del conocimiento; en los Dos tratados sobre el gobierno desarrolla argumentos sobre derechos, consentimiento y autoridad política. Sus textos son centrales para comprender el liberalismo moderno, aunque su legado se estudia junto con sus contradicciones históricas.",
+    "citaAPA": "Locke, J. (1689). Segundo tratado sobre el gobierno civil.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "contrato-social-rousseau",
+    "titulo": "El contrato social",
+    "autor": "Jean-Jacques Rousseau",
+    "tipo": "Libro",
+    "anio": "1762",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Tratado sobre la legitimidad política, la soberanía popular y la formación de la voluntad general.",
+    "resumen": "Rousseau pregunta cómo puede existir una autoridad política legítima sin que las personas pierdan su libertad. Analiza el pacto social, la soberanía, la ley, la voluntad general y las formas de gobierno. Su propuesta influyó en debates sobre ciudadanía y republicanismo, pero sus conceptos —en especial la voluntad general— siguen abiertos a interpretaciones y críticas.",
+    "biografiaAutor": "Escribió sobre la desigualdad, la educación y la legitimidad política. El contrato social examina cómo puede constituirse una comunidad política legítima; Emilio presenta una teoría de la educación y el Discurso sobre la desigualdad reconstruye el origen de las diferencias sociales.",
+    "citaAPA": "Rousseau, J.-J. (1762). El contrato social.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "discurso-desigualdad-rousseau",
+    "titulo": "Discurso sobre el origen y los fundamentos de la desigualdad entre los hombres",
+    "autor": "Jean-Jacques Rousseau",
+    "tipo": "Libro",
+    "anio": "1755",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Ensayo que reconstruye hipotéticamente el origen de la desigualdad moral y política entre los seres humanos.",
+    "resumen": "Rousseau distingue desigualdades naturales de desigualdades establecidas por convenciones e instituciones. Mediante una reconstrucción conjetural del estado de naturaleza, estudia la aparición de la propiedad, la dependencia y las jerarquías sociales. El texto plantea una crítica histórica y filosófica, no una descripción empírica de una sociedad prehistórica.",
+    "biografiaAutor": "Escribió sobre la desigualdad, la educación y la legitimidad política. El contrato social examina cómo puede constituirse una comunidad política legítima; Emilio presenta una teoría de la educación y el Discurso sobre la desigualdad reconstruye el origen de las diferencias sociales.",
+    "citaAPA": "Rousseau, J.-J. (1755). Discurso sobre el origen y los fundamentos de la desigualdad entre los hombres.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "la-dictadura-schmitt",
+    "titulo": "La dictadura",
+    "autor": "Carl Schmitt",
+    "tipo": "Libro",
+    "anio": "1921",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Teoría del Estado"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Estudio histórico y jurídico de la dictadura comisarial y de la dictadura soberana.",
+    "resumen": "Schmitt distingue la dictadura comisarial, que recibe poderes extraordinarios para restaurar un orden constitucional existente, de la dictadura soberana, que actúa en nombre de un poder constituyente para crear uno nuevo. Reconstruye antecedentes romanos y modernos y discute la relación entre excepción, autoridad y orden jurídico. La obra debe leerse junto con su trayectoria política posterior y las consecuencias de sus posiciones.",
+    "biografiaAutor": "Su obra discute la soberanía, la excepción, la representación y los límites del liberalismo parlamentario. Su ingreso al Partido Nazi en 1933 y su colaboración con el régimen son parte indispensable de una lectura crítica de sus conceptos.",
+    "citaAPA": "Carl Schmitt (1921). La dictadura.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "legalidad-legitimidad-schmitt",
+    "titulo": "Legalidad y legitimidad",
+    "autor": "Carl Schmitt",
+    "tipo": "Libro",
+    "anio": "1932",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Teoría constitucional"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Crítica de las relaciones entre legalidad, legitimidad, democracia y la Constitución de Weimar.",
+    "resumen": "Schmitt examina cómo un sistema de legalidad parlamentaria puede verse tensionado por mayorías capaces de modificar las reglas que sostienen el orden constitucional. Contrapone procedimientos legales, principios de legitimidad y decisiones políticas fundamentales en el contexto de la República de Weimar. Es una fuente histórica y teórica que se estudia con atención a la crisis constitucional de 1932 y a la colaboración posterior del autor con el nazismo.",
+    "biografiaAutor": "Su obra discute la soberanía, la excepción, la representación y los límites del liberalismo parlamentario. Su ingreso al Partido Nazi en 1933 y su colaboración con el régimen son parte indispensable de una lectura crítica de sus conceptos.",
+    "citaAPA": "Carl Schmitt (1932). Legalidad y legitimidad.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "nomos-tierra-schmitt",
+    "titulo": "El nomos de la tierra",
+    "autor": "Carl Schmitt",
+    "tipo": "Libro",
+    "anio": "1950",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Derecho internacional"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Interpretación histórica del orden jurídico internacional y de las transformaciones del espacio político global.",
+    "resumen": "Schmitt desarrolla una historia del derecho de gentes europeo y relaciona el orden jurídico con formas concretas de apropiación y organización del espacio. Analiza el paso desde el orden europeo interestatal hacia nuevas configuraciones globales y la transformación de la guerra y la soberanía. Sus tesis son influyentes y controvertidas; conviene contrastarlas con otras historias del derecho internacional y del colonialismo.",
+    "biografiaAutor": "Su obra discute la soberanía, la excepción, la representación y los límites del liberalismo parlamentario. Su ingreso al Partido Nazi en 1933 y su colaboración con el régimen son parte indispensable de una lectura crítica de sus conceptos.",
+    "citaAPA": "Carl Schmitt (1950). El nomos de la tierra.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "las-leyes-platon",
+    "titulo": "Las leyes",
+    "autor": "Platón",
+    "tipo": "Libro",
+    "anio": "póstuma, c. 350 a. C.",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía política"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Diálogo tardío que explora la legislación, la educación cívica y la organización de una ciudad.",
+    "resumen": "En Las leyes, un Ateniense, un espartano y un cretense conversan sobre cómo instituir una ciudad y redactar leyes. Platón presta atención a la educación, las magistraturas, la religión cívica, las sanciones y las condiciones de estabilidad política. El diálogo ofrece una propuesta más institucional y detallada que la ciudad ideal de La República y es fundamental para estudiar su pensamiento político tardío.",
+    "biografiaAutor": "Escribió diálogos en los que Sócrates suele conducir la discusión. La República examina la justicia, la educación y la organización de la ciudad; otros diálogos exploran el amor, el conocimiento, la virtud y las leyes.",
+    "citaAPA": "Platón (póstuma, c. 350 a. C.). Las leyes.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "teoria-norma-juridica-bobbio",
+    "titulo": "Teoría de la norma jurídica",
+    "autor": "Norberto Bobbio",
+    "tipo": "Libro",
+    "anio": "1958",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Teoría del derecho"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Análisis de la norma jurídica, sus rasgos, modalidades y relaciones con otros tipos de reglas.",
+    "resumen": "Bobbio estudia qué distingue a las normas jurídicas y cómo se relacionan con reglas morales y sociales. Examina sanción, eficacia, justicia y validez, y propone analizar las normas por su estructura y función dentro de un ordenamiento. El libro constituye una de las dos partes de su proyecto de teoría general del derecho y es una introducción influyente al positivismo jurídico analítico.",
+    "biografiaAutor": "Su trabajo analítico aborda la estructura de las normas y de los ordenamientos jurídicos, así como la democracia, los derechos y las reglas del poder. Vinculó el análisis conceptual con la defensa de instituciones democráticas y del debate público.",
+    "citaAPA": "Norberto Bobbio (1958). Teoría de la norma jurídica.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "teoria-ordenamiento-juridico-bobbio",
+    "titulo": "Teoría del ordenamiento jurídico",
+    "autor": "Norberto Bobbio",
+    "tipo": "Libro",
+    "anio": "1960",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Teoría del derecho"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Estudio del derecho como sistema: unidad, coherencia, plenitud y relaciones entre normas.",
+    "resumen": "En esta continuación de su teoría de la norma, Bobbio desplaza el análisis desde reglas aisladas hacia el conjunto que forman. Examina fuentes, jerarquías, antinomias, criterios de solución e integración de lagunas. Su enfoque permite comprender cómo se organiza un sistema jurídico y por qué la interpretación debe considerar relaciones entre normas y no solo el texto de un artículo.",
+    "biografiaAutor": "Su trabajo analítico aborda la estructura de las normas y de los ordenamientos jurídicos, así como la democracia, los derechos y las reglas del poder. Vinculó el análisis conceptual con la defensa de instituciones democráticas y del debate público.",
+    "citaAPA": "Norberto Bobbio (1960). Teoría del ordenamiento jurídico.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "emilio-rousseau",
+    "titulo": "Emilio, o De la educación",
+    "autor": "Jean-Jacques Rousseau",
+    "tipo": "Libro",
+    "anio": "1762",
+    "editorial": "",
+    "idioma": "Obra clásica; edición no especificada",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Filosofía de la educación"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Tratado pedagógico que presenta una formación gradual de la persona desde la infancia hasta la vida adulta.",
+    "resumen": "Rousseau plantea una educación atenta al desarrollo y la experiencia del niño, y organiza su exposición en etapas de formación. La obra combina una crítica de las convenciones sociales con propuestas sobre aprendizaje, autonomía y vida moral. Incluye el libro V sobre Sofía y la educación de las mujeres, cuyo enfoque debe leerse críticamente desde la historia de las ideas y las concepciones de género de su época.",
+    "biografiaAutor": "Escribió sobre la desigualdad, la educación y la legitimidad política. El contrato social examina cómo puede constituirse una comunidad política legítima; Emilio presenta una teoría de la educación y el Discurso sobre la desigualdad reconstruye el origen de las diferencias sociales.",
+    "citaAPA": "Jean-Jacques Rousseau (1762). Emilio, o De la educación.",
+    "portada": "",
+    "archivo": ""
+  },
+  {
+    "id": "quien-debe-ser-defensor-constitucion-kelsen",
+    "titulo": "¿Quién debe ser el defensor de la Constitución?",
+    "autor": "Hans Kelsen",
+    "tipo": "Ensayo",
+    "anio": "1931",
+    "editorial": "",
+    "idioma": "Alemán; traducciones al español",
+    "formato": "Registro bibliográfico",
+    "paginas": "",
+    "isbn": "",
+    "estado": "Próximamente",
+    "temas": [
+      "Derecho constitucional",
+      "Control de constitucionalidad",
+      "Teoría del derecho"
+    ],
+    "colecciones": [
+      "Clásicos",
+      "Obras principales"
+    ],
+    "descripcion": "Debate sobre qué institución debe proteger la Constitución y cómo controlar la constitucionalidad de las leyes.",
+    "resumen": "En este ensayo Kelsen responde al debate de Weimar sobre quién debe ser el defensor de la Constitución y discute la propuesta de Carl Schmitt de confiar ese papel al presidente del Reich. Defiende un tribunal constitucional con competencia para revisar leyes y anular las incompatibles con la Constitución, en vez de atribuir la función a una autoridad política. El texto es una referencia central para estudiar los modelos de justicia constitucional concentrada y el enfrentamiento intelectual entre Kelsen y Schmitt.",
+    "biografiaAutor": "Distingue la validez de una norma de su valoración moral y estudia el derecho como un orden normativo escalonado. También defendió la revisión judicial de la constitucionalidad y participó en el diseño de la Constitución austriaca de 1920.",
+    "citaAPA": "Kelsen, H. (1931). ¿Quién debe ser el defensor de la Constitución?",
+    "portada": "",
+    "archivo": ""
   }
 ]
