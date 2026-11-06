@@ -507,7 +507,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
         const tarjeta =
-            document.createElement("a");
+            document.createElement("article");
 
 
         tarjeta.classList.add(
@@ -515,10 +515,8 @@ document.addEventListener("DOMContentLoaded", () => {
         );
 
 
-        tarjeta.href =
-            `recurso.html?id=${encodeURIComponent(obra.id)}`;
-
-
+        const destino = `recurso.html?id=${encodeURIComponent(obra.id)}`;
+        const tituloCompleto = esc(obra.titulo);
         tarjeta.innerHTML = `
             <div class="card-cover">
 
@@ -547,9 +545,15 @@ document.addEventListener("DOMContentLoaded", () => {
                     ${esc(obra.tipo)}
                 </span>
 
-                <h3>
-                    ${esc(obra.titulo)}
-                </h3>
+                <div class="card-title-wrap">
+                    <h3>
+                        <a class="card-title-link" href="${destino}">
+                            ${tituloCompleto}
+                        </a>
+                    </h3>
+                    <span class="card-title-reveal" aria-hidden="true">${tituloCompleto}</span>
+                    <button class="card-title-toggle" type="button" aria-expanded="false" aria-label="Mostrar título completo: ${esc(obra.titulo)}">⌄</button>
+                </div>
 
                 <p class="author">
                     ${esc(obra.autor)}
@@ -566,6 +570,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
             </div>
         `;
+
+        const enlaceTitulo = tarjeta.querySelector(".card-title-link");
+        enlaceTitulo.setAttribute("aria-label", `${obra.titulo}. Abrir ficha de la obra.`);
+        const botonTitulo = tarjeta.querySelector(".card-title-toggle");
+        botonTitulo.addEventListener("click", evento => {
+            evento.preventDefault();
+            evento.stopPropagation();
+            const expandido = tarjeta.classList.toggle("title-expanded");
+            botonTitulo.setAttribute("aria-expanded", String(expandido));
+            botonTitulo.setAttribute("aria-label", `${expandido ? "Contraer" : "Mostrar"} título completo: ${obra.titulo}`);
+        });
 
 
         contenedor.appendChild(
@@ -3680,8 +3695,13 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
+        const contenedorPortada = recursoPortada.closest(".resource-detail-cover");
+        const detalleRecurso = recursoPortada.closest(".resource-detail");
+
 
         if (obra.portada) {
+
+            detalleRecurso?.classList.remove("sin-portada");
 
             recursoPortada.src =
                 obra.portada;
@@ -3695,10 +3715,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
         } else {
 
+            detalleRecurso?.classList.add("sin-portada");
+
             recursoPortada.style.display =
                 "none";
 
         }
+
+        contenedorPortada?.setAttribute("aria-hidden", String(!obra.portada));
 
     }
 
